@@ -1,0 +1,59 @@
+.curve-shape {
+    &.curve-bottom {
+        height: 106px;
+        overflow: hidden;
+        transform: rotateX(-180deg);
+        margin-bottom: -160px !important;
+        // responsive
+        @media #{$xlmax-device}{
+            height: 86px;
+        }
+        @media #{$laptop-device}{
+            height: 65px;
+        }
+        @media #{$desktop-device}{
+            height: 55px;
+        }
+        @media #{$tablet-device}{
+            height: 43px;
+            margin-bottom: 0 !important;
+        }
+        @media #{$large-mobile}{
+            height: 30px;
+            margin-bottom: 0 !important;
+        }
+        @media #{$small-mobile}{
+            height: 25px;
+        }
+        @media #{$extra-small-mobile}{
+            height: 20px;
+        }
+
+    }
+}
+
+.no-height {
+    margin-top: -105px;
+    // responsive
+    @media #{$xlmax-device}{
+        margin-top: -85px;
+    }
+    @media #{$laptop-device}{
+        margin-top: -65px;
+    }
+    @media #{$desktop-device}{
+        margin-top: -55px;
+    }
+    @media #{$tablet-device}{
+        margin-top: -43px;
+    }
+    @media #{$large-mobile}{
+        margin-top: -30px;
+    }
+    @media #{$small-mobile}{
+        margin-top: -25px;
+    }
+    @media #{$extra-small-mobile}{
+        margin-top: -20px;
+    }
+}

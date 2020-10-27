@@ -1,0 +1,287 @@
+
+/*======================================
+   App Landing Pages Css
+======================================*/
+
+.feature-app-landing{
+    background: #2d1b6e;
+    &__wrap {
+        max-width: 400px;
+        width: 100%;
+        margin-left: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        @media #{$desktop-device}{
+            margin-left: 50px;
+        }
+        @media #{$tablet-device}{
+            margin-left: 0px;
+        }
+        @media #{$large-mobile}{
+            margin-left: 0px;
+            max-width: 100%;
+        }
+        
+    }
+    &__inner {
+        margin-bottom: 60px;
+        margin-top: 30px;
+        & .section-title {
+            margin-top: 90px;
+        }
+        @media #{$large-mobile,$tablet-device}{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            & .section-title {
+                margin-top: 0px;
+            }
+        }
+    }
+    
+    &__icon {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+        border-radius: 40px;
+        font-size: 34px;
+        color: #fff;
+        background-image: linear-gradient(-221deg, #e17643 0%, #f0a86b 100%);
+        box-shadow: 0 15px 50px rgba(89, 69, 230, 0.12);
+        margin-bottom: 52px;
+        // responsive
+        @media #{$small-mobile}{
+            width: 85px;
+            height: 85px;
+            line-height: 85px;
+            border-radius: 25px;
+        }
+    }
+    
+}
+
+.feature-app-landing {
+    & .app-landing {
+        &__content {
+            max-width: 600px;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 100px;
+            @media #{$laptop-device, $desktop-device, $tablet-device}{
+                margin-left: 0px;
+            }
+            @media #{$tablet-device, $large-mobile}{
+                margin-left: 0px;
+                max-width: 100%;
+                padding-top: 40px;
+            }
+            & .sub-text  {
+                font-size: 18px;
+                line-height: 1.78;
+            }
+        }
+    }
+}
+
+.app-landing--center-slider-wrapper  {
+    background: #33237A;
+}
+
+
+.app-landing-title-contet {
+    display: flex;
+    & .title-details_one {
+        max-width: 287px;
+        width: 100%;
+        text-align: center;
+        & h2 {
+            font-size: 80px;
+            line-height: 1;
+            font-weight: 700;
+        }
+        & h5 {
+            font-size: 15px;
+            line-height: 2;
+            letter-spacing: 1em;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+    
+    & .title-details_two {
+        margin-left: 30px;
+    }
+    
+    @media #{$tablet-device}{ 
+        & .title-details_one {
+            margin-bottom: 30px;
+        }
+    }
+    @media #{$small-mobile}{
+        flex-direction: column;
+        & .title-details_one {
+            text-align: left;
+        }
+        & .title-details_two {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 0px;
+        }
+    }
+    @media #{$large-mobile}{ 
+        & .title-details_two {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 0px;
+        }
+    }
+    
+    
+}
+
+.app-landing-listing-title-wrap {
+    &.section-space--pb_60 {
+        @media #{$large-mobile}{
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.sc-outer {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.app-landing-testimonial-slider {
+    &__wrap {
+        max-width: 830px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        & .post-thumbnail {
+            flex-shrink: 0;
+            margin-right: 90px;
+        }
+        & .testimonial-slider {
+            &__text {
+                font-size: 24px;
+                line-height: 1.67;
+                color: #fff;
+            }
+            &__author {
+                padding-top: 15px;
+                display: inline-block;
+                & .name {
+                    font-size: 24px;
+                    line-height: 1.5;
+                    color: #fff;
+                    margin-bottom: 9px;
+                }
+            }
+        }
+        @media #{$large-mobile} { 
+            flex-direction: column;
+            
+            & .post-thumbnail {
+                margin-bottom: 30px;
+                margin-right: 0px;
+            }
+        }
+        
+    }
+}
+
+.app-landing-brand-logo-area {
+    background: #161953;
+    padding-bottom: 300px;
+    position: relative;
+    & .center_curve.bottom{
+        
+    }
+}
+.brand-details-wrap {
+    max-width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    & h4 {
+        line-height: 1.42;
+    }
+    @media #{$large-mobile,$tablet-device}{
+        margin-bottom: 30px;
+    }
+}
+.app-landing-brand-logo__image {
+    opacity: 0.3;
+    transition: $transition--default;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.app-bottom-bg {
+    background-image: url(../img/bg/aeroland-payment-image-02.png);  
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.app-landing-bottom-banner-area {
+    position: relative;
+    & .vc_row-separator svg {
+        fill: #161953;
+    }
+    & .bottom-banner-images {
+        margin-top: -220px;
+        z-index: 4;
+        position: relative;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

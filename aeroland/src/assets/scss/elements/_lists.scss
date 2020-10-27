@@ -1,0 +1,154 @@
+
+
+
+.separator-list {
+    & .list-item {
+        position: relative;
+        margin-bottom: 6px;
+        padding-bottom: 6px;
+        &::before {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            content: '';
+            height: 1px;
+            width: 100%;
+            background: #eee;
+        }
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0px;
+            &::before {
+                display: none;
+            }
+        }
+        & a {
+            line-height: 16px;
+        }
+    }
+}
+.check-list {
+    & .list-item {
+        position: relative;
+        padding-left: 32px;
+        margin-bottom: 10px;
+        &::before {
+            color: $theme-color--default;
+            content: '\f00c';
+            position: absolute;
+            top: 5px;
+            left: 0;
+            display: block;
+            font-size: 13px;
+            line-height: 1;
+            font-family: 'Font Awesome 5 Pro';
+            font-weight: 900;
+        }
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0px;
+        }
+        & a {
+            line-height: 16px;
+        }
+    }
+    &.green-check-list {
+        & .list-item {
+            &::before {
+                color: $theme-color--green;
+            }
+        }
+    }
+}
+.circle-list {
+    & .list-item {
+        position: relative;
+        padding-left: 14px;
+        margin-bottom: 12px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 0;
+            display: block;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #999;
+        }
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0px;
+        }
+        & a {
+            line-height: 16px;
+        }
+    }
+}
+.icon-list {
+    & .list-item {
+        position: relative;
+        padding-left: 0px;
+        margin-bottom: 12px;
+        & .list__icon {
+            color: $theme-color--default;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        & a {
+            line-height: 16px;
+        }
+    }
+}
+ol {
+    min-width: 45px;
+    margin: 0;
+    padding-left: 30px;
+}
+.automatic-numbered-list {
+    & .list-item {
+        position: relative;
+        padding-left: 0px;
+        margin-bottom: 12px;
+        font-size: 24px;
+        color: #333;
+        line-height: 1.2;
+        font-weight: 400;
+        & a {
+            line-height: 16px;
+        }
+    }
+}
+
+
+.horizontal-list {
+    & ul {
+        & li {
+            display: inline-block;
+            color: $white;
+            padding: 3px 14px;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: -2px;
+                content: '';
+                height: 16px;
+                width: 1px;
+                background: rgba(255,255,255,0.5);
+            }
+            &:first-child {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

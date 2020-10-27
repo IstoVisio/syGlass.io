@@ -1,0 +1,105 @@
+
+/*=============================================
+=            container            =
+=============================================*/
+
+.container-fluid{
+    &--cp-150{
+        @media (min-width: 1600px){
+            padding: 0 150px !important;
+        }
+        @media (min-width: 1600px) and (max-width: 1664px){
+            padding: 0 110px !important;
+        }
+        @media (min-width: 1200px){
+            padding: 0 50px;
+        }
+    }
+    &--cp-120{
+        @media (min-width: 1600px){
+            padding: 0 120px !important;
+        }
+        @media (min-width: 1600px) and (max-width: 1664px){
+            padding: 0 110px !important;
+        }
+        @media (min-width: 1200px){
+            padding: 0 50px;
+        }
+    }
+    &--cp-30{
+        padding: 0 30px;
+        @media #{$large-mobile}{
+            padding: 0 15px;
+        }
+    }
+}
+
+.page-content-double-sidebar{
+    @media (min-width: 1200px){
+        .container {
+            max-width: 1600px;
+        }
+    }
+}
+
+@media (max-width: 1919px){
+    .container-fluid{
+        &--cp-60{
+            padding: 0 30px;
+        }
+        &--cp-80{
+            padding: 0 40px;
+            @media #{$large-mobile}{
+                padding: 0 30px;
+            }
+
+            @media #{$small-mobile}{
+                padding: 0 15px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
+
+.container_fl {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-06__left {
+    width: 600px;
+    max-width: 100%;
+    float: right;
+    @media #{$tablet-device,$large-mobile}{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+}
+.col-06__right {
+    width: 600px;
+    max-width: 100%;
+    float: left;
+    @media #{$tablet-device,$large-mobile}{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.banner-image__content {
+    width: 570px;
+    max-width: 100%;
+}
+
+
+
+
+/*=====  End of container  ======*/
+

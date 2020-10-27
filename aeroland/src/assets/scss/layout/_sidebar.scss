@@ -1,0 +1,174 @@
+/*=======================================
+=            07. Sidebar Css           =
+=========================================*/
+
+.page-sidebar-right {
+    padding-left: 30px;
+    @media #{$laptop-device , $tablet-device,  $large-mobile}{
+        padding-left: 0;
+    }
+}.page-sidebar-left {
+    padding-right: 30px;
+    @media #{$laptop-device , $tablet-device,  $large-mobile}{
+        padding-right: 0;
+    }
+}
+.page-sidebar-right,.page-sidebar-left {
+    @media #{ $tablet-device,  $large-mobile}{
+        margin-top: 60px;
+    }
+}
+
+.sidebar-widget + .sidebar-widget {
+    margin-top: 40px;
+}
+.widget-title {
+    margin-bottom: 30px;
+}
+.widget-search {
+    position: relative;
+    & input {
+        width: 100%;
+        outline: none;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 3px 20px;
+        padding-right: 20px;
+        height: 56px;
+        color: #ababab;
+        border-color: #f8f8f8;
+        background-color: #f8f8f8;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        padding-right: 72px;
+        
+    }
+    .search-submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0 5px 5px 0;
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        text-align: center;
+        background: none;
+        box-shadow: none;
+        transform: none;
+        &:hover {
+            color: $white;
+            background: $theme-color--default;
+        }
+    }
+}
+
+.widget-categories {
+    & .cat-item {
+        text-transform: uppercase;
+        line-height: 1.64;
+        font-weight: 500;
+        letter-spacing: 3px;
+        padding: 16px 0px 16px 0;
+        border-bottom: 1px solid #f0f2f7;
+        & a {
+            display: block;
+        }
+        & .count {
+            float: right;
+            background-color: #38cb89;
+            font-size: 12px;
+            font-weight: 700;
+            border-radius: 20px;
+            line-height: 1;
+            color: #fff;
+            padding: 5px 11px;
+            letter-spacing: 0;
+        }
+    }
+}
+.widget-blog-post {
+    & .post-item + .post-item {
+        margin-top: 15px;
+        border-top: 1px solid #f0f2f7;
+        padding-top: 20px;
+    }
+    
+    & .post-info {
+        & .post-categories {
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #b6b7d2;
+        }
+    }
+    .post-title a {
+        color: #696969;
+        &:hover {
+            color: $theme-color--default;
+        }
+    }
+    
+}
+.widget-tag {
+    & .ht-btn {
+        color: #b6b7d2; 
+        background: #f5f7fd;
+        margin-right: 10px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        &:hover {
+            color: #ffffff;
+            background-image: linear-gradient(43deg, #5E61E7 0, #9C7AF2 100%, #5E61E7 100%);
+            background-position: right center;
+            transform: translateY(0px);
+        }
+    }
+}
+
+.widget-product-item {
+    overflow: hidden;
+    margin-bottom: 20px;
+    & .thumbnail {
+        max-width: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 0;
+        width: 80px;
+    }
+    & .info {
+        & .product-title {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        & .star-rating {
+            & a {
+                display: inline-block;
+                color: #ffb805;
+                line-height: 1;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+        & .price-box {
+            margin-top: 5px;
+            & .old-price {
+                font-size: .88em;
+                font-weight: 400;
+                color: #b6b7d2;
+                text-decoration: line-through;
+            } 
+            & .new-price {
+                font-size: 14px;
+                font-weight: 500;
+                color: #6d70a6;
+            } 
+        }
+    }
+}
+
+/*=====  End of Sidebar  ======*/

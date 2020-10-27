@@ -1,0 +1,43 @@
+
+/*======================================
+    Start Ups Pages Css
+======================================*/
+
+
+
+
+.start-ups-left-tab {
+    
+    & .tab-slider-nav--list .ht-slider-tab-icon {
+        background-image: linear-gradient(-225deg, #f8c59b 0%, #e68c60 100%);
+    }
+    & .tab-slider-nav--list h5 {
+        color: #2e3280;
+    }
+    & .tab-slider-nav--list p {
+        color: #696969;
+    }
+    & .tab-slider-images .slick-dots li button {
+        background: #B6B7D2;
+    }
+    
+    & .tab-slider-images .slick-dots li.slick-active button {
+        background: #5945e6;
+    }
+}
+
+.banner-gradient-bg {
+    background: url(../img/patterns/aeroland-startup-image-03.png)top right 170px no-repeat, linear-gradient(-259deg,#8383ED 0,#B095F5 65%); 
+}
+
+.banner-content__start-up {
+    & .banner__text {
+        font-size: 18px;
+        line-height: 1.78;
+    }
+    & .start-ups-background__links img {
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+}
+

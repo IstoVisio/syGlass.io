@@ -1,0 +1,39 @@
+/*---- hero branding start ----*/
+.hero {
+    &-branding {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        // responsive
+        @media #{$large-mobile}{
+            height: 550px;
+        }
+    }
+    &-content {
+        width: 540px;
+        padding-top: 30px;
+        // responsive
+        @media #{$large-mobile}{
+            width: 380px;
+        }
+        @media #{$small-mobile}{
+            width: 100%;
+        }
+        &-title {
+            color: #333;
+            // responsive
+            @media #{$small-mobile}{
+                font-size: 28px;
+            }
+            @media #{$extra-small-mobile}{
+                font-size: 24px;
+            }
+        }
+        &-subtitle {
+            color: #696969;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+    }
+}
+/*---- hero branding end ----*/

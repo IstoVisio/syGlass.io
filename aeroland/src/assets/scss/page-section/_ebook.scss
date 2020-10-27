@@ -1,0 +1,207 @@
+/*=============================
+    42. Ebook Css
+==============================*/
+.box-page {
+    background: url("../img/patterns/body-special-bg-shape-01.png") right top no-repeat, url("../img/patterns/body-special-bg-shape-02.png") left top 570px no-repeat, url("../img/patterns/body-special-bg-shape-03.png") left bottom no-repeat, url("../img/patterns/body-special-bg-shape-04.png") right bottom no-repeat, #e4e8f6; 
+}
+.site-wrapper-box {
+    max-width: 1820px;
+    margin: 0px auto;
+    width: 100%;
+    padding: 50px 0;
+    // responsive
+    @media #{$xlmax-device}{
+        max-width: 1440px;
+    }
+    @media #{$desktop-device}{
+        max-width: 950px;
+        padding: 20px 0;
+    }
+    @media #{$tablet-device}{
+        max-width: 740px;
+        padding: 20px 0;
+    }
+    @media #{$large-mobile}{
+        padding: 0;
+    }
+}
+.site-wrapper {
+    background: #fff;
+}
+
+/*---- hero software style start ----*/
+.hero-ebook {
+    .hero {
+        &-item {
+            height: 970px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // responsive
+            @media #{$xlmax-device,$desktop-device}{
+                height: 700px;
+            }
+            @media #{$tablet-device, $large-mobile}{
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 0;
+            }
+            @media #{$large-mobile}{
+                height: 850px;
+            }
+            @media #{$extra-small-mobile}{
+                height: 650px;
+            }
+        }
+        &-content {
+            width: 490px;
+            padding-left: 250px;
+            box-sizing: content-box;
+            // responsive
+            @media #{$xlmax-device,$desktop-device}{
+                width: 650px;
+                padding-left: 90px;
+            }
+            @media #{$tablet-device, $large-mobile}{
+                width: 520px;
+                text-align: center;
+                padding-left: 0;
+            }
+            @media #{$small-mobile}{
+                width: 450px;
+            }
+            @media #{$extra-small-mobile}{
+                width: 300px;
+            }
+            .btn--black {
+                margin-top: 40px;
+                background-color: rgba(0, 0, 0, 0.75);
+                // responsive
+                @media #{$small-mobile}{
+                    margin-top: 20px;
+                }
+            }
+        }
+        &-content-title {
+            font-weight: 500;
+            color: #2e3280;
+            line-height: 1.3;
+            // responsive
+            @media #{$xlmax-device}{
+                font-size: 50px;
+            }
+            @media #{$desktop-device}{
+                font-size: 42px;
+            }
+            @media #{$extra-small-mobile}{
+                font-size: 24px;
+            }
+        }
+        &-content-subtitle {
+            color: rgb(109, 112, 166);
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 40px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            // responsive
+            @media #{$small-mobile}{
+                padding-bottom: 15px;
+            }
+        }
+        &-thumb {
+            padding-right: 100px;
+            // responsive
+            @media #{$desktop-device}{
+                padding-right: 50px;
+            }
+            @media #{$tablet-device}{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 50px;
+            }
+            @media #{$large-mobile}{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 50px;
+            }
+        }
+    }
+}
+
+// slider text animation
+.hero-ebook {
+    .swiper-slide {
+        background-repeat: no-repeat;
+        &-active {
+            .hero-thumb {
+                img {
+                    animation-fill-mode: both;
+                    animation-duration: 1s;
+                    animation-name: fadeInRight;
+                    animation-delay: 0.5s;
+                }
+            }
+
+            .hero-content {
+                animation-fill-mode: both;
+                animation-duration: 1s;
+                animation-name: fadeInLeft;
+                animation-delay: 0.5s;
+            }
+        }
+    }
+}
+/*---- hero software style end ----*/
+
+.ebook-chanters-bg {
+    background: url("../img/patterns/aeroland-ebook-image-02.png");
+    background-repeat: no-repeat;
+    background-position: top left 45%;
+}
+.ebook-chanters-images {
+    margin-top: 100px;
+    & img {
+        border-radius: 25px;
+        border: 5px solid #e8e8e8;
+        box-shadow: 40px 40px 100px rgba(0,0,0,0.1);
+    }
+}
+.section-space-custom-pt {
+    padding-top: 220px;
+    margin-top: -100px;
+    @media #{$large-mobile}{
+        padding-top: 180px;
+    }
+}
+.ebook-mailchip-title {
+    & .heading {
+        color: #6d70a6;
+        & mark {
+            color: #38cb89;
+            background: none;
+            text-decoration: none;
+        }
+    }
+}
+.newsletter-form {
+    &--ebook {
+        & input {
+            width: 100%;
+            background: transparent !important;
+            border: 0;
+            border-radius: 0;
+            border-bottom: 3px solid #000;
+            border-bottom-color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 48px;
+            padding: 14px 0 23px;
+            border-color: rgba(89,69,230,0.20);
+            color: $theme-color--default;
+            // responsive
+            @media #{$large-mobile}{
+                font-size: 20px;
+            }
+        }
+    }
+}

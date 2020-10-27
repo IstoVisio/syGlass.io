@@ -1,0 +1,75 @@
+
+/*=============================================
+=            brand logo slider            =
+=============================================*/
+
+.brand-logo-wrapper{
+    margin-bottom: -100px;
+
+    @media #{$tablet-device}{
+        margin-bottom: -50px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: -30px;
+    }
+}
+
+.brand-logo-slider{
+    &__container{
+        padding: 15px 0;
+    }
+}
+
+.brand-logo{
+    align-self: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+    @media #{$tablet-device}{
+        margin-bottom: 50px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 30px;
+    }
+    &__image{
+        transition: all .4s linear;
+    }
+    
+    &__image-hover{
+        visibility: hidden;
+        opacity: 0;
+        transform: translate(-50%, 20px);
+        transition: all .4s linear;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100%;
+    }
+
+    &:hover{
+        .brand-logo__image{
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        .brand-logo__image-hover{
+            
+            visibility: visible;
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    &--slider{
+        margin-bottom: 0;
+    }
+}
+.section-space--pb_60 {
+    &.startup-carousel {
+        @media #{$large-mobile}{
+            padding-bottom: 20px !important;
+        }
+    }
+}
+
+/*=====  End of brand logo slider  ======*/

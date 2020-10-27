@@ -1,0 +1,335 @@
+/*======================================
+   41. Digital Agency Pages Css
+======================================*/
+.digital-agency-section-title {
+    h1,h2,h3,h4,h5,h6 {
+        color: #333;
+    }
+    & h3 {
+        line-height: 1.4;
+    }
+    & .section-sub-title{
+        color: #ee7455;
+        font-size: 14px;
+    }
+    
+}
+
+.digital-agency-grid {
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 50px;
+    @media #{$tablet-device}{
+        grid-template-columns: repeat( 2,1fr);
+    }
+    @media #{$large-mobile}{
+        grid-template-columns: repeat( 1,1fr);
+    }
+}
+.degital-agency-start-working {
+    .digital-agency-grid {
+        @media #{$tablet-device}{
+            grid-template-columns: repeat( 2,1fr);
+            & .tb-grid-width-2 {
+                grid-column: span 2;
+            } 
+        }
+        @media #{$large-mobile}{
+            grid-template-columns: repeat( 2,1fr);
+            & .tb-grid-width-2 {
+                grid-column: span 2;
+            } 
+        }
+        @media #{$small-mobile}{
+            grid-template-columns: repeat( 1,1fr);
+            & .tb-grid-width-2 {
+                grid-column: span 1;
+            } 
+        }
+        
+    }
+}
+.digital-agency-assistance, 
+.digital-agency-working {
+    &__warap {
+        max-width: 370px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+        &:hover {
+            & .digital-agency-assistance__box {
+                transform: translateY(-5px);
+            }
+        }
+        @media #{$tablet-device,$large-mobile}{
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__box {
+        transition: $transition--default;
+    }
+    &__images {
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        & .images-midea {
+            text-align: center;
+            & img {
+                width: 100%;
+                transition: transform 1s;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: .5;
+                background-image: linear-gradient(-180deg, transparent 39%, #1c0f69 100%);
+            }
+            &:hover {
+                & img {
+                    transform: scale(1.1, 1.1);
+                }
+            }
+            & .heading {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                right: 0;
+                font-size: 24px;
+                line-height: 1.5;
+                color: #fff;
+                max-width: 250px;
+                margin: 0 auto;
+                z-index: 1;
+            }
+        }
+    }
+    &__content {
+        & p {
+            color: #7e7e7e;
+            & strong {
+                color: #333;
+                font-weight: 500;
+            }
+        } 
+    }
+}
+.digital-agency-working {
+    &__warap {
+        @media #{$tablet-device,$large-mobile}{
+            align-items: flex-start;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        @media #{$small-mobile}{
+            align-items: center;
+            max-width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__images {
+        & .images-midea {
+            & .heading {
+                font-size: 18px;
+                text-align: left;
+                @media #{$large-mobile}{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+.how-it-works-bg {
+    background: url("../assets/img/patterns/aeroland-digital-agency-image-04.png");
+    background-repeat: no-repeat;
+    background-position: 42% center;
+}
+
+
+.how-it-works {
+    &__content {
+        max-width: 470px;
+        width: 100%;
+        margin-left: 115px;
+        @media #{$desktop-device}{
+            margin-left: 0;
+        }
+        @media #{$tablet-device,$large-mobile}{
+            margin-left: 0;
+            margin-top: 40px;
+        }
+        
+        & .section-title {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        & .text {
+            font-size: 18px;
+        }
+        & .check-list {
+            & .list-item {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.agency-projects-gradient {
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F6F5F9),color-stop(71%,#FFF));
+    z-index: -0;
+}
+
+.degital-agency-projects-wrap {
+    margin-top: -30px;
+}
+
+.degital-project-text-bg {
+    background: url("../assets/img/agency/aeroland-digital-agency-image-06.png");
+    background-repeat: no-repeat;
+    background-position: top 240px center;
+}
+
+.agency-projects {
+    &--wrap {
+        position: relative;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        &:hover {
+            & .post-overlay-title {
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-20px);
+            }
+            & .post-overlay-read-more {
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+            }
+        }
+        a {
+            // responsive
+            @media #{$large-mobile}{
+                width: 100%;
+            }
+            img {
+                // responsive
+                @media #{$large-mobile}{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &__images {
+        & img {
+            border-radius: 5px;
+        }
+    }
+    &__content {
+        position: absolute;
+        right: 30px;
+        left: 30px;
+        bottom: 21px;
+        & .post-overlay-title {
+            font-size: 18px;
+            line-height: 1.78;
+            color: #fff;
+                transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+        & .post-overlay-read-more {
+            font-size: 18px;
+            line-height: 1.78;
+            color: #fff;
+            margin: 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            & span {
+                margin-left: 5px;
+            } 
+        }
+    }
+}
+
+.agency-newsletter-section {
+    & .newsletter-form--two input {
+        background: #fff;
+    }
+}
+
+.degital-agency-start-working  {
+    & .contact-button {
+        & a {
+            font-size: 18px;
+            line-height: 1.23;
+            font-weight: 500;
+        }
+    }
+}
+.degital-agency-free-mode-wrap {
+    overflow: hidden;
+    
+    & .digital-agency-section-title-area {
+        & .agency-free-mode-button{
+            margin-top: 30px;
+            text-align: right;
+            // responsive
+            @media #{$tablet-device, $large-mobile}{
+                text-align: left;
+            }
+            & a {
+                min-width: 170px;
+            }
+        } 
+        & .contact-button {
+            & a {
+                font-size: 18px;
+                line-height: 1.23;
+                font-weight: 500;
+            }
+        }
+    }
+    
+    & .auto-plexible-row {
+        & .swiper-slide {
+            width: auto !important;
+        }
+        & .single-flexible-slider img{
+            height: auto;
+        }
+    }
+    
+    & .flexible-image-slider-wrap {
+        margin-right: -375px !important;
+    }
+}
+.agency-free-mode-bg {
+    background: url("../assets/img/patterns/aeroland-digital-agency-image-05.png");
+    background-repeat: no-repeat;
+    background-position: left -200px bottom 150px;
+}
+
+.how-it-works__content.section-space--mb_60 {
+    @media #{$tablet-device,$large-mobile}{
+        margin-bottom: 0;
+    }
+}
+
+.degital-agency-free-mode-wrap.section-space--pt_60 {
+    @media #{$tablet-device,$large-mobile}{
+        padding-top: 0;
+    }
+}
+

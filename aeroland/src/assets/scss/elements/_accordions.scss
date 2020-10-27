@@ -1,0 +1,113 @@
+
+.faq-wrapper {
+    .panel.panel-default {
+        border: 1px solid #ebebeb;
+        margin-bottom: 20px;
+    }
+    
+    .card, .card-header{
+        border-radius: 0;
+        
+    }
+
+    .card{
+        border-bottom: none;
+        margin-bottom: 20px;
+        border: none;
+        box-shadow: 0 15px 50px rgba(89,69,230,0.12);
+        &:last-child{
+            margin-bottom: 0; 
+        }
+    }
+
+    .card-header{
+        padding: 0;
+        border-bottom: 0;
+        background-color: $white;
+
+        .faq-title {
+            border: none;
+            width: 100%;
+            text-align: left;
+            color: #6d70a6;
+            padding: 20px 30px;
+            position: relative;
+            overflow-wrap: break-word;
+            white-space: normal;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 500;
+            border-radius: 5px;
+            background: $white;
+
+            @media #{$extra-small-mobile}{
+                padding-left: 15px;
+                padding-right: 20px;
+            }
+            &:active {
+                background-color: $white;
+                color: #6d70a6;
+                transform: translateY(0);
+            }
+            &:hover, 
+            &:focus{
+                text-decoration: none;
+                color: $theme-color--default;
+                transform: translateY(0);
+            }
+
+            &[aria-expanded="true"] {
+                color: $white;
+                background-color: #9C7AF2;
+                background-image: linear-gradient(-129deg,#9C7AF2 0,#5E61E7 100%);
+                opacity: 0.7;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0; 
+               
+            }
+
+            
+        }
+    }
+    .btn {
+        &:active {
+            transform: translateY(0);
+        }
+    }
+    .card-body{
+        padding: 23px 30px 29px;
+    }
+}
+
+[aria-expanded="false"] {
+    background-color: $white;
+}
+.accordion-faq,
+.toggle-faq  {
+    .card-header {
+        [aria-expanded="false"],
+        [aria-expanded="true"] {
+            &:before {
+                color: #6d70a6;
+                top: 50%;
+                right: 20px;
+                content: "\f055";
+                position: absolute;
+                font-family: $font-awesome-pro;
+                transform: translateY(-50%);
+            }
+        }
+        [aria-expanded="true"] {
+            &:before {
+                content: "\f056";
+                color: #fff;
+            }
+        }
+    }
+}
+
+.soft-accordion-two {
+    @media #{$tablet-device, $large-mobile}{
+        margin-top: 70px;
+    }
+}

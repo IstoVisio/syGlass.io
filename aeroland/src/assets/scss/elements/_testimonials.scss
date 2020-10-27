@@ -1,0 +1,107 @@
+
+/*=============================================
+=            testimonial slider            =
+=============================================*/
+
+.testimonial-slider{
+    margin-bottom: 0;
+    &__container{
+        padding: 15px;
+        padding-bottom: 0;
+    }
+    &__single{
+        background: $white;
+        padding: 51px 37px 40px;
+        border-radius: 5px;
+        text-align: center;
+        transition: $transition--default;
+        &:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+        }
+    }
+
+    &__media{
+        margin-bottom: 20px;
+    }
+
+    &__text{
+        font-size: 18px;
+        color: #6d70a6;
+        margin-bottom: 25px;
+    }
+
+    &__author{
+        .name{
+            color: $theme-color--black;
+            margin-bottom: 10px;
+        }
+        .designation{
+            font-style: italic;
+            &:before{
+                content: ' / ';
+            }
+        }
+    }
+    
+    &__one {
+        & .testimonial-slider--info {
+            display: flex;
+            align-items: center;
+            & .post-thumbnail {
+                margin-right: 20px;
+            }
+        }
+    }
+    &__thum {
+        margin-bottom: 33px;
+    }
+    &__dec {
+        font-size: 34px;
+        line-height: 1.42;
+        text-align: center;
+        color: #fff;
+        width: 800px;
+        max-width: 90%;
+        margin: 0 auto;
+        // responsive
+        @media #{$small-mobile}{
+            font-size: 24px;
+        }
+        @media #{$extra-small-mobile}{
+            font-size: 20px;
+        }
+    }
+    &__poster {
+        padding-top: 45px;
+        display: inline-block;
+    }
+    &__three {
+        & .testimonial-slider__author {
+            display: inline-block;
+            color: $white;
+            margin-top: 30px;
+            & .name {
+                display: inline-block;
+                font-size: 18px;
+                line-height: 2;
+                color: #fff;
+                margin-bottom: 0;
+            }
+            & .designation {
+                display: inline-block;
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+.applanding-ts {
+    background-color: #161953;
+}
+
+
+/*=====  End of testimonial slider  ======*/
+

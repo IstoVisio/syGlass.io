@@ -1,0 +1,9 @@
+.auto-plexible-row {
+    & .swiper-slide {
+        width: auto;
+    }
+    & .single-flexible-slider img{
+        height: 400px;
+        /*width: auto;*/
+    }
+}

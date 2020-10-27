@@ -1,0 +1,32 @@
+
+/*======================================
+    39. Software Pages Css
+======================================*/
+.sofftware-progress {
+    &__content {
+        max-width: 600px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.software-accordion-wrapper {
+    z-index: 4;
+    position: relative;
+}
+.software-contact__images {
+    
+    & .wavify-wrapper{
+        &.rotate_wavify {
+            @media #{$desktop-device}{
+                transform: translateY(-60%) rotateZ(180deg);
+            }
+            @media #{$tablet-device}{
+                transform: translateY(-40%) rotateZ(180deg);
+            }
+            @media #{$large-mobile}{
+                transform: translateY(0%) rotateZ(180deg);
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+/*======================================
+    45. Product Showcase Pages Css
+======================================*/
+.attribute-image {
+    margin-right: -15px;
+}
+.product-showcase-video-title {
+    margin-left: 60px;
+    // responsive
+    @media #{$tablet-device, $large-mobile}{
+        margin-top: 40px;
+    }
+    & .sub-heading {
+        line-height: 2.14;
+        letter-spacing: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #6d70a6;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    & h3 {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 27px;
+            left: -150px;
+            height: 3px;
+            width: 100px;
+            background: currentColor;
+        }
+    }
+    @media #{$large-mobile}{
+         margin-left: 20px;
+    }
+}
+
+.product-showcase-how-works {
+    & .sub_text {
+        max-width: 400px;
+        font-size: 18px;
+    }
+}
+.product-showcase-how-works-images {
+    @media #{$large-mobile,$tablet-device}{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+.product-showcase-brand-logo {
+    &.brand-logo--slider {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        text-align: center;
+        position: relative;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,85 @@
+
+/*=============================================
+=            cta             =
+=============================================*/
+.cta-image-bg{
+    background: url('../img/patterns/aeroland-sass-section-download-bg.png') 55% 100% no-repeat,linear-gradient(-138deg,#5E60E7 0,#9C7AF2 50%,#5E60E7 100%);
+    border-radius: 5px;
+    @media #{$laptop-device, $desktop-device}{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media #{$tablet-device, $large-mobile}{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+}
+.cta-image-bg_02 {
+    background: url('../img/patterns/aeroland-sass-section-download-bg.png') 55% 100% no-repeat,linear-gradient(-138deg,#5E60E7 0,#9C7AF2 50%,#5E60E7 100%);
+}
+.cta-image-bg-03 {
+    background: url('../img/patterns/aeroland-section-call-to-action-03-bg.png');
+    background-color: #f6fafe;
+    background-repeat: no-repeat;
+    background-position: top right 200px;
+}
+
+
+.cta-image{
+    &__content{
+        padding-left: 70px;
+
+        @media #{$large-mobile}{
+            padding-left: 30px !important;
+            padding-right: 30px;
+        }
+    }
+    &__title{
+        
+    }
+    &__text{
+        font-size: 18px;
+    }
+
+    &__media{
+        margin-top: -50px;
+        margin-bottom: -110px;
+        margin-right: -140px;
+        @media #{$laptop-device, $desktop-device}{
+            margin-top: 0;
+            margin-bottom: -60px;
+            margin-right: 0;
+        }
+        @media #{$tablet-device, $large-mobile}{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 0;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+
+
+.cta-image__content {
+    padding-left: 70px;
+}
+.cta-image__text {
+    font-size: 18px;
+}
+.cta-image-area {
+    @media #{$tablet-device, $large-mobile}{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+.cta-image_two {
+    margin-bottom: -10px;
+    @media #{$large-mobile}{
+        margin-bottom: 0px;
+    }
+}
+
+
+/*=====  End of cta   ======*/

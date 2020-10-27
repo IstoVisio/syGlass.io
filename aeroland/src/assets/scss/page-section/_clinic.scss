@@ -1,0 +1,164 @@
+/*======================================
+    43. Clinic Pages Css
+======================================*/
+.clinic-hero-wrapper {
+    overflow: hidden;
+    padding: 205px 0 110px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(80%, #ECEEFA));
+    // responsive
+    @media #{$desktop-device, $tablet-device}{
+        padding: 150px 0 110px;
+    }
+    @media #{$large-mobile}{
+        padding: 130px 0 110px;
+    }
+}
+.clinic-hero-title {
+    & .heading {
+        line-height: 1.29;
+        font-weight: 700;
+    }
+    & .sub-text {
+        line-height: 1.78;
+        color: #6d70a6;
+        font-size: 18px;
+    }
+}
+
+.clinic-hero-bottom {
+    margin-bottom: -115px;
+    position: relative !important;
+    & .clinic-hero-image {
+        & img {
+            position: relative;
+            z-index: 4;
+        }  
+    }
+    & .vc_row-separator svg {
+        height: 220px;
+    }
+    & .vc_row-separator svg {
+        fill: #fff;
+        z-index: 0;
+    }
+}
+
+
+.ht-contact-hero-box {
+    &--clinic {
+        background: #fff;
+        box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+        padding: 12px 10px;
+        border-radius: 8px;
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+        @media #{$large-mobile}{
+            flex-direction: column;
+            text-align: center;
+        }
+        & .clinic-form-item {
+            padding: 10px;
+            position: relative;
+            flex-grow: 1;
+           
+            & .form-icon {
+                left: 28px;
+                right: auto;
+                top: 25px;
+                z-index: 2;
+                font-size: 15px;
+                position: absolute;
+            }
+            & input {
+                color: #ababab;
+                border-color: #f8f8f8;
+                background-color: #f8f8f8;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 0em;
+                background: #f6f5f9;
+                border-color: #f6f5f9;
+                color: inherit;
+                width: 100%;
+                outline: none;
+                border: 1px solid #eee;
+                border-radius: 5px;
+                padding: 3px 20px;
+                padding-left: 45px;
+                height: 56px;
+            }
+            &.form-submit {
+                flex-grow: 0;
+                flex-shrink: 0;
+            }
+            input:focus {
+                border-color: $theme-color--default;
+            }
+        }
+    }
+}
+
+.clinic-work-step-wrap {
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#F5F7FD),color-stop(63%,#FFF));
+}
+.clinic-work-process-step {
+    &__content {
+        max-width: 470px;
+        width: 100%;
+        & .sub__title {
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            line-height: 1.34;
+            & h6 {
+                color: $theme-color--green;
+                font-size: 15px;
+            }
+        }
+        & .sub-text {
+            font-size: 18px;
+            line-height: 1.78;
+            margin-top: 20px;
+        } 
+        .btn-sowcase {
+
+        }
+    } 
+}
+.images-left-ml {
+    margin-left: -115px;
+    @media #{$large-mobile, $tablet-device, $desktop-device}{
+        margin-left: 0px;
+    }
+    @media #{$large-mobile, $tablet-device}{
+        margin-bottom: 30px;
+    }
+}
+
+.images-right-mr {
+    margin-right: -115px;
+    @media #{$large-mobile, $tablet-device, $desktop-device}{
+        margin-right: 0px;
+    }
+    @media #{$large-mobile, $tablet-device}{
+        margin-bottom: 30px;
+    }
+}
+
+.clinic-funfact-wrapper {
+    .fun-fact__count {
+        font-size: 48px;
+        color: $theme-color--green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

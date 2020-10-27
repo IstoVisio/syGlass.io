@@ -1,0 +1,52 @@
+
+/*=============================================
+=            box image            =
+=============================================*/
+
+.box-image-wrapper{
+    margin-bottom: -40px;
+}
+
+.box-image {
+    margin-bottom: 40px;
+    
+    &__media{
+       transition: $transition--default;
+        margin-bottom: 20px;
+    }
+    &__title{
+        color: $theme-color--black;
+    }
+
+    &:hover{
+        .box-image__media{
+            transform: translateY(-5px);
+        }
+    }
+
+    &:last-child{
+        &:after{
+            display: none;
+        }
+    }
+
+    @media #{$large-mobile}{
+        &:after{
+            display: none;
+        }
+    }
+
+    &:after{
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 100px;
+        background: #d1d9df;
+        width: 1px;
+    }
+}
+
+/*=====  End of box image  ======*/
+

@@ -1,0 +1,69 @@
+.fun-fact {
+    &--one {
+        & .fun-fact__title {
+            color: #6d70a6;
+        }
+        & .fun-fact__count {
+            font-size: 64px;
+            color: #ee7455;
+        }
+        & .fun-fact__text {
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: rgba(109, 112, 166, 0.5);
+        }
+    }
+    &--two {
+        & .fun-fact__count {
+            font-size: 56px;
+            color: $white;
+            margin-bottom: 20px;
+        }
+        & .fun-fact__text {
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.7);
+        }
+    }
+    &--three {
+        position: relative;
+        padding-left: 15px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0, -50%);
+            height: 65px;
+            width: 1px;
+            background: #d8d8d8;
+        }
+        & .fun-fact__count {
+            color: #38cb89;
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+        & .fun-fact__text {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: rgba(109, 112, 166, 0.5);
+        }
+    }
+    &--four {
+        & .fun-fact__title {
+            color: #6d70a6;
+        }
+        & .fun-fact__count {
+            font-size: 54px;
+            color: #ee7455;
+        }
+        & .fun-fact__text {
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: rgba(109, 112, 166, 0.5);
+        }
+    }
+}
