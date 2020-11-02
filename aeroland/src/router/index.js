@@ -5,7 +5,7 @@ import NotFound from '../pages/elements/404'
 
 export const routes = [
     {
-        path:'/',
+        path:'/WebsiteRedesign/',
         name: 'syGlass VR',
         component: HomeSoftware
     },
