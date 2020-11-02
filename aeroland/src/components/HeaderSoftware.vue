@@ -2,16 +2,15 @@
     <b-navbar type="light" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-            <b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/logo/logo-dark.png"' alt="logo"></b-navbar-brand>
+            <b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/syglass/syglass_logo_TRANSPARENTBACK.png"' alt="logo"></b-navbar-brand>
             <b-btn-group class="header-config-wrapper">
                 <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
                 <b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
-                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Hire Us Now</b-link>
+                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link>
             </b-btn-group>
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu">
-                    <b-nav-item to="/"><span>LANDING</span></b-nav-item>
-                    <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
+                    <b-nav-item href="/" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#service" class="scroll"><span>SERVICE</span></b-nav-item>
                     <b-nav-item href="#pricing" class="scroll"><span>PRICING</span></b-nav-item>

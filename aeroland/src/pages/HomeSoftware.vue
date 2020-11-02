@@ -73,7 +73,7 @@
         <!-- pricing section -->
         <CurveShape>
             <template v-slot:bgcolor>
-                <path style="fill: #f6f5f9;
+                <path style="fill: #3399FF;
                     stroke-miterlimit:10;" 
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
@@ -133,7 +133,7 @@
         </div>
         <CurveShape class="curve-bottom">
             <template v-slot:bgcolor>
-                <path style="fill: #f6f5f9;
+                <path style="fill: #3399FF;
                     stroke-miterlimit:10;" 
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
