@@ -6,6 +6,8 @@
 
 		<!-- hero section -->
 		<HeroSoftware />
+		
+		<StartUpFeature />
 
 		<!-- brand logo carousel -->
 		<BrandLogoCarousel />
@@ -181,12 +183,14 @@
 	import Newsletter from "../components/Newsletter";
 	import FooterMain from "../components/FooterMain";
 	import OffcanvasSearchBox from "../components/OffcanvasSearchBox";
+	import StartUpFeature from "../components/StartUpFeature";
 
 	export default {
 		name: "app",
 		components: {
 			HeaderSoftware,
 			HeroSoftware,
+			StartUpFeature,
             BrandLogoCarousel,
             FeatureList,
             TabTwo,
