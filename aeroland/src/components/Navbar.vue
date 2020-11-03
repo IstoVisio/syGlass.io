@@ -27,7 +27,7 @@
         data (){
             return {
                 load: false,
-                limitPosition: 200,
+                limitPosition: 100,
                 scrolled: false,
                 lastPosition: 500,
             }

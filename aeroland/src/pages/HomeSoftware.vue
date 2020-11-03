@@ -7,18 +7,14 @@
 		<!-- hero section -->
 		<HeroSoftware />
 		
-		<StartUpFeature />
-
-		<!-- brand logo carousel -->
-		<BrandLogoCarousel />
 
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
             <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
-                    <h2 class="section-title font-weight--light mb-30 wow move-up">In-depth Sales Reports Available at <br> Your Hand</h2>
+                    <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
                     <div class="video-button-container video-popup">
-                        <silentbox-single src="https://www.youtube.com/watch?v=9No-FiEInLA">
+                        <silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
                             <div class="video-play">
                                 <i class="fa fa-play-circle"></i>
                                 <span class="video-text">INTRO & DEMO VIDEO</span>

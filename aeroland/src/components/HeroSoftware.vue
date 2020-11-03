@@ -13,7 +13,7 @@
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/surfaces.00_11_40_17.Still022.jpg" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/syglassVid.gif" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
         data() {
             return {
                 bgImg: {
-                    backgroundImage: `url(${require("../assets/img/hero/hero-software/Untitled-1.png")})`
+                    backgroundImage: `url(${require("../assets/img/syglass/background.png")})`
                 },
                 swiperOption: {
                     speed: 1500,
