@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="feature-icon-list__media wow move-up">
-                    <img src="../assets/img/features/aeroland-feature-icon-image.png" class="img-fluid" alt="">
+                    <img src="../assets/img/syglass/ezgif-3-e8cfc31b7528.gif" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6">

@@ -6,42 +6,42 @@
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Your business deserves better software</h2>
-                                <h6 class="hero-content-subtitle">No coding skills required to create unique sites.</h6>
+                                <h2 class="h1 hero-content-title">Your 3D data deserves better software</h2>
+                                <h6 class="hero-content-subtitle">Explore it naturally in virtual reality</h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/humanct.png" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/syglassVid.gif" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Better software promotes sales & profits</h2>
-                                <h6 class="hero-content-subtitle">AeroLand doesn't require users to be experts.</h6>
+                                <h2 class="h1 hero-content-title">Understand volumetric image stacks and 3D models easily</h2>
+                                <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts.</h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb">
-                                <img src="../assets/img/hero/hero-software/software-thumb-2.png" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/VR 06_Cutplane.00_07_45_20.Still001.jpg" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Your business deserves better software</h2>
-                                <h6 class="hero-content-subtitle">No coding skills required to create unique sites.</h6>
+                                <h2 class="h1 hero-content-title">Explore your data!</h2>
+                                <h6 class="hero-content-subtitle"></h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/hero/hero-software/software-thumb-3.png" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/20181022162002.png" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
         data() {
             return {
                 bgImg: {
-                    backgroundImage: `url(${require("../assets/img/hero/hero-software/software-shape.png")})`
+                    backgroundImage: `url(${require("../assets/img/syglass/background.png")})`
                 },
                 swiperOption: {
                     speed: 1500,

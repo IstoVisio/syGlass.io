@@ -7,18 +7,14 @@
 		<!-- hero section -->
 		<HeroSoftware />
 		
-		<StartUpFeature />
-
-		<!-- brand logo carousel -->
-		<BrandLogoCarousel />
 
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
             <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
-                    <h2 class="section-title font-weight--light mb-30 wow move-up">In-depth Sales Reports Available at <br> Your Hand</h2>
+                    <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
                     <div class="video-button-container video-popup">
-                        <silentbox-single src="https://www.youtube.com/watch?v=9No-FiEInLA">
+                        <silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
                             <div class="video-play">
                                 <i class="fa fa-play-circle"></i>
                                 <span class="video-text">INTRO & DEMO VIDEO</span>
@@ -75,7 +71,7 @@
         <!-- pricing section -->
         <CurveShape>
             <template v-slot:bgcolor>
-                <path style="fill: #f6f5f9;
+                <path style="fill: #3399FF;
                     stroke-miterlimit:10;" 
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
@@ -135,7 +131,7 @@
         </div>
         <CurveShape class="curve-bottom">
             <template v-slot:bgcolor>
-                <path style="fill: #f6f5f9;
+                <path style="fill: #3399FF;
                     stroke-miterlimit:10;" 
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
