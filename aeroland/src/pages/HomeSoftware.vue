@@ -13,6 +13,15 @@
             <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
                     <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
+					<font size="+2"> syGlass is a software product that allows you to render large, volumetric data in its true, three-or-four dimensional form. Modern imaging techniques leave you inundated with large volumetric data, but syGlass can prepare up to 20 TB of data at a time, without crashing.
+
+Data is scaled to allow you to see minute details in extreme detail. Perform analysis with enhanced precision, then annotate the data in syGlass with a vast array of practical tools. 
+    
+syGlass has a mission to help scientists, researchers, and educators like you reach your full potential by providing the tools and technology you need to explore, understand, and communicate your data.
+
+
+</font size="+2">
+
                     <div class="video-button-container video-popup">
                         <silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
                             <div class="video-play">

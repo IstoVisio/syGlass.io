@@ -265,17 +265,17 @@
 }
 
 
-/* video pay link */
+/* video play link */
 
 .video-play{
-    display: inline-block;
     i {
         color: $theme-color--green;
     }
     span {
-        font-weight: 500;
+        font-weight: 1000;
         letter-spacing: 3px;
         margin-left: 10px;
+		padding-top: 30px;
     }
 }
 
