@@ -28,7 +28,7 @@
         </div>
 
         <!-- tab two components -->
-        <TabTwo BgGradient="bg-gradient" id="service" />
+        <TabTwo id="service" />
 
         <!-- skill area start -->
         <div class="progress-bar-warpper section-space--pt_120">
@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="sofftware-progress-images_media text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-05.png" alt="" class="img-fluid">
+                            <img src="../assets/img/syglass/2020-05-22_10-11-33.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -68,7 +68,7 @@
             </div>
 		</div>
 
-        <!-- pricing section -->
+        <!-- pricing section 
         <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
@@ -93,11 +93,12 @@
             </div>
             <div class="pricing-table-content-area">
                 <div class="container">
-                    <!-- pricing component -->
+                
                     <PricingOne />
                 </div>
             </div>
-        </div>
+        </div> -->
+		
 
 		<!-- call to action component -->
         <CtaThree />
@@ -145,15 +146,13 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="software-contact-images__midea text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-06.png" alt="images" class="img-fluid">
+                            <img src="../assets/img/syglass/2020-05-22_10-14-46.png" alt="images" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- newsletter section -->
-        <Newsletter /> 
 
 		<!-- footer section -->
         <FooterMain />

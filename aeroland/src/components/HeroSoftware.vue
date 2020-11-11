@@ -59,7 +59,7 @@
         data() {
             return {
                 bgImg: {
-                    backgroundImage: `url(${require("../assets/img/syglass/background.png")})`
+                    backgroundImage: `url(${require("../assets/img/syglass/backgroundblue.png")})`
                 },
                 swiperOption: {
                     speed: 1500,
