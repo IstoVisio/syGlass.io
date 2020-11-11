@@ -13,7 +13,7 @@
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/syglassVid.gif" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/image (4).png" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
