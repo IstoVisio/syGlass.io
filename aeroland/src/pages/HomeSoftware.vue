@@ -45,7 +45,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="sofftware-progress-images_media text-center wow move-up">
-                            <img src="../assets/img/syglass/2020-05-22_10-11-33.png" alt="" class="img-fluid">
+                            <img src="../assets/img/syglass/syglass_icon_transparent.svg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -157,7 +157,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="software-contact-images__midea text-center wow move-up">
-                            <img src="../assets/img/syglass/2020-05-22_10-14-46.png" alt="images" class="img-fluid">
+                            <img src="../assets/img/syglass/syglass_icon_transparent.svg" alt="images" class="img-fluid">
                         </div>
                     </div>
                 </div>
