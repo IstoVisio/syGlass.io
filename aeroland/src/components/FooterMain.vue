@@ -6,20 +6,20 @@
                     <div class="col-lg-4 col-md-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
                             <router-link to="/">
-                                <img src="../assets/img/logo/logo-dark.png" class="img-fluid logo-dark" alt="logo">
+                                <img src="../assets/img/syglass/syglass_logo_on_dark_blue.jpg" class="img-fluid logo-dark" alt="logo">
                                 <img src="../assets/img/logo/logo-light.png" class="img-fluid logo-light" alt="logo">
                             </router-link>
                         </div>
                         <ul class="footer-widget__list">
-                            <li>58 Howard Street #2 San Francisco, CA 941</li>
+                            <li>128 Fountain View, Morgantown, WV 26505</li>
                             <li>
-                                <a href="mailto:contact@aeroland.com" class="hover-style-link">contact@aeroland.com</a>
+                                <a href="mailto:info@syglass.io" class="hover-style-link">info@syglass.io</a>
                             </li>
                             <li>
-                                <a href="tel:(+68)122109876" class="hover-style-link">(+68)1221 09876</a>
+                                <a href="tel:(+1)3046773045" class="hover-style-link">(+1) 304 677 3045</a>
                             </li>
                             <li>
-                                <a href="www.website.com" target="_blank" class="hover-style-link hover-style-link--green">www.website.com</a>
+                                <a href="www.syglass.io" target="_blank" class="hover-style-link hover-style-link--green">www.syglass.io</a>
                             </li>
                         </ul>
                     </div>
@@ -43,9 +43,6 @@
                     <div class="col-lg-2 col-md-6 footer-widget">
                         <h6 class="footer-widget__title mb-20">Quick links</h6>
                         <ul class="footer-widget__list">
-                            <li>
-                                <router-link to="/" class="hover-style-link">Pick up locations</router-link>
-                            </li>
                             <li>
                                 <router-link to="/" class="hover-style-link">Terms of Payment</router-link>
                             </li>

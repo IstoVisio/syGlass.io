@@ -1,8 +1,8 @@
 <template>
-    <b-navbar type="light" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
+    <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-            <b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/syglass/syglass_logo_TRANSPARENTBACK.png"' alt="logo"></b-navbar-brand>
+            <b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/syglass/syglass_logo_on_dark_blue.jpg"' alt="logo"></b-navbar-brand>
             <b-btn-group class="header-config-wrapper">
                 <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
                 <b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>

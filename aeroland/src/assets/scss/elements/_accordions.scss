@@ -1,7 +1,7 @@
 
 .faq-wrapper {
     .panel.panel-default {
-        border: 1px solid #ebebeb;
+        border: 1px solid #ffffff;
         margin-bottom: 20px;
     }
     
@@ -29,7 +29,7 @@
             border: none;
             width: 100%;
             text-align: left;
-            color: #6d70a6;
+            color: #ffffff;
             padding: 20px 30px;
             position: relative;
             overflow-wrap: break-word;
@@ -58,7 +58,7 @@
 
             &[aria-expanded="true"] {
                 color: $white;
-                background-color: #9C7AF2;
+                background-color: #000000;
                 background-image: linear-gradient(-129deg,#9C7AF2 0,#5E61E7 100%);
                 opacity: 0.7;
                 border-bottom-left-radius: 0;
@@ -88,7 +88,7 @@
         [aria-expanded="false"],
         [aria-expanded="true"] {
             &:before {
-                color: #6d70a6;
+                color: #000000;
                 top: 50%;
                 right: 20px;
                 content: "\f055";

@@ -7,18 +7,18 @@
                         :options="slickOptions">
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-align-left"></i>
-                                <h5>Page Change Effects</h5>
-                                <p>The transition between pages is made to provide convenience for users while navigating.</p>
+                                <h5>Get to Publications Faster</h5>
+                                <p>No need to spend months quantifying your data on a 2D monitor anymore. Count, trace, track over time, and create meshes in a fraction of the time of traditional data annotation systems. </p>
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-rocket"></i>
-                                <h5>New Marketing Plan</h5>
-                                <p>We are capable of sketching out competitive marketing plans that's efficiency proven.</p>
+                                <h5>Better Technology, Lower Costs</h5>
+                                <p>Resources shouldn’t stand in the way of your discoveries. That’s why we provide our cutting-edge technology to researchers and educators around the world at an extremely affordable price </p>
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
-                                <h5>SEO Analytic Tools</h5>
-                                <p>Promote your sales and increase the ROI with the help from built-in SEO analytics tools.</p>
+                                <h5>Meet With Others Online.</h5>
+                                <p>Dive deep into your data with others in MultiView, our online collaboration system..</p>
                             </div>
                     </slick>
                 </div>
@@ -26,13 +26,13 @@
                     <slick class="slick2"
                         :options="slickOptions2">
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/banners/aeroland-tab-content-image-01.jpg" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/syglass/narration.png" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/banners/aeroland-tab-content-image-02.jpg" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/syglass/20200522090256.png" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/banners/aeroland-tab-content-image-03.jpg" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/syglass/multiview.png" alt="product-details" />
                             </div>
                     </slick>
                 </div>

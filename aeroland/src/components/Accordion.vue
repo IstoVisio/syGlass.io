@@ -7,7 +7,7 @@
             <b-collapse id="accordion-1" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        AeroLand appears professional in design and responsive in performance. It proves to be highly customizable and efficient for landing site building. Engage yourself in the most effortless and well-appointed process with AeroLand.
+                        syGlass is professional in design and responsive in performance. It proves to be highly customizable and efficient for landing site building. Engage yourself in the most effortless and well-appointed process with AeroLand.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>

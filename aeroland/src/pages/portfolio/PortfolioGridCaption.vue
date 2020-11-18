@@ -3,30 +3,6 @@
 
         <router-view></router-view>
 
-        <!-- Navbar section -->
-        <HeaderElement />
-
-        <!-- breadcrumb strat -->
-        <Breadcrumb>
-            <template slot="breadcrumb">
-                <div class="breadcrumb_box text-center">
-                    <h2 class="breadcrumb-title">Portfolio Grid Caption</h2>
-                    <!-- breadcrumb-list start -->
-                    <ul class="breadcrumb-list">
-                        <li class="breadcrumb-item">
-                            <router-link :to="{name:'HomeBranding'}">Home</router-link>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <router-link :to="{name:'HomeBranding'}">Portfolio</router-link>
-                        </li>
-                        <li class="breadcrumb-item active">Portfolio Grid Caption</li>
-                    </ul>
-                    <!-- breadcrumb-list end -->
-                </div>
-            </template>
-        </Breadcrumb>
-        <!-- breadcrumb end -->
-
         <!-- portfolio item wrapper start -->
         <div class="portfolio-pages-wrapper section-space--ptb_100 border-bottom gray-gradient">
             <div class="container">
@@ -59,14 +35,6 @@
         </div>
         <!-- portfolio item wrapper end -->
 
-        <!-- footer section -->
-        <FooterMain />
-
-        <!-- offcanvas search component -->
-        <OffcanvasSearchBox />
-
-        <!-- off-canvas mobile menu -->
-        <OffCanvasMobileMenu />
 
     </div>
 </template>

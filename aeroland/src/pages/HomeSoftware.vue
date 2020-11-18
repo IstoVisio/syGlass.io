@@ -13,6 +13,15 @@
             <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
                     <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
+					<p> syGlass is a software product that allows you to render large, volumetric data in its true, three-or-four dimensional form. Modern imaging techniques leave you inundated with large volumetric data, but syGlass can prepare up to 20 TB of data at a time, without crashing.
+
+Data is scaled to allow you to see minute details in extreme detail. Perform analysis with enhanced precision, then annotate the data in syGlass with a vast array of practical tools.
+
+syGlass has a mission to help scientists, researchers, and educators like you reach your full potential by providing the tools and technology you need to explore, understand, and communicate your data.
+
+
+</p>
+
                     <div class="video-button-container video-popup">
                         <silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
                             <div class="video-play">
@@ -27,8 +36,8 @@
             <FeatureList />
         </div>
 
-				<!-- tab two components -->
-        <TabTwo BgGradient="bg-gradient" id="service" />
+        <!-- tab two components -->
+        <TabTwo id="service" />
 
         <!-- skill area start -->
         <div class="progress-bar-warpper section-space--pt_120">
@@ -36,7 +45,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="sofftware-progress-images_media text-center wow move-up">
-                            <img src="../assets/img/syglass/syglass_icon_transparent.svg" alt="" class="img-fluid">
+                            <img src="../assets/img/syglass/2020-05-22_10-11-33.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -68,7 +77,7 @@
             </div>
 		</div>
 
-        <!-- pricing section -->
+        <!-- pricing section
         <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
@@ -93,14 +102,17 @@
             </div>
             <div class="pricing-table-content-area">
                 <div class="container">
-                    <!-- pricing component -->
+
                     <PricingOne />
                 </div>
             </div>
-        </div>
+        </div> -->
+
 
 		<!-- call to action component -->
         <CtaThree />
+
+		<PortfolioGridCaption />
 
         <!-- accordion section -->
         <div class="software-accordion-wrapper section-space--pt_120 section-space--pb_60 gray-gradient" id="faq">
@@ -145,15 +157,13 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="software-contact-images__midea text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-06.png" alt="images" class="img-fluid">
+                            <img src="../assets/img/syglass/2020-05-22_10-14-46.png" alt="images" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- newsletter section -->
-        <Newsletter />
 
 		<!-- footer section -->
         <FooterMain />
@@ -161,44 +171,40 @@
         <!-- offcanvas search component -->
         <OffcanvasSearchBox />
 
+
+
 	</div>
 </template>
 
 <script>
 	import HeaderSoftware from "../components/HeaderSoftware";
 	import HeroSoftware from "../components/HeroSoftware";
-	import BrandLogoCarousel from "../components/BrandLogoCarousel";
 	import FeatureList from "../components/FeatureList";
 	import TabTwo from "../components/TabTwo";
 	import ProgressBar from "../components/ProgressBar";
-	import PricingOne from "../components/PricingOne";
 	import CurveShape from "../components/CurveShape";
 	import CtaThree from "../components/CtaThree";
 	import FunFactOne from "../components/FunFactOne";
 	import Accordion from "../components/Accordion";
-	import Newsletter from "../components/Newsletter";
 	import FooterMain from "../components/FooterMain";
 	import OffcanvasSearchBox from "../components/OffcanvasSearchBox";
-	import StartUpFeature from "../components/StartUpFeature";
+	import PortfolioGridCaption from "../pages/portfolio/PortfolioGridCaption";
 
 	export default {
 		name: "app",
 		components: {
 			HeaderSoftware,
 			HeroSoftware,
-			StartUpFeature,
-            BrandLogoCarousel,
             FeatureList,
             TabTwo,
             ProgressBar,
-            PricingOne,
 			CurveShape,
 			CtaThree,
             FunFactOne,
             Accordion,
-            Newsletter,
             FooterMain,
-            OffcanvasSearchBox
+            OffcanvasSearchBox	,
+			PortfolioGridCaption
 		}
 	};
 </script>
