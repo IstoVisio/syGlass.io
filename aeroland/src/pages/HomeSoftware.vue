@@ -6,7 +6,7 @@
 
 		<!-- hero section -->
 		<HeroSoftware />
-		
+
 
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
@@ -27,7 +27,7 @@
             <FeatureList />
         </div>
 
-        <!-- tab two components -->
+				<!-- tab two components -->
         <TabTwo BgGradient="bg-gradient" id="service" />
 
         <!-- skill area start -->
@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="sofftware-progress-images_media text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-05.png" alt="" class="img-fluid">
+                            <img src="../assets/img/syglass/syglass_icon_transparent.svg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -72,7 +72,7 @@
         <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
@@ -132,7 +132,7 @@
         <CurveShape class="curve-bottom">
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
@@ -153,7 +153,7 @@
         </div>
 
         <!-- newsletter section -->
-        <Newsletter /> 
+        <Newsletter />
 
 		<!-- footer section -->
         <FooterMain />
@@ -198,8 +198,7 @@
             Accordion,
             Newsletter,
             FooterMain,
-            OffcanvasSearchBox	
+            OffcanvasSearchBox
 		}
 	};
 </script>
-
