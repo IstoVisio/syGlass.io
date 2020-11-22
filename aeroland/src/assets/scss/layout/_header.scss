@@ -27,8 +27,8 @@
         li {
             .nav-link {
                 display: block;
-                font-size: 14px;
-                font-weight: 500;
+                font-size: 44px;
+                font-weight: 1500;
                 letter-spacing: 1px;
                 padding: 50px 26px;
                 // responsive
@@ -54,7 +54,7 @@
                     }
                 }
             }
-   
+
             &:hover {
                 .nav-link  {
                     span {
@@ -234,7 +234,7 @@
     cursor: url(../img/icons/light-close.png) 16 16, pointer;
     visibility: hidden;
     opacity: 0;
-    
+
     &__inner {
         transform: translateX(-100%);
         width: 400px;

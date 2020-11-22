@@ -1,9 +1,12 @@
 <template>
     <div class="hero-software hero-swiper-btn" id="home">
+
         <div class="container_f1">
             <div class="swiper-wrapper">
                 <swiper :options="swiperOption">
-                    <div class="swiper-slide" :style="bgImg">
+                    <div class="swiper-slide">
+
+
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Your 3D data deserves better software</h2>
@@ -59,7 +62,8 @@
         data() {
             return {
                 bgImg: {
-                    backgroundImage: `url(${require("../assets/img/syglass/2020-11-13_16-34-10_6.gif")})`
+                    backgroundImage: `url(${require("../assets/img/syglass/cropped-cube-2.gif")})`,
+                    backgroundPosition: 'center 10%'
                 },
                 swiperOption: {
                     speed: 1500,
@@ -77,7 +81,7 @@
     };
 </script>
 
-<style lang="scss" scoped> 
+<style lang="scss" scoped>
     @import '../assets/scss/variabls.scss';
     @import '../assets/scss/elements/hero-software.scss';
 </style>

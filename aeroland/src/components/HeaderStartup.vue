@@ -9,9 +9,9 @@
                 <img :src='"../assets/img/logo/logo-dark.png"' alt="logo">
             </b-navbar-brand>
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
-                <b-navbar-nav class="navbar-nav main-menu text-white">
-                    <b-nav-item to="/"><span>LANDING</span></b-nav-item>
-                    <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
+                <b-navbar-nav class="navbar-nav main-menu text-white" style="font-size: 25px">
+                    <b-nav-item to="/" style="font-size: larger;"><span>LANDING</span></b-nav-item>
+                    <b-nav-item href="#home" class="scroll"><span style="font-size: larger;">HOME</span></b-nav-item>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#platform" class="scroll"><span>PLATFORM</span></b-nav-item>
                     <b-nav-item href="#team" class="scroll"><span>TEAM</span></b-nav-item>
@@ -71,17 +71,17 @@
                 if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {
                     this.scrolled = true;
                     // move up!
-                } 
-                
+                }
+
                 if (this.lastPosition > window.scrollY) {
                     this.scrolled = true;
                     // move down
                 }
-                
+
                 this.lastPosition = window.scrollY;
                 this.scrolled = window.scrollY > 50;
             }
-        }, 
+        },
         created() {
             window.addEventListener("scroll", this.handleScroll);
         },
