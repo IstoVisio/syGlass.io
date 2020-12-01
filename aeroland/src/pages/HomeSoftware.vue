@@ -4,6 +4,12 @@
 		<!-- Navbar section -->
 		<HeaderSoftware />
 
+		<!-- Landing Image -->
+		<div class="swiper-landing-image" :style="bgImg" width="100%" align="center">
+			<img src="../assets/img/syglass/syglass_icon_transparent.svg" class="swiper-landing-image" style="text-align: center; margin-top: 105px;" height="400">
+			<h1 style="margin-top: 35px;">Welcome to syGlass</h1>
+		</div>
+
 		<!-- hero section -->
 		<HeroSoftware />
 
@@ -34,7 +40,12 @@ syGlass has a mission to help scientists, researchers, and educators like you re
             </div>
             <!-- feature list component -->
             <FeatureList />
+
         </div>
+
+				<div>
+					<AboutExpand id="service"/>
+				</div>
 
         <!-- tab two components -->
         <TabTwo id="service" />
@@ -150,6 +161,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
             </template>
         </CurveShape>
+				<BannerTwo />
 
         <!-- bannar area -->
         <div class="software-contact__images section-space--pt_120 section-space--pb_60">
@@ -188,23 +200,55 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 	import Accordion from "../components/Accordion";
 	import FooterMain from "../components/FooterMain";
 	import OffcanvasSearchBox from "../components/OffcanvasSearchBox";
+	import AboutExpand from "../components/AboutExpand";
+	import BannerTwo from "../components/BannerTwo";
 	import PortfolioGridCaption from "../pages/portfolio/PortfolioGridCaption";
 
+
 	export default {
+		data() {
+				return {
+						bgImg: {
+								backgroundImage: `url(${require("../assets/img/syglass/cropped-cube-2.gif")})`,
+								backgroundPosition: 'center 10%'
+						},
+						swiperOption: {
+								speed: 1500,
+								loop: true,
+								effect: 'fade',
+								autoplay: false,
+								spaceBetween : 30,
+								navigation: {
+										nextEl: '.swiper-button-next',
+										prevEl: '.swiper-button-prev'
+								},
+						}
+				};
+		},
 		name: "app",
 		components: {
 			HeaderSoftware,
 			HeroSoftware,
             FeatureList,
+						AboutExpand,
             TabTwo,
             ProgressBar,
 			CurveShape,
+			BannerTwo ,
 			CtaThree,
             FunFactOne,
             Accordion,
             FooterMain,
             OffcanvasSearchBox	,
-			PortfolioGridCaption
+
+			PortfolioGridCaption,
 		}
 	};
 </script>
+
+
+
+<style lang="scss" scoped>
+    @import '../assets/scss/variabls.scss';
+    @import '../assets/scss/elements/hero-software.scss';
+</style>
