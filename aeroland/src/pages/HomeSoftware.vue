@@ -4,9 +4,15 @@
 		<!-- Navbar section -->
 		<HeaderSoftware />
 
+		<!-- Landing Image -->
+		<div class="swiper-landing-image" :style="bgImg" width="100%" align="center">
+			<img src="../assets/img/syglass/syglass_icon_transparent.svg" class="swiper-landing-image" style="text-align: center; margin-top: 105px;" height="400">
+			<h1 style="margin-top: 35px;">Welcome to syGlass</h1>
+		</div>
+
 		<!-- hero section -->
 		<HeroSoftware />
-		
+
 
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
@@ -15,8 +21,8 @@
                     <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
 					<p> syGlass is a software product that allows you to render large, volumetric data in its true, three-or-four dimensional form. Modern imaging techniques leave you inundated with large volumetric data, but syGlass can prepare up to 20 TB of data at a time, without crashing.
 
-Data is scaled to allow you to see minute details in extreme detail. Perform analysis with enhanced precision, then annotate the data in syGlass with a vast array of practical tools. 
-    
+Data is scaled to allow you to see minute details in extreme detail. Perform analysis with enhanced precision, then annotate the data in syGlass with a vast array of practical tools.
+
 syGlass has a mission to help scientists, researchers, and educators like you reach your full potential by providing the tools and technology you need to explore, understand, and communicate your data.
 
 
@@ -34,7 +40,12 @@ syGlass has a mission to help scientists, researchers, and educators like you re
             </div>
             <!-- feature list component -->
             <FeatureList />
+
         </div>
+
+				<div>
+					<AboutExpand id="service"/>
+				</div>
 
         <!-- tab two components -->
         <TabTwo id="service" />
@@ -77,11 +88,11 @@ syGlass has a mission to help scientists, researchers, and educators like you re
             </div>
 		</div>
 
-        <!-- pricing section 
+        <!-- pricing section
         <CurveShape>
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
@@ -102,16 +113,16 @@ syGlass has a mission to help scientists, researchers, and educators like you re
             </div>
             <div class="pricing-table-content-area">
                 <div class="container">
-                
+
                     <PricingOne />
                 </div>
             </div>
         </div> -->
-		
+
 
 		<!-- call to action component -->
         <CtaThree />
-		
+
 		<PortfolioGridCaption />
 
         <!-- accordion section -->
@@ -144,12 +155,13 @@ syGlass has a mission to help scientists, researchers, and educators like you re
         <CurveShape class="curve-bottom">
             <template v-slot:bgcolor>
                 <path style="fill: #3399FF;
-                    stroke-miterlimit:10;" 
+                    stroke-miterlimit:10;"
                     d="M3360.5,97.739c-242,0-480-48.375-480-48.375
                         S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
             </template>
         </CurveShape>
+				<BannerTwo />
 
         <!-- bannar area -->
         <div class="software-contact__images section-space--pt_120 section-space--pb_60">
@@ -170,8 +182,8 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 
         <!-- offcanvas search component -->
         <OffcanvasSearchBox />
-		
-		
+
+
 
 	</div>
 </template>
@@ -188,24 +200,55 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 	import Accordion from "../components/Accordion";
 	import FooterMain from "../components/FooterMain";
 	import OffcanvasSearchBox from "../components/OffcanvasSearchBox";
+	import AboutExpand from "../components/AboutExpand";
+	import BannerTwo from "../components/BannerTwo";
 	import PortfolioGridCaption from "../pages/portfolio/PortfolioGridCaption";
 
+
 	export default {
+		data() {
+				return {
+						bgImg: {
+								backgroundImage: `url(${require("../assets/img/syglass/cropped-cube-2.gif")})`,
+								backgroundPosition: 'center 10%'
+						},
+						swiperOption: {
+								speed: 1500,
+								loop: true,
+								effect: 'fade',
+								autoplay: false,
+								spaceBetween : 30,
+								navigation: {
+										nextEl: '.swiper-button-next',
+										prevEl: '.swiper-button-prev'
+								},
+						}
+				};
+		},
 		name: "app",
 		components: {
 			HeaderSoftware,
 			HeroSoftware,
             FeatureList,
+						AboutExpand,
             TabTwo,
             ProgressBar,
 			CurveShape,
+			BannerTwo ,
 			CtaThree,
             FunFactOne,
             Accordion,
             FooterMain,
             OffcanvasSearchBox	,
-			PortfolioGridCaption
+
+			PortfolioGridCaption,
 		}
 	};
 </script>
 
+
+
+<style lang="scss" scoped>
+    @import '../assets/scss/variabls.scss';
+    @import '../assets/scss/elements/hero-software.scss';
+</style>
