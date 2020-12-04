@@ -19,15 +19,15 @@
                 abouts: [
                     {
                         icon: require('../assets/img/syglass/microscope.png'),
-                        title: 'Microscope'
+                        title: 'Use our Microscope Acquisition Softare'
                     },
                     {
                         icon: require('../assets/img/syglass/occulus.png'),
-                        title: 'Occulus'
+                        title: 'Experience SyGlass VR'
                     },
                     {
                         icon: require('../assets/img/syglass/graphs.png'),
-                        title: 'Graphs'
+                        title: 'Publish Your Paper'
                     },
                 ]
             }
