@@ -1,5 +1,6 @@
+
 <template>
-    <div class="cta-image-area cta-image-bg_02">
+    <div class="cta-image-area cta-image-bg_05">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
