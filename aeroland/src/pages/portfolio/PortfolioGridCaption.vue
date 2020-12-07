@@ -7,19 +7,19 @@
         <div class="portfolio-pages-wrapper section-space--ptb_100 border-bottom gray-gradient">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-30 wow move-up" v-for="portfolio in portfolios" :key="portfolio.id">
+                    <div class="col-lg-3 col-md-3 mb-30 wow move-up" v-for="portfolio in portfolios" :key="portfolio.id">
                         <div class="portfolio-grid-caption">
                             <router-link to="/portfolio-details" class="single-grid-caption">
                                 <div class="single-portfolio__thumbnail">
-                                    <img class="img-fluid" :src="portfolio.image" :alt="portfolio.alt">
+                                    <img class="img-fluid" :src="portfolio.thumbnailUrl" :alt="portfolio.name">
                                 </div>
                             </router-link>
                             <div class="post-info">
                                 <div class="post-categories">
-                                    <router-link to="">{{ portfolio.category }}</router-link>
+                                    <router-link to="">{{ portfolio.name }}</router-link>
                                 </div>
                                 <h5 class="post-title font-weight--bold">
-                                    <router-link to="/portfolio-details">{{ portfolio.overlayTitle }}</router-link>
+                                    <router-link to="/portfolio-details">{{ portfolio.name }}</router-link>
                                 </h5>
                             </div>
                         </div>
@@ -45,6 +45,17 @@
     import FooterMain from '@/components/FooterMain'
     import OffcanvasSearchBox from '@/components/OffcanvasSearchBox'
     import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
+    import ViewProjectsJSON from '@/test.json'
+ 
+
+//The next line of code will filter out all the unwanted data from the object.
+
+
+
+console.log(ViewProjectsJSON)
+console.log(ViewProjectsJSON.projects[0].name)
+
+
 
     export default {
         name: 'PortfolioGridCaption',
@@ -55,74 +66,9 @@
             OffcanvasSearchBox,
             OffCanvasMobileMenu
         },
-
         data () {
             return {
-                portfolios: [
-                    {
-                        id: 1,
-                        image: require("@/assets/img/portfolio/portfolio-01-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Print Design Prospect",
-                        category: "Branding"
-                    },
-                    {
-                        id: 2,
-                        image: require("@/assets/img/portfolio/portfolio-02-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "2018 President Summit",
-                        category: "Concept"
-                    },
-                    {
-                        id: 3,
-                        image: require("@/assets/img/portfolio/portfolio-03-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Lonity Brand New Look",
-                        category: "Art Derection"
-                    },
-                    {
-                        id: 4,
-                        image: require("@/assets/img/portfolio/portfolio-04-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Finding Alternativel Resources",
-                        category: "Illustration"
-                    },
-                    {
-                        id: 5,
-                        image: require("@/assets/img/portfolio/portfolio-05-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Digitized Visual Projects",
-                        category: "Digital"
-                    },
-                    {
-                        id: 6,
-                        image: require("@/assets/img/portfolio/portfolio-06-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Electric Vehicle Invention",
-                        category: "Marketing"
-                    },
-                    {
-                        id: 7,
-                        image: require("@/assets/img/portfolio/portfolio-07-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Smart Technology Source",
-                        category: "Design"
-                    },
-                    {
-                        id: 8,
-                        image: require("@/assets/img/portfolio/portfolio-08-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Spiral Branding Touchpoint",
-                        category: "Digital"
-                    },
-                    {
-                        id: 9,
-                        image: require("@/assets/img/portfolio/portfolio-09-481x325.jpg"),
-                        alt: "portfolio image",
-                        overlayTitle: "Print Design Prospect",
-                        category: "Branding"
-                    }
-                ]
+                portfolios: ViewProjectsJSON.projects
             }
         }
     }

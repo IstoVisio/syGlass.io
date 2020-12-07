@@ -1,0 +1,139 @@
+{
+
+  "projects": [
+
+    {
+
+      "name": "Shrimp",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Shrimp.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/shrimpThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Snake Embryo",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/SnakeEmbryo.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/snakeThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Torso CT Scan",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/TorsoCTScan.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/PatientXThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Zebrafish CT",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/ZebrafishCT.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/FishCTThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Chameleon Embryo",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/ChameleonEmbryo.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ChameleonThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Human heart (56 year old, male with BMI 44)",
+
+      "citation": "Acknowledgement: Dr Halina Dobrzynski Lab (team Dr Andrew J. Atkinson and Ms Abimbola Juliet Aminu) at the Division of Cardiovascular Sciences, University of Manchester and Manchester X-Ray Imaging Facility, University of Manchester",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Human+heart+(56+year+old%2C+male+with+BMI+44).syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_036.png"
+
+    },
+
+    {
+
+      "name": "Human heart (97 year old, female)",
+
+      "citation": "Acknowledgement: Dr Halina Dobrzynski Lab (team Dr Andrew J. Atkinson and Ms Abimbola Juliet Aminu) at the Division of Cardiovascular Sciences, University of Manchester and Manchester X-Ray Imaging Facility, University of Manchester",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Human+heart+(97+year+old%2C+female).syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_035.png"
+
+    },
+
+    {
+
+      "name": "Macrophages",
+
+      "citation": "Citation: Macropinosome Formation by Tent Pole Ruffling in Macrophages. Journal of Cell Biology. 2018 Aug 27. doi: 10.1083/jcb.201804137.",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Macrophages.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MacrophageThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Microglia Early Development",
+
+      "citation": "Citation: Glial Cell Expansion Coincides with Neural Circuit Formation in the Developing Auditory Brainstem. Dev Neurobiol. 2018 Aug 23. doi: 10.1002/dneu.22633.",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/MicrogliaEarlyDevelopment.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ashleyDappyThumb.png"
+
+    },
+
+    {
+
+      "name": "Mouse Brain Vasculature",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/MouseBrainVasculature.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MouseBrainThumbnail.png"
+
+    },
+
+    {
+
+      "name": "Seahorse",
+
+      "citation": "",
+
+      "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Seahorse.syg",
+
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/seahorseThumbnail.png"
+
+    }
+
+  ]
+
+}
