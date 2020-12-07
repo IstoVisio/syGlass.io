@@ -19,7 +19,7 @@
                 abouts: [
                     {
                         icon: require('../assets/img/syglass/microscope.png'),
-                        title: 'Use our Microscope Acquisition Softare'
+                        title: 'Use our Image Acquisition Software'
                     },
                     {
                         icon: require('../assets/img/syglass/occulus.png'),
