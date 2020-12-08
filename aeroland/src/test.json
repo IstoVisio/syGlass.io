@@ -10,7 +10,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Shrimp.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/shrimpThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/shrimpThumbnail.png",
+	  
+	  "modality": "Lightsheet Microscopy"
 
     },
 
@@ -22,7 +24,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/SnakeEmbryo.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/snakeThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/snakeThumbnail.png",
+	  
+	  "modality": "Lightsheet Microscopy"
 
     },
 
@@ -34,7 +38,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/TorsoCTScan.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/PatientXThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/PatientXThumbnail.png",
+	  
+	  "modality": "CT Scan"
 
     },
 
@@ -46,7 +52,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/ZebrafishCT.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/FishCTThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/FishCTThumbnail.png",
+	  
+	  "modality": "MicroCT"
 
     },
 
@@ -58,7 +66,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/ChameleonEmbryo.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ChameleonThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ChameleonThumbnail.png",
+	  
+	  "modality": "Lightsheet Microscopy"
 
     },
 
@@ -70,7 +80,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Human+heart+(56+year+old%2C+male+with+BMI+44).syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_036.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_036.png",
+	  
+	  "modality": "MicroCT"
 
     },
 
@@ -82,7 +94,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Human+heart+(97+year+old%2C+female).syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_035.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_035.png",
+	  
+	  "modality": "MicroCT"
 
     },
 
@@ -94,7 +108,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Macrophages.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MacrophageThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MacrophageThumbnail.png",
+	  
+	  "modality": "Lightsheet Microscopy"
 
     },
 
@@ -106,7 +122,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/MicrogliaEarlyDevelopment.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ashleyDappyThumb.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ashleyDappyThumb.png",
+	  
+	  "modality": "Confocal Microscopy"
 
     },
 
@@ -118,7 +136,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/MouseBrainVasculature.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MouseBrainThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MouseBrainThumbnail.png",
+	  
+	  "modality": "MicroCT"
 
     },
 
@@ -130,7 +150,9 @@
 
       "dataUrl": "https://syglassview.s3.us-east-2.amazonaws.com/Seahorse.syg",
 
-      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/seahorseThumbnail.png"
+      "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/seahorseThumbnail.png",
+	  
+	  "modality": "Lightsheet Microscopy"
 
     }
 
