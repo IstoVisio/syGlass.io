@@ -89,7 +89,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 		
 		<!-- FAQ -->
         <!-- accordion section -->
-        <div class="software-accordion-wrapper section-space--pt_120 section-space--pb_60 gray-gradient" id="faq">
+        <div class="software-accordion-wrapper section-space--pt_120 " id="faq">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -119,7 +119,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 
 
         <!-- bannar area -->
-        <div class="software-contact__images section-space--pt_120 section-space--pb_60">
+        <div class="software-contact__images">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
