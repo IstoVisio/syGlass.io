@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="feature-icon-list__media wow move-up">
-                    <img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="">
+                    <img src="../assets/img/syglass/microscope.png" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6">

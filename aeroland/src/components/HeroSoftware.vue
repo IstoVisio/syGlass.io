@@ -5,8 +5,6 @@
             <div class="swiper-wrapper">
                 <swiper :options="swiperOption">
                     <div class="swiper-slide">
-
-
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Your 3D data deserves better software</h2>
@@ -21,7 +19,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide" :style="bgImg">
-                        <div class="hero-item">
+                        <div class="hero-item" >
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Understand volumetric image stacks and 3D models easily</h2>
                                 <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts.</h6>
@@ -61,15 +59,13 @@
     export default {
         data() {
             return {
-                bgImg: {
-                    backgroundImage: `url(${require("../assets/img/syglass/cropped-cube-2.gif")})`,
-                    backgroundPosition: 'center 10%'
-                },
+
                 swiperOption: {
                     speed: 1500,
                     loop: true,
                     effect: 'fade',
-                    autoplay: false,
+                    autoplay: {
+					delay: 4000 },
                     spaceBetween : 30,
                     navigation: {
                         nextEl: '.swiper-button-next',

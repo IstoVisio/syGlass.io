@@ -4,11 +4,11 @@
 		<!-- Navbar section -->
 		<HeaderSoftware />
 
-		<!-- Landing Image -->
+		<!-- Landing Image >
 		<div class="swiper-landing-image" :style="bgImg" width="100%" align="center">
-			<img src="../assets/img/syglass/syglass_icon_transparent.svg" class="swiper-landing-image" style="text-align: center; margin-top: 105px;" height="400">
+			<img src="../assets/img/syglass/occulus.png" class="swiper-landing-image" style="text-align: center; margin-top: 105px;" height="400">
 			<h1 style="margin-top: 35px;">Welcome to syGlass</h1>
-		</div>
+		</div-->
 
 		<!-- hero section -->
 		<HeroSoftware />
@@ -28,28 +28,57 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 
 </p>
 
-                    <div class="video-button-container video-popup">
-                        <silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
-                            <div class="video-play">
-                                <i class="fa fa-play-circle"></i>
-                                <span class="video-text">INTRO & DEMO VIDEO</span>
-                            </div>
-                        </silentbox-single>
-                    </div>
-                </div>
-            </div>
-            <!-- feature list component -->
-            <FeatureList />
-
-        </div>
-
-				<div>
-					<AboutExpand id="service"/>
+				<div class="video-button-container video-popup">
+					<silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
+						<div class="video-play">
+							<i class="fa fa-play-circle"></i>
+							<span class="video-text">INTRO & DEMO VIDEO</span>
+						</div>
+					</silentbox-single>
 				</div>
+			</div>
+		</div>
+
+        
+		<div class="container">
+                <div class="row">
+                    <div class="col">
+						<img src="../assets/img/syglass/20200522095127.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/20200522163458.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/2020-05-22_10-11-33.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/20200521232011.png" class="img-fluid" alt="hero thumb">
+					</div>
+				</div>
+			</div>
+		</div>
+					
+					
 
         <!-- tab two components -->
         <TabTwo id="service" />
 
+		<div class="container">
+            <div class="row">
+                    <div class="col">
+						<img src="../assets/img/syglass/20200522090256.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/2020-05-22_10-10-43.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="hero thumb">
+					</div>
+					<div class="col">
+						<img src="../assets/img/syglass/2020-05-20_11-57-50.png" class="img-fluid" alt="hero thumb">
+					</div>
+				</div>
+			</div>
 
 
 
@@ -57,6 +86,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
         <CtaThree />
 
 		<PortfolioGridCaption />
+		
 		<!-- FAQ -->
         <!-- accordion section -->
         <div class="software-accordion-wrapper section-space--pt_120 section-space--pb_60 gray-gradient" id="faq">
@@ -70,22 +100,22 @@ syGlass has a mission to help scientists, researchers, and educators like you re
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col">
                         <div class="faq-wrapper">
                             <!-- accordion component -->
                             <Accordion />
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="faq-wrapper soft-accordion-two">
-                            <!-- accordion component -->
-                            <Accordion />
-                        </div>
-                    </div>
+					<div class="col">
+						<div class="peatures_image-wrap section-space--mb_40">
+								<div class="image text-center wow move-up">
+									<img class="img-fluid" src="../assets/img/syglass/graphs.png" alt="contact thumb">
+								</div>
+						</div>
+					</div>
                 </div>
             </div>
         </div>
-		
 
 
         <!-- bannar area -->
@@ -135,16 +165,26 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 	export default {
 		data() {
 				return {
-						bgImg: {
-								backgroundImage: `url(${require("../assets/img/syglass/cropped-cube-2.gif")})`,
-								backgroundPosition: 'center 10%'
-						},
+						
 						swiperOption: {
 								speed: 1500,
 								loop: true,
 								effect: 'fade',
 								autoplay: false,
-								spaceBetween : 30,
+								spaceBetween : 10,
+								navigation: {
+										nextEl: '.swiper-button-next',
+										prevEl: '.swiper-button-prev'
+								},
+						},
+						swiperImages: {
+								speed: 1500,
+								loop: true,
+								effect: 'fade',
+								autoplay: true,
+								slidesPerView: 'auto',
+								loopedSlides: 3,
+								spaceBetween : 10,
 								navigation: {
 										nextEl: '.swiper-button-next',
 										prevEl: '.swiper-button-prev'

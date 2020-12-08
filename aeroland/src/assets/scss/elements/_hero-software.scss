@@ -1,22 +1,22 @@
 /*---- hero software style start ----*/
 .hero {
     &-item {
-        height: 970px;
+        height: 900px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 100px;
         // responsive
         @media #{$xlmax-device,$desktop-device}{
-            height: 700px;
+            height: 500px;
         }
         @media #{$tablet-device, $large-mobile}{
             flex-direction: column;
             justify-content: center;
             padding-top: 0;
+			height: 600px;
         }
         @media #{$extra-small-mobile}{
-            height: 780px;
+            height: 500px;
         }
     }
     &-content {
@@ -26,7 +26,7 @@
         // responsive
         @media #{$xlmax-device,$desktop-device}{
             width: 650px;
-            padding-left: 90px;
+            padding-left: 180px;
         }
         @media #{$tablet-device, $large-mobile}{
             width: 470px;

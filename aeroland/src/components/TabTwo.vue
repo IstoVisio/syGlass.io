@@ -1,5 +1,5 @@
 <template>
-    <div class="tabs-wrapper section-space--pt_120 section-space--pb_60" :class="BgGradient">
+    <div class="tabs-wrapper " :class="BgGradient">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
