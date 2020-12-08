@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-software hero-swiper-btn" id="home">
+    <div class="hero-software hero-swiper-btn section-space--pt_60" id="home">
 
         <div class="container_f1">
             <div class="swiper-wrapper">
