@@ -3,8 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <slick class="slick1 tab-slider-nav"
-                        :options="slickOptions">
+                    <slick class="slick1 tab-slider-nav" :options="slickOptions">
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-align-left"></i>
                                 <h5>Get to Publications Faster</h5>
@@ -56,13 +55,17 @@ import Slick from 'vue-slick';
                     slidesToShow: 3,
                     focusOnSelect: true,
                     vertical: true,
-                    asNavFor: '.slick2'
+                    asNavFor: '.slick2',
+					
                 },
                 slickOptions2: {
+					autoplay: true,
+					autoplaySpeed: 3000,
                     arrows: false,
                     fade:true,
                     dots:true,
-                    asNavFor: '.slick1'
+                    asNavFor: '.slick1',
+
                 }
             };
         }

@@ -119,7 +119,7 @@
         & .tab-slider-nav--list {
             opacity: 1;
             & .ht-slider-tab-icon {
-                background-image: linear-gradient(-225deg, #f8c59b 0%, #e68c60 100%);
+                background-image: linear-gradient(-225deg, $theme-color--default 0%, $theme-color--default 100%);
             }
         }
     }
