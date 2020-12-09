@@ -11,11 +11,11 @@
 		</div-->
 
 		<!-- hero section -->
-		<HeroSoftware />
-
+		<HeroSoftware/>
+		
 
         <!-- business analytics start -->
-        <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
+        <div class="feature-icon-list-area section-space--ptb_120 section-space--mt_40"  id="about" >
             <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
                     <h2 class="section-title font-weight--light mb-30 wow move-up">Your data as a hologram... grab it!</h2>
@@ -40,7 +40,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 		</div>
 
         
-		<div class="container">
+		<div class="container" id="service">
                 <div class="row">
                     <div class="col">
 						<img src="../assets/img/syglass/20200522095127.png" class="img-fluid" alt="hero thumb">
@@ -51,7 +51,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 					<div class="col">
 						<img src="../assets/img/syglass/2020-05-22_10-11-33.png" class="img-fluid" alt="hero thumb">
 					</div>
-					<div class="col">
+					<div class="col" >
 						<img src="../assets/img/syglass/20200521232011.png" class="img-fluid" alt="hero thumb">
 					</div>
 				</div>
@@ -61,9 +61,9 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 					
 
         <!-- tab two components -->
-        <TabTwo id="service" />
+        <TabTwo  />
 
-		<div class="container">
+		<div class="container" >
             <div class="row">
                     <div class="col">
 						<img src="../assets/img/syglass/20200522090256.png" class="img-fluid" alt="hero thumb">
@@ -72,7 +72,7 @@ syGlass has a mission to help scientists, researchers, and educators like you re
 						<img src="../assets/img/syglass/2020-05-22_10-10-43.png" class="img-fluid" alt="hero thumb">
 					</div>
 					<div class="col">
-						<img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="hero thumb">
+						<img src="../assets/img/syglass/20181022162002.png" class="img-fluid" alt="hero thumb">
 					</div>
 					<div class="col">
 						<img src="../assets/img/syglass/2020-05-20_11-57-50.png" class="img-fluid" alt="hero thumb">
@@ -118,13 +118,13 @@ syGlass has a mission to help scientists, researchers, and educators like you re
         </div>
 
 
-        <!-- bannar area -->
+        <!-- bannar area NEED TO FIX THE ROTATING CUBE GIF! THERE IS A SKIP AT THE END, MAKE IT ROTATE ENDLESSLY-->
         <div class="software-contact__images">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col">
                         <div class="software-contact-images__midea text-center wow move-up">
-                            <img src="../assets/img/syglass/2020-05-22_10-14-46.png" alt="images" class="img-fluid">
+                            <img src="../assets/img/syglass/cropped-cube-2.gif" alt="images" width="200" height="200" class="img-fluid">
                         </div>
                     </div>
                 </div>

@@ -1,13 +1,12 @@
 <template>
-    <div class="footer-area-wrapper" :class="FooterStyle">
-        <div class="footer-area section-space--ptb_90">
+    <div class="footer-area-wrapper section-space--pb_60" :class="FooterStyle">
+        <div class="footer-area">
             <div class="container">
                 <div class="row footer-widget-wrapper">
                     <div class="col-lg-4 col-md-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
                             <router-link to="/">
-                                <img src="../assets/img/syglass/syglass_logo_on_dark_blue.jpg" class="img-fluid logo-dark" alt="logo">
-                                <img src="../assets/img/logo/logo-light.png" class="img-fluid logo-light" alt="logo">
+                                <img src="../assets/img/syglass/Artboardx.png" class="img-fluid logo-dark" alt="logo">
                             </router-link>
                         </div>
                         <ul class="footer-widget__list">
@@ -78,11 +77,11 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright-area border-top section-space--ptb_30">
+        <div class="footer-copyright-area ">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-center text-md-left">
-                        <span class="copyright-text">© 2020 AeroLand. All Rights Reserved.</span>
+                        <span class="copyright-text">© 2020 IstoVisio, Inc. All Rights Reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-right">
                         <ul class="list ht-social-networks solid-rounded-icon">

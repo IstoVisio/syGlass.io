@@ -42,7 +42,7 @@
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/20181022162002.png" class="img-fluid" alt="hero thumb">
+                                <img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>

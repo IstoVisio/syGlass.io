@@ -4,8 +4,11 @@
         <router-view></router-view>
 
         <!-- portfolio item wrapper start -->
+		
         <div class="portfolio-pages-wrapper  gray-gradient">
             <div class="container">
+				<p> Browse our library of digital scans of animals, organs, and cells, and explore the beauty of the natural world. syGlass View projects are donated to the library by the best and brightest from around the world -- let us know if you'd like to submit a dataset! 
+				</p>
                 <div class="row">
                         <div class="col mb-30 wow move-up" v-for="portfolio in portfolios" :key="portfolio.id">
                             <div class="portfolio-grid-caption">
