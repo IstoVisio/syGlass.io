@@ -13,6 +13,7 @@
                     <b-nav-item href="/" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#service" class="scroll"><span>SERVICE</span></b-nav-item>
+					<b-nav-item href="#view" class="scroll"><span style="color: #44A3F2">VIEW</span></b-nav-item>
                     <b-nav-item href="#faq" class="scroll"><span>FAQ</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>

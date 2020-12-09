@@ -54,7 +54,7 @@
 
       "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/FishCTThumbnail.png",
 	  
-	  "modality": "MicroCT"
+	  "modality": "Micro CT"
 
     },
 
@@ -68,7 +68,7 @@
 
       "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/ChameleonThumbnail.png",
 	  
-	  "modality": "Lightsheet Microscopy"
+	  "modality": "Micro CT"
 
     },
 
@@ -82,7 +82,7 @@
 
       "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_036.png",
 	  
-	  "modality": "MicroCT"
+	  "modality": "Micro CT"
 
     },
 
@@ -96,7 +96,7 @@
 
       "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/heart_035.png",
 	  
-	  "modality": "MicroCT"
+	  "modality": "Micro CT"
 
     },
 
@@ -138,7 +138,7 @@
 
       "thumbnailUrl": "https://syglassview.s3.us-east-2.amazonaws.com/thumbnails/MouseBrainThumbnail.png",
 	  
-	  "modality": "MicroCT"
+	  "modality": "Micro CT"
 
     },
 
