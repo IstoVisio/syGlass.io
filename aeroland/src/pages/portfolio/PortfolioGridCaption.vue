@@ -24,6 +24,7 @@
                                     <h5 class="post-title font-weight--bold">
                                         <router-link to="/portfolio-details">{{ portfolio.name }}</router-link>
                                     </h5>
+									<div class="citation"> {{ portfolio.citation }} </div>
                                 </div>
                             </div>
                         </div>

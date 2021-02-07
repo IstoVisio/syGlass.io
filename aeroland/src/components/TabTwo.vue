@@ -1,8 +1,11 @@
 <template>
-    <div class="tabs-wrapper " :class="BgGradient">
+    <div class="tabs-wrapper section-space--pt_120" :class="BgGradient">
+	
         <div class="container">
+		<h2 class="section-title font-weight--light mb-30 wow move-up text-center section-space--mb_100">VR enables faster analysis</h2>
             <div class="row">
                 <div class="col-lg-4">
+					
                     <slick class="slick1 tab-slider-nav" :options="slickOptions">
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-align-left"></i>

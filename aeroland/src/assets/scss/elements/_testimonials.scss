@@ -27,7 +27,7 @@
 
     &__text{
         font-size: 18px;
-        color: #6d70a6;
+        color: #fff;
         margin-bottom: 25px;
     }
 
@@ -40,7 +40,9 @@
             font-style: italic;
             &:before{
                 content: ' / ';
+
             }
+			color: #999;
         }
     }
     

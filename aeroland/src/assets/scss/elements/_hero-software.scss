@@ -1,7 +1,7 @@
 /*---- hero software style start ----*/
 .hero {
     &-item {
-        height: 900px;
+
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -20,7 +20,7 @@
         }
     }
     &-content {
-        width: 490px;
+        width: 600px;
         padding-left: 330px;
         box-sizing: content-box;
         // responsive
@@ -72,6 +72,7 @@
                 margin: 0 auto;
                 padding-right: 0;
                 padding-top: 50px;
+				
             }
             @media #{$small-mobile}{
                 width: 100%;
@@ -93,6 +94,7 @@
                     animation-duration: 1s;
                     animation-name: fadeInRight;
                     animation-delay: 0.5s;
+					
                 }
             }
     

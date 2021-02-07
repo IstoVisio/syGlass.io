@@ -1,5 +1,5 @@
 <template>
-    <div class="testimonial-slider-area section-space--ptb_120">
+    <div class="testimonial-slider-area section-space--pb_120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -12,42 +12,42 @@
                                 <swiper :options="swiperOption">
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
-                                            <div class="testimonial-slider__text">“Amazing fast and reliable customer support! The team of developers are willing to go an extra mile for customer service!”</div>
+                                            <div class="testimonial-slider__text">“I just wanted to share this wonderful result we would not be able to visualize without syGlass. One of my colleagues made this improved version (over the previous one below) without telling us. We were just able to discover it today!”</div>
                                             <div class="testimonial-slider--info">
                                                 <div class="post-thumbnail">
-                                                    <img src="../assets/img/team/avatar-07-60x60.png" class="img-fluid" alt="">
+                                                    <img src="../assets/img/syglass_profiles/Bostjan_Kokot_scale.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">WEB DESIGNER</span>
+                                                    <h6 class="name">Dr. Boštjan Kokot</h6>
+                                                    <span class="designation">Jožef Stefan Institute</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
-                                            <div class="testimonial-slider__text">“Working with Aeroland is like having a family member who can fix everything! Amazing fast and reliable support!”</div>
+                                            <div class="testimonial-slider__text">“We are tracking the positions of hundreds of cells per 4-D time series, each consisting of months of in vivo imaging time points. Nearly a full week of clicking in ImageJ has been reduced to about 6 hours in syGlass.”</div>
                                             <div class="testimonial-slider--info">
                                                 <div class="post-thumbnail">
                                                     <img src="../assets/img/team/avatar-07-60x60.png" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">WEB DESIGNER</span>
+                                                    <h6 class="name">Dr. Cody Call</h6>
+                                                    <span class="designation">Johns Hopkins University</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
-                                            <div class="testimonial-slider__text">@AeroLand was unbelievably helpful to me when I need to find a responsive HTML template for my upcoming websites.</div>
+                                            <div class="testimonial-slider__text">"SyGlass' support has been nothing but amazing through this project."</div>
                                             <div class="testimonial-slider--info">
                                                 <div class="post-thumbnail">
                                                     <img src="../assets/img/team/avatar-07-60x60.png" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Abbie Ferguson</h6>
-                                                    <span class="designation">WEB DESIGNER</span>
+                                                    <h6 class="name">Dr. </h6>
+                                                    <span class="designation">Monash University</span>
                                                 </div>
                                             </div>
                                         </div>

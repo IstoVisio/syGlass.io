@@ -33,6 +33,7 @@
     }
 }
 .single-portfolio-item {
+	width: 400px;
     &:hover {
         transform: translateY(0px);
     }
@@ -131,12 +132,18 @@
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 2px;
+			width: 15vw;
         }
     }
     &:hover {
         box-shadow: 0 22px 32px rgba(51, 51, 51, 0.1);
         transform: translateY(-5px);
     }
+}
+
+.citation {
+	font-size: 14px; 
+	text-align: left;
 }
 
 .loading-item, .loading-item-4 {
@@ -191,8 +198,9 @@
 }
 
 .single-portfolio-list-item {
-    padding-bottom: 50px;
+    padding-bottom: 5px;
     margin-bottom: 50px;
+	
     & .post-info {
         & .post-categories {
             margin-bottom: 15px;
@@ -201,6 +209,7 @@
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 2px;
+			width: 200px;
         }
         &.list-item-space {
             padding-left: 30px;

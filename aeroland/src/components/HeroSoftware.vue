@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-software hero-swiper-btn section-space--pt_60" id="home">
+    <div class="hero-software hero-swiper-btn " id="home">
 
         <div class="container_f1">
             <div class="swiper-wrapper">
@@ -7,8 +7,8 @@
                     <div class="swiper-slide">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Your 3D data deserves better software</h2>
-                                <h6 class="hero-content-subtitle">Explore it naturally in virtual reality</h6>
+                                <h2 class="h1 hero-content-title">Explore (all) your data</h2>
+                                <h6 class="hero-content-subtitle">Faster time to discovery... leave no data behind</h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
@@ -21,8 +21,8 @@
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item" >
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Understand volumetric image stacks and 3D models easily</h2>
-                                <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts.</h6>
+                                <h2 class="h1 hero-content-title">Natural and intuitive interface</h2>
+                                <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts</h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
@@ -35,14 +35,28 @@
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Explore your data!</h2>
-                                <h6 class="hero-content-subtitle"></h6>
+                                <h2 class="h1 hero-content-title">Best 3D software for large data sets</h2>
+                                <h6 class="hero-content-subtitle">From MB's to tens of TB's</h6>
                                 <router-link :to="{ path: 'branding' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
                                 <img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="hero thumb">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" :style="bgImg">
+                        <div class="hero-item">
+                            <div class="hero-content">
+                                <h2 class="h1 hero-content-title">The only solution for complex 4D images </h2>
+                                <h6 class="hero-content-subtitle">Super-fast counting, tracing and tracking</h6>
+                                <router-link :to="{ path: 'branding' }" class="btn btn--green">
+                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
+                                </router-link>
+                            </div>
+                            <div class="hero-thumb pr-100">
+                                <img src="../assets/lls.gif" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>

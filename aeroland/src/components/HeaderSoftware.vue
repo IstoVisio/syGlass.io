@@ -11,8 +11,9 @@
             <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
                 <b-navbar-nav class="navbar-nav main-menu"  style="font-size: 20px;">
                     <b-nav-item href="/" class="scroll"><span>HOME</span></b-nav-item>
-                    <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
-                    <b-nav-item href="#service" class="scroll"><span>SERVICE</span></b-nav-item>
+                    <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
+                    <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
+					<b-nav-item href="#communicate" class="scroll"><span>COMMUNICATE</span></b-nav-item>
 					<b-nav-item href="#view" class="scroll"><span style="color: #44A3F2">VIEW</span></b-nav-item>
                     <b-nav-item href="#faq" class="scroll"><span>FAQ</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
