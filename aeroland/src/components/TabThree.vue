@@ -1,11 +1,11 @@
 <template>
-    <div class="tabs-wrapper section-space--pt_120 section-space--pb_60" :class="BgGradient">
+    <div class="tabs-wrapper section-space--pt_120 section-space--pb_120" :class="BgGradient">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center section-space--mb_60">
-                        <h2 class="font-weight--bold mb-15 wow move-up">Developed for Business Growth</h2>
-                        <span class="section-text wow move-up">Offer your business with the best assistance for growth.</span>
+                        <h2 class="font-weight--bold mb-15 wow move-up">Science communication re-envisioned for the 21st century</h2>
+                        <span class="section-text wow move-up">Meet with collaborators online, re-think the lab meeting, revolutionize education, re-define publication</span>
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                     <slick class="slick1 tab-slider-nav" :options="slickOptions">
                         <div class="tab-slider-nav--list wow move-up">
                             <i class="ht-slider-tab-icon fal fa-align-left"></i>
-                            <h5>Page Change Effects</h5>
+                            <h5>Create immersive lectures with syGlass Narrations</h5>
                             <p>The transition between pages is made to provide convenience for users while navigating.</p>
                         </div>
                         <div class="tab-slider-nav--list wow move-up">

@@ -75,7 +75,7 @@
             return {
 
                 swiperOption: {
-                    speed: 350,
+                    speed: 500,
                     loop: true,
                     effect: 'fade',
                     autoplay: {

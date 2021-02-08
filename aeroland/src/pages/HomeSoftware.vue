@@ -58,8 +58,10 @@
 					
         <!-- tab two components -->
         <TabTwo  id="analyze"/>
+
 		
-		<TestimonialOne />
+		
+
 
 		<div class="container" >
             <div class="row">
@@ -78,14 +80,16 @@
 				</div>
 			</div>
 
+		<TabTwo_Communicate id="communicate"/>
 
 
-		<!-- call to action component -->
+		<!-- download View call to action -->
         <CtaThree  id="view"/>
 
+		<!-- syGlass View Projects -->
 		<PortfolioGridCaption />
 		
-		<CtaOne id="communication"/>
+
 		
 		<!-- FAQ -->
         <!-- accordion section -->
@@ -116,6 +120,8 @@
                 </div>
             </div>
         </div>
+
+				<TestimonialOne />
 
 
         <!-- bannar area NEED TO FIX THE ROTATING CUBE GIF! THERE IS A SKIP AT THE END, MAKE IT ROTATE ENDLESSLY-->
@@ -149,6 +155,7 @@
 	import HeroSoftware from "../components/HeroSoftware";
 	import FeatureList from "../components/FeatureList";
 	import TabTwo from "../components/TabTwo";
+	import TabTwo_Communicate from "../components/TabTwo_Communicate";
 	import ProgressBar from "../components/ProgressBar";
 	import CurveShape from "../components/CurveShape";
 	import CtaThree from "../components/CtaThree";
@@ -200,6 +207,7 @@
             FeatureList,
 						AboutExpand,
             TabTwo,
+			TabTwo_Communicate,
             ProgressBar,
 			CurveShape,
 			BannerTwo ,
