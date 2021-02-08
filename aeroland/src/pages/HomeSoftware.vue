@@ -87,7 +87,7 @@
         <CtaThree  id="view"/>
 
 		<!-- syGlass View Projects -->
-		<PortfolioGridCaption />
+		<!-- PortfolioGridCaption -->
 		
 
 		

@@ -2,7 +2,7 @@
     <div class="tabs-wrapper section-space--pt_120" :class="BgGradient">
 	
         <div class="container">
-		<h2 class="section-title font-weight--light mb-30 wow move-up text-center section-space--mb_100">Science communication <br/>re-envisioned for the 21st century</h2>
+		<h2 class="section-title font-weight--light mtb-30 wow move-up text-center section-space--mtb_100">Science communication <br/>re-envisioned for the 21st century</h2>
 			<span class="section-text wow move-up">Meet with collaborators online, re-think the lab meeting, revolutionize education, re-define publication</span>
             <div class="row">
                 <div class="col-lg-4">
