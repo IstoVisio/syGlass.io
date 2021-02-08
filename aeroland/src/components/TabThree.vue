@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center section-space--mtb_60">
-                        <h2 class="font-weight--bold mb-15 wow move-up">Science communication re-envisioned for the 21st century HI NATHAN</h2>
+                        <h2 class="font-weight--bold mb-15 wow move-up">Science communication re-envisioned for the 21st century</h2>
                         <span class="section-text wow move-up">Meet with collaborators online, re-think the lab meeting, revolutionize education, re-define publication</span>
                     </div>
                 </div>
