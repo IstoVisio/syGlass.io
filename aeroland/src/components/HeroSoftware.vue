@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-software hero-swiper-btn " id="home">
+    <div class="hero-software hero-swiper-btn section-space--pt_60" id="home">
 
         <div class="container_f1">
             <div class="swiper-wrapper">
@@ -75,7 +75,7 @@
             return {
 
                 swiperOption: {
-                    speed: 1500,
+                    speed: 350,
                     loop: true,
                     effect: 'fade',
                     autoplay: {

@@ -1,5 +1,5 @@
 <template>
-    <div class="main-container">
+    <div class="main-container section-space--pbt_120">
 
         <router-view></router-view>
 

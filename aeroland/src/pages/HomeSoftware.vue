@@ -39,7 +39,7 @@
 		</div>
 
         
-		<div class="container">
+		<div class="container section-space--pb_120">
 			<div class="row">
 				<div class="col">
 					<img src="../assets/img/syglass/20200522095127.png" class="img-fluid" alt="hero thumb">
@@ -84,6 +84,8 @@
         <CtaThree  id="view"/>
 
 		<PortfolioGridCaption />
+		
+		<CtaOne id="communication"/>
 		
 		<!-- FAQ -->
         <!-- accordion section -->
@@ -150,6 +152,7 @@
 	import ProgressBar from "../components/ProgressBar";
 	import CurveShape from "../components/CurveShape";
 	import CtaThree from "../components/CtaThree";
+	import CtaOne from "../components/CtaOne";
 	import FunFactOne from "../components/FunFactOne";
 	import Accordion from "../components/Accordion";
 	import FooterMain from "../components/FooterMain";
@@ -201,6 +204,7 @@
 			CurveShape,
 			BannerTwo ,
 			CtaThree,
+			CtaOne,
             FunFactOne,
             Accordion,
             FooterMain,
