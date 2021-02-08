@@ -26,14 +26,9 @@
 					syGlass has a mission to help scientists, researchers, and educators like you reach your full potential by providing the tools and technology you need to explore, understand, and communicate your data.
 					</p>
 
-					<div class="video-button-container video-popup">
-						<silentbox-single src="https://youtu.be/ieCdFXgDXZ8">
-							<div class="video-play">
-								<i class="fa fa-play-circle"></i>
-								<span class="video-text">INTRO & DEMO VIDEO</span>
-							</div>
-						</silentbox-single>
-					</div>
+					<iframe width="800vw" height="500vh" src="https://www.youtube.com/embed/ieCdFXgDXZ8?autoplay=1&mute=1"/>
+
+
 				</div>
 			</div>
 		</div>

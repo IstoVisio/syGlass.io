@@ -2,22 +2,22 @@
     <div class="tabs-wrapper section-space--pt_120" :class="BgGradient">
 	
         <div class="container">
-		<h2 class="section-title font-weight--light mtb-30 wow move-up text-center section-space--mtb_100">VR enables faster analysis</h2>
+		<h2 class="section-title font-weight--light mtb-30 wow move-up text-center section-space--pb_100">VR enables faster analysis</h2>
             <div class="row">
                 <div class="col-lg-4">
 					
                     <slick class="slick1 tab-slider-nav" :options="slickOptions">
-                            <div class="tab-slider-nav--list ">
+                            <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-align-left"></i>
                                 <h5>Get to Publications Faster</h5>
                                 <p>No need to spend months quantifying your data on a 2D monitor anymore. Count, trace, track over time, and create meshes in a fraction of the time of traditional data annotation systems. </p>
                             </div>
-                            <div class="tab-slider-nav--list ">
+                            <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-rocket"></i>
                                 <h5>Better Technology, Lower Costs</h5>
                                 <p>Resources shouldn’t stand in the way of your discoveries. That’s why we provide our cutting-edge technology to researchers and educators around the world at an extremely affordable price </p>
                             </div>
-                            <div class="tab-slider-nav--list ">
+                            <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
                                 <h5>Meet With Others Online.</h5>
                                 <p>Dive deep into your data with others in MultiView, our online collaboration system..</p>
