@@ -11,8 +11,8 @@
                     <h4 class="font-weight--light mb-30" style="">Visualize Image Data <br/> and 3D Meshes</h4>
                     <ul class="check-list green-check-list section-space--mb_50">
                         <li class="list-item">Image Data: TIFF, PNG, JPEG, DICOM, <br/>VSI, OIR, IMS, CZI, ND2, and LIF files </li>
-                        <li class="list-item">Mesh Data: OBJ and STEP files </li>
-                        <li class="list-item">Supplimental Slides from Powerpoint </li>
+                        <li class="list-item">Mesh Data: OBJ, FBX, and STEP files </li>
+                        <li class="list-item">Supplemental Slides from Powerpoint </li>
                         <li class="list-item">3D Scatterplots from CSV files </li>
                     </ul>
 
