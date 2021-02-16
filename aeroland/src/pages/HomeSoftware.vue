@@ -26,7 +26,7 @@
 					syGlass has a mission to help scientists, researchers, and educators like you reach your full potential by providing the tools and technology you need to explore, understand, and communicate your data.
 					</p>
 
-					<iframe width="800vw" height="500vh" src="https://www.youtube.com/embed/ieCdFXgDXZ8?autoplay=1&mute=1"/>
+					<iframe width="90%" height="500vh" src="https://www.youtube.com/embed/ieCdFXgDXZ8?autoplay=1&mute=1&loop=1&playlist=ieCdFXgDXZ8"/>
 
 
 				</div>
@@ -51,9 +51,21 @@
 			</div>
 		</div>
 					
-        <!-- tab two components -->
-        <TabTwo  id="analyze"/>
 
+		<!-- tab conetent section -->
+        <div class="tabs-wrapper startup-tab section-space--mt_60 section-space--ptb_120" id="analyze">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
+                            <h2 class="section-title font-weight--bold mb-15">Virtual reality <br> speeds up analysis.</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- tab components -->
+               <TabOne />
+            </div>
+        </div>
 		
 		
 
@@ -164,6 +176,7 @@
 	import PortfolioGridCaption from "../pages/portfolio/PortfolioGridCaption";
 	import ContactForm from "../components/ContactForm";
 	import TestimonialOne from "../components/TestimonialOne";
+	import TabOne from "../components/TabOne";
 
 	export default {
 		data() {
@@ -200,7 +213,8 @@
 			HeaderSoftware,
 			HeroSoftware,
             FeatureList,
-						AboutExpand,
+			AboutExpand,
+			TabOne,
             TabTwo,
 			TabTwo_Communicate,
             ProgressBar,
