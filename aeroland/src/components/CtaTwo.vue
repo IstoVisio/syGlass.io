@@ -6,7 +6,7 @@
                     <div class="cta-image__content text-center">
                         <h3 class="cta-image__title mb-20">Ready to get started?</h3>
                         <div class="cta-image__text mb-40">Daily position tracking & competitor tracking, anytime, anywhere!</div>
-                        <router-link :to="{ path: 'branding' }" class="ht-btn ht-btn-md">Start free trial</router-link>
+                        <router-link :to="{ hash: 'view' }" class="ht-btn ht-btn-md">Start free trial</router-link>
                     </div>
                 </div>
             </div>
