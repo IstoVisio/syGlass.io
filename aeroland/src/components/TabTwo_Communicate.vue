@@ -14,12 +14,12 @@
                                 <p>Show off your data in a brand new medium. Your voice and actions, along with the data, can be sent to anyone in the world.</p>
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
-                                <i class="ht-slider-tab-icon fal fa-rocket"></i>
-                                <h5>Share data on syGlass Data Zoo</h5>
+                                <i class="ht-slider-tab-icon fas fa-retweet"></i>
+                                <h5>Share data on the Data Zoo</h5>
                                 <p>Browse through datasets, pull down narrations, and upload your own. The Data Zoo is a central repository for volumetric data.</p>
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
-                                <i class="ht-slider-tab-icon fal fa-chart-pie"></i>
+                                <i class="ht-slider-tab-icon fas fa-globe"></i>
                                 <h5>Meet With Others Online</h5>
                                 <p>Dive deep into your data with others in MultiView, our online collaboration system.</p>
                             </div>
@@ -32,7 +32,7 @@
                                 <img class="img-fluid" src="../assets/img/syglass/narration.png" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/syglass/20200522090256.png" alt="product-details" />
+                                <img class="img-fluid" src="../assets/img/syglass/datazoo.jpg" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
                                 <img class="img-fluid" src="../assets/img/syglass/multiview.png" alt="product-details" />
@@ -63,7 +63,7 @@ import Slick from 'vue-slick';
                 },
                 slickOptions2: {
                     autoplay: true,
-					autoplaySpeed: 3000,
+					autoplaySpeed: 5000,
                     arrows: false,
                     fade:true,
                     dots:true,

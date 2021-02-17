@@ -79,7 +79,7 @@
                     loop: true,
                     effect: 'fade',
                     autoplay: {
-					delay: 4000 },
+					delay: 5000 },
                     spaceBetween : 30,
                     navigation: {
                         nextEl: '.swiper-button-next',
