@@ -78,7 +78,7 @@
 
 		
 		<!-- FAQ -->
-        <!-- accordion section -->
+        <!-- accordion section >
         <div class="software-accordion-wrapper section-space--pt_120 " id="faq">
             <div class="container">
                 <div class="row">
@@ -93,7 +93,7 @@
                     <div class="col">
                         <div class="faq-wrapper">
                             <!-- accordion component -->
-                            <Accordion />
+                            <!--Accordion />
                         </div>
                     </div>
 					<div class="col">
@@ -105,9 +105,9 @@
 					</div>
                 </div>
             </div>
-        </div>
+        </div-->
 
-				<TestimonialOne />
+				<!--TestimonialOne /-->
 
 
         <!-- bannar area NEED TO FIX THE ROTATING CUBE GIF! THERE IS A SKIP AT THE END, MAKE IT ROTATE ENDLESSLY-->
@@ -156,6 +156,7 @@
 	import ContactForm from "../components/ContactForm";
 	import TestimonialOne from "../components/TestimonialOne";
 	import TabOne from "../components/TabOne";
+	import view from "../pages/view";
 
 	export default {
 		data() {
