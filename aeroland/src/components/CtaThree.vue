@@ -14,10 +14,12 @@ syGlass View is a free version of syGlass that is redefining the communication o
 
 
 Explore image volumes provided by scientists and educators around the world in virtual reality.
-</div>
-                                    <router-link to="view" class="btn btn--green wow move-up">
+                                    </div>
+                                    <a href="../src/assets/img/syglass/analysis.png" download > 
+                                    <button class="btn btn--green wow move-up">
                                         <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass View
-                                    </router-link>
+                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2">
