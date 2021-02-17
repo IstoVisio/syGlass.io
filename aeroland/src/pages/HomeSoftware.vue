@@ -43,7 +43,7 @@
 					<img src="../assets/img/syglass/20200522163458.png" class="img-fluid" alt="hero thumb">
 				</div>
 				<div class="col">
-					<img src="../assets/img/syglass/2020-05-22_10-11-33.png" class="img-fluid" alt="hero thumb">
+					<img src="../assets/img/syglass/2021-02-11_15-20-34.png" class="img-fluid" alt="hero thumb">
 				</div>
 				<div class="col" >
 					<img src="../assets/img/syglass/20200521232011.png" class="img-fluid" alt="hero thumb">
@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-wrapper text-center section-space--mb_60 wow move-up">
-                            <h2 class="section-title font-weight--bold mb-15">Virtual reality <br> speeds up analysis.</h2>
+                            <h2 class="section-title font-weight--bold mb-15">Increased throughput and accuracy with syGlass</h2>
                         </div>
                     </div>
                 </div>
@@ -67,29 +67,8 @@
             </div>
         </div>
 		
-		
-
-
-		<div class="container" >
-            <div class="row">
-                    <div class="col">
-						<img src="../assets/img/syglass/20200522090256.png" class="img-fluid" alt="hero thumb">
-					</div>
-					<div class="col">
-						<img src="../assets/img/syglass/2020-05-22_10-10-43.png" class="img-fluid" alt="hero thumb">
-					</div>
-					<div class="col">
-						<img src="../assets/img/syglass/20181022162002.png" class="img-fluid" alt="hero thumb">
-					</div>
-					<div class="col">
-						<img src="../assets/img/syglass/2020-05-20_11-57-50.png" class="img-fluid" alt="hero thumb">
-					</div>
-				</div>
-			</div>
-
 		<TabTwo_Communicate id="communicate"/>
-
-
+	
 		<!-- download View call to action -->
         <CtaThree  id="view"/>
 
