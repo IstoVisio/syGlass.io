@@ -9,7 +9,7 @@
 			<img src="../assets/img/syglass/occulus.png" class="swiper-landing-image" style="text-align: center; margin-top: 105px;" height="400">
 			<h1 style="margin-top: 35px;">Welcome to syGlass</h1>
 		</div-->
-
+		<div id="home" />
 		<!-- hero section -->
 		<HeroSoftware />
 		

@@ -10,7 +10,7 @@
             </b-btn-group>
             <b-collapse class="default-nav justify-content-center"  is-nav >
                 <b-navbar-nav class="main-menu"  style="font-size: 20px;">
-                    <b-nav-item href="/" class="scroll"><span>HOME</span></b-nav-item>
+                    <b-nav-item href="#home" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
                     <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
 					<b-nav-item href="#communicate" class="scroll"><span>COMMUNICATE</span></b-nav-item>
