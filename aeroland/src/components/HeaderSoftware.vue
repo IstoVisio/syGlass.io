@@ -1,15 +1,15 @@
 <template>
     <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
-            <b-navbar-toggle target="nav_collapse" class="justify-content-center"></b-navbar-toggle>
+            
 			<b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
             <b-btn-group class="header-config-wrapper" style="margin-left: -190px">
                 <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
-                <b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
-                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link>
+                <!--b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
+                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link-->
             </b-btn-group>
-            <b-collapse class="default-nav justify-content-center"  is-nav id="nav_collapse">
-                <b-navbar-nav class="navbar-nav main-menu"  style="font-size: 20px;">
+            <b-collapse class="default-nav justify-content-center"  is-nav >
+                <b-navbar-nav class="main-menu"  style="font-size: 20px;">
                     <b-nav-item href="/" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
                     <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
