@@ -83,7 +83,7 @@
         mounted () {
             if (typeof this.$redrawVueMasonry === 'function') {
                 this.$redrawVueMasonry()
-            };
+            }
 
             this.onLoad();
         },

@@ -158,24 +158,13 @@
 <script>
 	import HeaderSoftware from "../components/HeaderSoftware";
 	import HeroSoftware from "../components/HeroSoftware";
-	import FeatureList from "../components/FeatureList";
-	import TabTwo from "../components/TabTwo";
 	import TabTwo_Communicate from "../components/TabTwo_Communicate";
-	import ProgressBar from "../components/ProgressBar";
-	import CurveShape from "../components/CurveShape";
 	import CtaThree from "../components/CtaThree";
 	import CtaOne from "../components/CtaOne";
-	import FunFactOne from "../components/FunFactOne";
-	import Accordion from "../components/Accordion";
 	import FooterMain from "../components/FooterMain";
 	import OffcanvasSearchBox from "../components/OffcanvasSearchBox";
-	import AboutExpand from "../components/AboutExpand";
-	import BannerTwo from "../components/BannerTwo";
-	import PortfolioGridCaption from "../pages/portfolio/PortfolioGridCaption";
 	import ContactForm from "../components/ContactForm";
-	import TestimonialOne from "../components/TestimonialOne";
 	import TabOne from "../components/TabOne";
-	import view from "../pages/view";
 
 	export default {
 		data() {
@@ -211,23 +200,13 @@
 		components: {
 			HeaderSoftware,
 			HeroSoftware,
-            FeatureList,
-			AboutExpand,
 			TabOne,
-            TabTwo,
 			TabTwo_Communicate,
-            ProgressBar,
-			CurveShape,
-			BannerTwo ,
 			CtaThree,
 			CtaOne,
-            FunFactOne,
-            Accordion,
             FooterMain,
             OffcanvasSearchBox	,
 			ContactForm,
-			PortfolioGridCaption,
-			TestimonialOne
 		}
 	};
 </script>

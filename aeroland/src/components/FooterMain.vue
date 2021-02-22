@@ -27,28 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright-area ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center text-md-left">
-                        <span class="copyright-text">© 2020 IstoVisio, Inc. All Rights Reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-right">
-                        <ul class="list ht-social-networks solid-rounded-icon">
-                            <li class="item">
-                                <a href="https://www.facebook.com/" target="_blank" class="social-link"> <i class="fab fa-facebook social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://twitter.com/" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://www.instagram.com/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </template>
 
