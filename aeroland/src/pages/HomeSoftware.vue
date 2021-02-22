@@ -12,27 +12,7 @@
 		<div id="home" />
 		<!-- hero section -->
 		<HeroSoftware />
-		
-		<div class="footer-copyright-area ">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-md-6 text-center text-md-right">
-                        <ul class="list ht-social-networks">
-                            <li class="item">
-                                <a href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link"> <i class="fab fa-linkedin-in social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://twitter.com/syGlassVR" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+	
 
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pt_120 "  id="visualize" >

@@ -8,6 +8,17 @@
                 <!--b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
                 <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link-->
             </b-btn-group>
+                        <ul class="list ht-social-networks" style="margin-left: 40px; margin-right: 40px">
+                            <li class="item">
+                                <a href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link"> <i class="fab fa-linkedin-in social-link-icon"></i> </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://twitter.com/syGlassVR" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
+                            </li>
+                        </ul>
             <b-collapse class="default-nav justify-content-center"  is-nav >
                 <b-navbar-nav class="main-menu"  style="font-size: 20px;">
                     <b-nav-item to= "/" href="#home" class="scroll"><span>HOME</span></b-nav-item>
@@ -15,7 +26,6 @@
                     <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
 					<b-nav-item href="#communicate" class="scroll"><span>COMMUNICATE</span></b-nav-item>
 					<b-nav-item href="#view" class="scroll"><span style="color: #44A3F2">VIEW</span></b-nav-item>
-                    <b-nav-item href="#faq" class="scroll"><span>FAQ</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>

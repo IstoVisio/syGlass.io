@@ -21,7 +21,7 @@
                     <div class="swiper-slide" >
                         <div class="hero-item" >
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Natural and intuitive interface</h2>
+                                <h2 class="h1 hero-content-title">Natural and <br/>intuitive interface</h2>
                                 <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
@@ -35,7 +35,7 @@
                     <div class="swiper-slide" >
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Best 3D software for large data sets</h2>
+                                <h2 class="h1 hero-content-title">Best 3D software for <br/> large data sets</h2>
                                 <h6 class="hero-content-subtitle">From MB's to tens of TB's</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
@@ -49,7 +49,7 @@
                     <div class="swiper-slide" >
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">The only solution for complex 4D images </h2>
+                                <h2 class="h1 hero-content-title">The only solution <br/> for complex 4D images </h2>
                                 <h6 class="hero-content-subtitle">Track hundereds of objects through time!</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
