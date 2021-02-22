@@ -2,14 +2,13 @@
     <div class="footer-area-wrapper section-space--pb_60" :class="FooterStyle">
         <div class="footer-area">
             <div class="container">
-                <div class="row footer-widget-wrapper">
-                    <div class="col-lg-4 col-md-6 footer-widget">
-                        <div class="footer-widget__logo mb-30">
+                <div class="text-center">
+                        <div class="text-center">
                             <router-link to="/">
-                                <img src="../assets/img/syglass/Artboardx.png" class="img-fluid logo-dark" alt="logo">
+                                <img src="../assets/img/syglass/Artboardx.png" class="img-fluid logo-dark" style="width: 20vw; min-width: 330px;" alt="logo">
                             </router-link>
-                        </div>
-                        <ul class="footer-widget__list">
+                        </div class="text-center">
+                        <ul class="footer-widget__list text-center">
                             <li>128 Fountain View, Morgantown, WV 26505</li>
                             <li>
                                 <a href="mailto:info@syglass.io" class="hover-style-link">info@syglass.io</a>
@@ -22,9 +21,6 @@
                             </li>
                         </ul>
                     </div>
-
-
-                </div>
             </div>
         </div>
 
