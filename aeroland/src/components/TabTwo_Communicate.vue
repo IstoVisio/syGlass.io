@@ -62,8 +62,6 @@ import Slick from 'vue-slick';
                     asNavFor: '.slick2'
                 },
                 slickOptions2: {
-                    autoplay: true,
-					autoplaySpeed: 5000,
                     arrows: false,
                     fade:true,
                     dots:true,

@@ -9,12 +9,8 @@
                 <!-- tab content two component -->
                 <TabContentTwo /> 
             </b-tab>
-            <b-tab title="Export" class="cyclebutton">
-                <!-- tab content third component -->
-                <TabContentThree /> 
-            </b-tab>
             <b-tab @click="scrollToElement" title="Share" class="cyclebutton">
-                <TabContentThree /> 
+                <TabContentTwo />  
             </b-tab>
         </b-tabs>
         
@@ -41,14 +37,12 @@
 <script>
     import TabContentOne from '../components/TabContentOne'
     import TabContentTwo from '../components/TabContentTwo'
-    import TabContentThree from '../components/TabContentThree'
 
     export default {
         name: 'TabOne',
         components: {
             TabContentOne,
             TabContentTwo,
-            TabContentThree
         },
         data: function ()  {
             return {
@@ -64,19 +58,12 @@
                 el.scrollIntoView({behavior: 'smooth'});
                 }
             },
-            getNotifications() {
-                this.$data.tabIndex = this.$data.tabIndex + 1;
-                if (this.$data.tabIndex > 2) { this.$data.tabIndex = 0;}
-            }
+
         },
         mounted() {
             this.scrollToElement()
-        },
-        mounted: function () {
-        window.setInterval(() => {
-            this.getNotifications()
-        }, 6000)
         }
+        
 
     };   
 </script>
