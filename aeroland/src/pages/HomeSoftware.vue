@@ -25,7 +25,7 @@
 						
 						Our mission is to help scientists explore their data more creatively and understand and communicate their findings more efficiently.</p>
 
-					<iframe width="90%" src="https://www.youtube.com/embed/kSHqWX0cKbs?autoplay=1&controls=1&modestbranding&mute=1&loop=1&playlist=kSHqWX0cKbs"/>
+					<iframe class="mainvid" src="https://www.youtube.com/embed/kSHqWX0cKbs?autoplay=1&controls=1&modestbranding&mute=1&loop=1&playlist=kSHqWX0cKbs"/>
 
 
 				</div>
