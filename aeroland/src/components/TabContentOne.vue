@@ -8,8 +8,9 @@
             </div>
             <div class="col-lg-5">
                 <div class="tab-content-inner">
-                    <h4 class="font-weight--light mb-30" style="">Visualize Image Data <br/> and 3D Meshes Together</h4>
+                    <h4 class="font-weight--light mb-30" style="">Load your data from <br/>almost any source</h4>
                     <ul class="check-list green-check-list section-space--mb_50">
+                        <li class="list-item">Visualize image data and 3D meshes together </li>
                         <li class="list-item">Image Data: TIFF, PNG, JPEG, DICOM, <br/>VSI, OIR, IMS, CZI, ND2, and LIF files </li>
                         <li class="list-item">Mesh Data: OBJ, FBX, and STEP files </li>
                         <li class="list-item">Supplemental Slides from Powerpoint </li>

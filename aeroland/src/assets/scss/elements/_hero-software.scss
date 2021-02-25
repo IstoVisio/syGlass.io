@@ -52,7 +52,8 @@
             font-size: 42px;
         }
         @media #{$extra-small-mobile}{
-            font-size: 24px;
+            font-size: 20px;
+			width: 320px;
         }
     }
     &-content-subtitle {
@@ -70,19 +71,48 @@
 			padding-top: 20px;
 
             // responsive
-            @media #{$tablet-device, $large-mobile}{
-                width: 450px;
+			@media (min-width:1281px){
+				width: 100vh;
+				height: 60vh;
                 margin: 0 auto;
+                padding-right: 100px;
+                padding-top: 50px;
+			}
+            @media #{$tablet-device, $large-mobile}{
+                width: 60vh;
+                margin: 0 auto;
+				height: 60vh;
                 padding-right: 0;
                 padding-top: 50px;
 				
             }
             @media #{$small-mobile}{
-                width: 100%;
+                width: 50vh;
+				height: 100%;
                 padding: 50px 15px 0;
-            }
+            }			
         }
     }
+}
+
+.vid {
+	@media (min-width: 599px) {
+	}
+	@media (max-width: 600px) {
+		width: 0px;
+		height:0px;
+	}
+}
+
+.img {
+	@media (max-width: 599px) {
+
+	}
+	@media (min-width: 600px) {
+		width: 0px;
+		height:0px;
+
+	}
 }
 
 // slider text animation

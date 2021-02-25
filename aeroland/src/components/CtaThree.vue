@@ -24,7 +24,7 @@ Explore image volumes provided by scientists and educators around the world in v
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="cta-image_two section-space--mt_60 wow move-up">
-                                    <img src="../assets/img/syglass/occulus.png" class="img-fluid">
+                                    <img src="../assets/img/syglass/Artboard 1hero.png" class="img-fluid">
                                 </div>
                             </div>
                         </div>

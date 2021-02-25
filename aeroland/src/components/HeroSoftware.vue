@@ -27,22 +27,24 @@
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
-                            <div class="hero-thumb">
-                                <img src="../assets/img/syglass/VR 06_Cutplane.00_07_45_20.Still001.jpg" class="img-fluid" alt="hero thumb">
+                            <div class="hero-thumb pr-100">
+                                    <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/JRHT00eKk_A?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=JRHT00eKk_A"/>
+                                    <img class="img img-fluid" src="../assets/img/syglass/flyfly.png" alt="hero thumb">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" >
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Best 3D software for <br/> large data sets</h2>
+                                <h2 class="h1 hero-content-title">Best 3D software for large data sets</h2>
                                 <h6 class="hero-content-subtitle">From MB's to tens of TB's</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/2020-05-22_17-08-53.png" class="img-fluid" alt="hero thumb">
+                                <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/oxIcieQlguw?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=oxIcieQlguw"/>
+                                <img class="img img-fluid" src="../assets/img/syglass/bigbrain.png" alt="hero thumb">
                             </div>
                         </div>
                     </div>
@@ -79,7 +81,7 @@
                     loop: true,
                     effect: 'fade',
                     autoplay: {
-					delay: 5000 },
+					delay: 8000 },
                     spaceBetween : 30,
                     navigation: {
                         nextEl: '.swiper-button-next',
