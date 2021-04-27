@@ -1,5 +1,5 @@
 {
-  "name": "aeroland",
+  "name": "syGlass",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -47,7 +47,8 @@
     ],
     "rules": {},
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "babel-eslint",
+      "no-console": "off"
     }
   },
   "postcss": {

@@ -28,13 +28,15 @@
     &__text{
         font-size: 18px;
         color: #fff;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 
     &__author{
         .name{
             color: $theme-color--black;
-            margin-bottom: 10px;
+            bottom: 0;
+            position:fixed;
+            width:100%;
         }
         .designation{
             font-style: italic;
@@ -88,7 +90,7 @@
                 font-size: 18px;
                 line-height: 2;
                 color: #fff;
-                margin-bottom: 0;
+                bottom: 0;
             }
             & .designation {
                 display: inline-block;

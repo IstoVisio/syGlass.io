@@ -14,7 +14,7 @@
             </b-tab>
         </b-tabs>
         
-        <div class="container section-space--pt_120" >
+        <div class="container" >
          
             <div class="scroll-to-me"> </div>
         </div>

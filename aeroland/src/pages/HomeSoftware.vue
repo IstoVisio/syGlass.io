@@ -13,7 +13,7 @@
 		<!-- hero section -->
 		<HeroSoftware />
 	
-
+		<TestimonialOne />
         <!-- business analytics start -->
         <div class="feature-icon-list-area section-space--pt_120 "  id="visualize" >
             <div class="container">
@@ -104,7 +104,7 @@ When you purchase a license, you gain the collaborative syGlass team, readily av
 			</div>
 		</div>
 
-		<TestimonialOne />
+		
 
 
 		<ContactForm />
