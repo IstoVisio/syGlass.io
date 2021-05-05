@@ -7,22 +7,22 @@
                     <div class="swiper-slide">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Explore (all) your data</h2>
-                                <h6 class="hero-content-subtitle">Faster time to discovery... leave no data behind</h6>
+                                <h2 class="h1 hero-content-title">The new medium of scientific discovery and communication</h2>
+                                <h6 class="hero-content-subtitle"></h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/image (4).png" class="img-fluid" width="100%" alt="hero thumb">
+                                <img src="../assets/img/syglass/presentation.png" class="img-fluid" width="100%" alt="hero thumb">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" >
                         <div class="hero-item" >
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Natural and <br/>intuitive interface</h2>
-                                <h6 class="hero-content-subtitle">syGlass doesn't require users to be experts</h6>
+                                <h2 class="h1 hero-content-title">Grab and view your data in 3D</h2>
+                                <h6 class="hero-content-subtitle"></h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
@@ -36,7 +36,7 @@
                     <div class="swiper-slide" >
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Best 3D software for large data sets</h2>
+                                <h2 class="h1 hero-content-title">Handle massive datasets</h2>
                                 <h6 class="hero-content-subtitle">From MB's to tens of TB's</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
