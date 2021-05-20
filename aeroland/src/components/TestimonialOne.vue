@@ -112,7 +112,7 @@
         data () {
             return {
                 swiperOption: {
-                    speed: 800,
+                    speed: 1200,
                     loop: true,
                     autoplay: true,
                     slidesPerView: 3,

@@ -29,6 +29,7 @@
         font-size: 18px;
         color: #fff;
         margin-bottom: 50px;
+        font-style: italic;
     }
 
     &__author{
@@ -37,6 +38,7 @@
             bottom: 0;
             position:fixed;
             width:100%;
+            font-style: normal;
         }
         .designation{
             font-style: italic;
@@ -91,6 +93,7 @@
                 line-height: 2;
                 color: #fff;
                 bottom: 0;
+                font-style: normal;
             }
             & .designation {
                 display: inline-block;
