@@ -15,7 +15,7 @@ syGlass View is a free version of syGlass that is redefining the communication o
 
 Explore image volumes provided by scientists and educators around the world in virtual reality.
                                     </div>
-                                    <a href="../src/assets/img/syglass/analysis.png" download > 
+                                    <a href="https://www.syglass.io/view" > 
                                     <button class="btn btn--green wow move-up">
                                         <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass View
                                     </button>
