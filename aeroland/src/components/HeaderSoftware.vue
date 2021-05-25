@@ -2,7 +2,8 @@
     <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
             
-			<b-navbar-brand class="navbar-brand" to="/"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
+			<!--b-navbar-brand to="/" class="navbar-brand"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand> -->
+            <b-navbar-brand to="/" href="#home" class="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
             <b-btn-group class="header-config-wrapper" style="margin-left: -190px">
                 <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
                 <!--b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
@@ -21,7 +22,7 @@
                         </ul>
             <b-collapse class="default-nav justify-content-center"  is-nav >
                 <b-navbar-nav class="main-menu"  style="font-size: 20px;">
-                    <b-nav-item to= "/" href="#home" class="scroll"><span>HOME</span></b-nav-item>
+                    <b-nav-item tag="li" to= "/" href="#home" class="scroll"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
                     <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
 					<b-nav-item href="#communicate" class="scroll"><span>COMMUNICATE</span></b-nav-item>
@@ -73,7 +74,11 @@
                 }, 800);
             }
         },
+
         methods: {
+            scrollToTop() {
+                window.scrollTo(0, 0);
+            },
             // sticky menu script
             handleScroll() {
                 if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {

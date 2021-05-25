@@ -52,7 +52,7 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">The best solution <br/> for time-lapse data </h2>
-                                <h6 class="hero-content-subtitle">Track hundereds of objects through time</h6>
+                                <h6 class="hero-content-subtitle">Track hundreds of objects through time</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>

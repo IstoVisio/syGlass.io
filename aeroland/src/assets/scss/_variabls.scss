@@ -5,7 +5,7 @@ $theme-color--default: #44A3F2;
 $theme-color--heading: #ffffff;
 $theme-color--black: #ffffff;
 $theme-color--green: #ffffff;
-$theme-color-sub--heading: #fffff;
+$theme-color-sub--heading: #fffffF;
 $transition--default: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 $gradient--default: linear-gradient(218deg,#44A3F2 0,#44A3F2 50%,#44A3F2 100%);
 $gradient--default-two: linear-gradient(-259deg,#5E60E7 0,#9C7AF2 65%);
@@ -35,8 +35,6 @@ $body-bg-color: $white;
 // Heading Text
 $heading-text-color: $theme-color--heading;
 $heading-font-weight: 500;
-
-
 
 
 // Other Colors
@@ -117,6 +115,4 @@ $tablet-device:'only screen and (min-width: 768px) and (max-width: 991px)';
 $large-mobile:'only screen and (max-width: 767px)';
 $small-mobile: 'only screen and (max-width: 575px)';
 $extra-small-mobile: 'only screen and (max-width: 479px)';
-
-
 
