@@ -12,18 +12,18 @@
 
 <div class="row">
 
-    <div class="col-lg-4">
+    <div class="col-lg-4 d-none d-lg-block">
                     <slick class="slick1 tab-slider-nav"
                         :options="slickOptions">
                             <div class="tab-slider-nav--list wow move-up">
                                 <div class="image text-center">
-                                    <img class="img-fluid" src="../assets/img/Workstation.png">
+                                    <img class="img-fluid" src="../assets/img/Workstation3.png">
                                 </div>
                                <!--<h5>PC Recommendations</h5>-->
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
                                 <div class="image text-center">
-                                    <img class="img-fluid" src="../assets/img/VRSystem.png">
+                                    <img class="img-fluid" src="../assets/img/VRSystem2.png">
                                 </div>
                                 <!--<h5>Headset Compatibilities</h5>-->
                             </div>
@@ -106,7 +106,7 @@ export default {
 }
 
 .container-fluid {
-    padding-left: 170px;
+    padding-left: 70px;
     padding-right: 70px;
 }
 
@@ -114,7 +114,15 @@ export default {
     width: fit-content;
 }
 
-.text-center {
-    text-align: left !important;
+.col-lg-8 {
+    padding-left: 55px;
 }
+
+.col-lg-4 {
+    padding-left: 140px;
+}
+
+/**.text-center {
+    text-align: left !important;
+}*/
 </style>

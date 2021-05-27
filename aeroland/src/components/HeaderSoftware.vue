@@ -31,8 +31,8 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             
             <div class ="container-fluid">
-            <b-collapse id="nav-collapse" is-nav >
-                <b-navbar-nav toggleable="md" class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
+            <b-collapse id="nav-collapse" class="c" is-nav >
+                <b-navbar-nav class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
                     <b-nav-item to= "/" tag="li" href="#home" class="scroll" id="b"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
                     <b-nav-item href="#analyze" class="scroll" ><span>ANALYZE</span></b-nav-item>
@@ -50,6 +50,7 @@
 
 <script>
     export default {
+
         name:'HeaderSoftware',
         data (){
             return {
@@ -145,7 +146,11 @@
         },
         destroyed() {
             window.removeEventListener("scroll", this.handleScroll);
-        },
+        }, navBar(){
+            if(document.getElementsByClassName('not-collapsed').clicked == true){
+                document.getElementById('')
+            }
+        }
     }
 </script>
 
@@ -155,14 +160,18 @@
         color: white;
     }
 
-    .navbar .container {
+    /** .navbar .container {
         flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
+        justify-content: space-evenly;
+        align-items:baseline;
+
+    }*/
 
     .navbar .container-fluid {
         flex-wrap: nowrap;
         /**justify-content: center;*/
+        justify-content: space-evenly;
+        align-items:baseline;
     }
 
     .header-area.is-sticky .main-menu li .nav-link {
@@ -194,4 +203,12 @@
         margin-right: 2rem;
     }
 
+    .navbar-dark .navbar-toggler {
+    color: black;
+    border-color: rgba(243, 122, 122, 0.1);
+    }
+
+    [aria-expanded="false"] {
+    background-color: transparent;
+}
 </style>

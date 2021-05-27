@@ -4,9 +4,10 @@
             <div class="container">
                 <div class="text-center">
                         <div class="text-center">
-                            <router-link to="/">
+                            <b-navbar-brand to="/" href="#home" id="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
+                            <!--<router-link to="/">
                                 <img src="../assets/img/syglass/Artboardx.png" class="img-fluid logo-dark" style="width: 20vw; min-width: 330px;" alt="logo">
-                            </router-link>
+                            </router-link>-->
                         </div class="text-center">
                         <ul class="footer-widget__list text-center">
                             <li>128 Fountain View, Morgantown, WV 26505</li>
@@ -30,6 +31,24 @@
 <script>
     export default {
         name: 'FooterMain',
-        props: ["FooterStyle"]
+        props: ["FooterStyle"],
+        data (){
+            return {
+                load: false,
+                limitPosition: 200,
+                scrolled: false,
+                lastPosition: 500,
+            }
+        },  methods: {
+            scrollToTop(){
+                window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+                });
+            }
+
+        }
     }
+    
 </script>
