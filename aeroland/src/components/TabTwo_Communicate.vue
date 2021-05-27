@@ -46,7 +46,6 @@
 
 <script>
 import Slick from 'vue-slick';
-
     export default {
         name: 'TabTwo',
         props: ["BgGradient"],

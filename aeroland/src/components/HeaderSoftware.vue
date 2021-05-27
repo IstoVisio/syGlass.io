@@ -1,14 +1,15 @@
 <template>
     <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
-            
 			<!--b-navbar-brand to="/" class="navbar-brand"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand> -->
-            <b-navbar-brand to="/" href="#home" class="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
-            <b-btn-group class="header-config-wrapper" style="margin-left: -190px">
-                <!-- <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
+            <div class= "container-fluid">
+            <b-navbar-brand to="/" href="#home" id="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
+           <!-- <b-btn-group class="header-config-wrapper" style="margin-left: -190px">
+                 <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
                 <!--b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
-                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link-->
-            </b-btn-group>
+                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link </b-btn-group>-->
+            
+            <!--
                         <ul class="list ht-social-networks" style="margin-left: 40px; margin-right: 40px">
                             <li class="item">
                                 <a href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link"> <i class="fab fa-linkedin-in social-link-icon"></i> </a>
@@ -19,18 +20,30 @@
                             <li class="item">
                                 <a href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
                             </li>
-                        </ul>
-            <b-collapse class="default-nav justify-content-center"  is-nav >
-                <b-navbar-nav class="main-menu"  style="font-size: 20px;">
-                    <b-nav-item tag="li" to= "/" href="#home" class="scroll"><span>HOME</span></b-nav-item>
+                        </ul>-->
+            <b-list-group horizontal>
+            <b-list-group-item href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link item flex-fill"> <i class="fab fa-linkedin-in social-link-icon"></i></b-list-group-item>
+            <b-list-group-item href="https://twitter.com/syGlassVR" target="_blank" class="social-link item flex-fill"> <i class="fab fa-twitter social-link-icon"></i></b-list-group-item>
+            <b-list-group-item href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link item flex-fill"> <i class="fab fa-instagram social-link-icon"></i></b-list-group-item>
+            </b-list-group>
+                    </div>
+
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            
+            <div class ="container-fluid">
+            <b-collapse id="nav-collapse" is-nav >
+                <b-navbar-nav toggleable="md" class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
+                    <b-nav-item to= "/" tag="li" href="#home" class="scroll" id="b"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
-                    <b-nav-item href="#analyze" class="scroll"><span>ANALYZE</span></b-nav-item>
+                    <b-nav-item href="#analyze" class="scroll" ><span>ANALYZE</span></b-nav-item>
 					<b-nav-item href="#communicate" class="scroll"><span>COMMUNICATE</span></b-nav-item>
 					<b-nav-item href="#view" class="scroll"><span style="color: #44A3F2">VIEW</span></b-nav-item>
+                    <b-nav-item href="#requirements" class="scroll"><span>REQUIREMENTS</span></b-nav-item>
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
+            </div>
         </div>
     </b-navbar>
 </template>
@@ -64,6 +77,14 @@
                 if (!targetAnchor) return;
                 const originalTop = distanceToTop(targetAnchor);
                 window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
+
+                /*
+                if (distanceToTop<10) {
+                    document.getElementById("b").id = "bootstrap-overrides";
+                } else {
+                    document.getElementById("bootstrap-overrides").id = "b";
+                }*/
+
                 const checkIfDone = setInterval(function() {
                     const atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 190;
                     if (distanceToTop(targetAnchor) === 0 || atBottom) {
@@ -72,12 +93,28 @@
                         clearInterval(checkIfDone);
                     }
                 }, 800);
+
             }
         },
 
         methods: {
-            scrollToTop() {
-                window.scrollTo(0, 0);
+            scrollToTop(){
+                window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+                });
+            },
+
+
+            homeInactive(){
+                document.getElementById("b").id = "bootstrap-overrides";
+                  /** 
+                if (this.getAttribute('href') != '#home') {
+                    homeInactive();
+                } else {
+                    this.getAttribute('href').id="bootstrap-overrides";
+                }*/
             },
             // sticky menu script
             handleScroll() {
@@ -111,3 +148,50 @@
         },
     }
 </script>
+
+
+<style scoped>
+    #bootstrap-overrides a.router-link-exact-active {
+        color: white;
+    }
+
+    .navbar .container {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar .container-fluid {
+        flex-wrap: nowrap;
+        /**justify-content: center;*/
+    }
+
+    .header-area.is-sticky .main-menu li .nav-link {
+    padding: 30px 10px;
+}
+
+    .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border: transparent;
+    }
+
+    .list-group-item-action {
+    width: 100%;
+    color: #b5b5b5;
+    text-align: inherit;
+    }
+
+    .list-group-item-action:hover {
+    z-index: 1;
+    color: #44A3F2;
+    text-decoration: none;
+    background-color: transparent;
+    }
+
+    .navbar-brand {
+        margin-right: 2rem;
+    }
+
+</style>
