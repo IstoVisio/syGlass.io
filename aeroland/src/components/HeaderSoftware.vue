@@ -1,26 +1,8 @@
 <template>
     <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
-			<!--b-navbar-brand to="/" class="navbar-brand"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand> -->
-            <div class= "container-fluid">
+            <div class= "container">
             <b-navbar-brand to="/" href="#home" id="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
-           <!-- <b-btn-group class="header-config-wrapper" style="margin-left: -190px">
-                 <b-btn class="header-config"><i class="fa fa-shopping-cart"></i></b-btn> -->
-                <!--b-btn class="header-config" @click="toggleClass('addClass', 'active')"><i class="far fa-search"></i></b-btn>
-                <b-link class="ht-btn ht-btn--outline hire-btn d-none d-xl-block">Get syGlass</b-link </b-btn-group>-->
-            
-            <!--
-                        <ul class="list ht-social-networks" style="margin-left: 40px; margin-right: 40px">
-                            <li class="item">
-                                <a href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link"> <i class="fab fa-linkedin-in social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://twitter.com/syGlassVR" target="_blank" class="social-link"> <i class="fab fa-twitter social-link-icon"></i> </a>
-                            </li>
-                            <li class="item">
-                                <a href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link"> <i class="fab fa-instagram social-link-icon"></i> </a>
-                            </li>
-                        </ul>-->
             <b-list-group horizontal>
             <b-list-group-item href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link item flex-fill"> <i class="fab fa-linkedin-in social-link-icon"></i></b-list-group-item>
             <b-list-group-item href="https://twitter.com/syGlassVR" target="_blank" class="social-link item flex-fill"> <i class="fab fa-twitter social-link-icon"></i></b-list-group-item>
@@ -30,8 +12,9 @@
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             
-            <div class ="container-fluid">
-            <b-collapse id="nav-collapse" class="c" is-nav >
+            <!--
+            <div class ="container-fluid" id="no-wrap">-->
+            <b-collapse id="nav-collapse" is-nav >
                 <b-navbar-nav class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
                     <b-nav-item to= "/" tag="li" href="#home" class="scroll" id="b"><span>HOME</span></b-nav-item>
                     <b-nav-item href="#visualize" class="scroll"><span>VISUALIZE</span></b-nav-item>
@@ -44,7 +27,7 @@
                 </b-navbar-nav>
             </b-collapse>
             </div>
-        </div>
+        <!--</div>-->
     </b-navbar>
 </template>
 
@@ -147,8 +130,10 @@
         destroyed() {
             window.removeEventListener("scroll", this.handleScroll);
         }, navBar(){
-            if(document.getElementsByClassName('not-collapsed').clicked == true){
-                document.getElementById('')
+            if(document.getElementsByClassName('not-collapsed')){
+                document.getElementByClassName('container-fluid').id = "wrap";
+            } else {
+                document.getElementByClassName('container-fluid').id="no-wrap";
             }
         }
     }
@@ -160,12 +145,12 @@
         color: white;
     }
 
-    /** .navbar .container {
+    .navbar .container {
         flex-wrap: nowrap;
         justify-content: space-evenly;
         align-items:baseline;
 
-    }*/
+    }
 
     .navbar .container-fluid {
         flex-wrap: nowrap;
@@ -210,5 +195,22 @@
 
     [aria-expanded="false"] {
     background-color: transparent;
+    }
+
+    .navbar.header-area {
+    background-color: black;
+    }
+    
+    .navbar-collapse {
+    flex-basis: 0;
+    flex-grow: 0; 
 }
+
+    .container-fluid #no-wrap {
+        flex-wrap: nowrap;
+    }
+
+    .container-fluid #wrap {
+        flex-wrap: nowrap;
+    }
 </style>

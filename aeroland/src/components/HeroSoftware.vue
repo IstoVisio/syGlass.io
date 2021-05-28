@@ -96,4 +96,8 @@
 <style lang="scss" scoped>
     @import '../assets/scss/variabls.scss';
     @import '../assets/scss/elements/hero-software.scss';
+
+    .hero-content-title {
+    width: auto;
+}
 </style>
