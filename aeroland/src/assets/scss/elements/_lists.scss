@@ -60,7 +60,7 @@
         }
     }
 }
-.circle-list {
+.circle-list2 {
     & .list-item {
         position: relative;
         padding-left: 14px;
@@ -142,6 +142,39 @@ ol {
                 &::before {
                     display: none;
                 }
+            }
+        }
+    }
+}
+
+.visualize {
+    & .list-item {
+        position: relative;
+        padding-left: 32px;
+        margin-bottom: 10px;
+        &::before {
+            color: $theme-color--default;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            display: block;
+            font-size: 25px;
+            line-height: 1;
+            font-family: 'Font Awesome 5 Pro';
+            font-weight: 400;
+        }
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0px;
+        }
+        & a {
+            line-height: 20px;
+        }
+    }
+    &.green-check-list {
+        & .list-item {
+            &::before {
+                color: rgb(255, 255, 158);
             }
         }
     }
