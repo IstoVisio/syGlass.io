@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="tab-history-image">
-                    <img src="../assets/img/syglass/analysis.png" alt="" class="img-fluid">
+                    <img src="../assets/img/syglass/downsize/compressed/analysis.png" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-5">

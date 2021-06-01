@@ -41,7 +41,7 @@
                     </ul>
                     <br>
                     <ul class="check-list green-check-list section-space--mb_50">
-                        <li class="list-item">HTC Vive</li>
+                        <li class="list-item">HTC Vive or Valve Index</li>
                         <li class="list-item">Oculus Rift/Rift S/Quest with link cable </li>
                         <li class="list-item">Windows Mixed Reality Headsets (including HP Reverb G2, Samsung Odessey, Dell Visor) </li>
                     </ul>

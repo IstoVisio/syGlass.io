@@ -14,7 +14,7 @@
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/presentation.png" class="img-fluid" width="100%" alt="hero thumb">
+                                <img src="../assets/img/syglass/downsize/presentation.png" class="img-fluid" width="100%" alt="hero thumb">
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             </div>
                             <div class="hero-thumb pr-100">
                                     <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/JRHT00eKk_A?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=JRHT00eKk_A"/>
-                                    <img class="img img-fluid" src="../assets/img/syglass/flyfly.png" alt="hero thumb">
+                                    <img class="img img-fluid" src="../assets/img/syglass/downsize/flyfly.png" alt="hero thumb">
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                             </div>
                             <div class="hero-thumb pr-100">
                                 <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/oxIcieQlguw?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=oxIcieQlguw"/>
-                                <img class="img img-fluid" src="../assets/img/syglass/bigbrain.png" alt="hero thumb">
+                                <img class="img img-fluid" src="../assets/img/syglass/downsize/bigbrain.png" alt="hero thumb">
                             </div>
                         </div>
                     </div>

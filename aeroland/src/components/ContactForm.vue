@@ -48,7 +48,7 @@
                 <div class="col-lg-5 order-1 order-lg-2">
                     <div class="peatures_image-wrap section-space--mb_40">
                         <div class="image text-center wow move-up">
-                            <img class="img-fluid" src="../assets/img/syglass/microscope.png" alt="contact thumb">
+                            <img class="img-fluid" src="../assets/img/syglass/downsize/compressed/microscope.png" alt="contact thumb">
                         </div>
                     </div>
                 </div>
