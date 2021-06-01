@@ -1,6 +1,6 @@
 <template>
 <div class="tabs-wrapper startup-tab section-space--mt_60 section-space--pt_120">
-        <div class="container-fluid">
+        <div class="container">
 
             <div class="row">
                 <div class="col-lg-12">
