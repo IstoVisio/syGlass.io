@@ -174,7 +174,10 @@ ol {
     &.green-check-list {
         & .list-item {
             &::before {
+                color: #44A3F2;
+                /*
                 color: rgb(255, 255, 158);
+                color: white;*/
             }
         }
     }

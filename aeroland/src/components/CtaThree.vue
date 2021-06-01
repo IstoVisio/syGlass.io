@@ -10,12 +10,13 @@
                                 <div class="cta-image__content">
                                     <h4 class="cta-image__title text-white mb-20 wow move-up">Free download of syGlass View</h4>
                                     <div class="cta-image__text text-white mb-20 wow move-up">
-syGlass View is a free version of syGlass that is redefining the communication of scientific data.
+syGlass View is the free version of syGlass that is redefining the communication of scientific data.
 
 
 Explore image volumes provided by scientists and educators around the world in virtual reality.
                                     </div>
-                                    <a href="https://www.syglass.io/view" > 
+                                    <a href="https://rebrand.ly/syGlassViewInstaller_v1_0_0">
+                                    <!--<a href="https://www.syglass.io/view" > -->
                                     <button class="btn btn--green wow move-up">
                                         <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass View
                                     </button>

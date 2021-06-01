@@ -22,7 +22,7 @@
                         <div class="hero-item" >
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Grab and explore your data in 3D</h2>
-                                <h6 class="hero-content-subtitle">Quicker results & faster understanding</h6>
+                                <h6 class="hero-content-subtitle">Quicker results and fewer errors</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>

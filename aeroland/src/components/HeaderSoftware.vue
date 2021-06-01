@@ -1,19 +1,21 @@
 <template>
     <b-navbar type="dark" toggleable="xl" fixed="top" v-b-scrollspy:nav-scroller class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150">
-            <div class= "container">
+            
+            <div class= "container" >
             <b-navbar-brand to="/" href="#home" id="navbar-brand" @click="scrollToTop()"><img :src='"../assets/img/syglass/Artboard 1.png"' alt="logo"></b-navbar-brand>
             <b-list-group horizontal>
             <b-list-group-item href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link item flex-fill"> <i class="fab fa-linkedin-in social-link-icon"></i></b-list-group-item>
             <b-list-group-item href="https://twitter.com/syGlassVR" target="_blank" class="social-link item flex-fill"> <i class="fab fa-twitter social-link-icon"></i></b-list-group-item>
             <b-list-group-item href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link item flex-fill"> <i class="fab fa-instagram social-link-icon"></i></b-list-group-item>
             </b-list-group>
-                    </div>
+            </div>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             
             <!--
             <div class ="container-fluid" id="no-wrap">-->
+            <div class = "container">
             <b-collapse id="nav-collapse" is-nav >
                 <b-navbar-nav class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
                     <b-nav-item to= "/" tag="li" href="#home" class="scroll" id="b"><span>HOME</span></b-nav-item>
@@ -26,6 +28,8 @@
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
+            </div>
+
             </div>
         <!--</div>-->
     </b-navbar>
@@ -155,7 +159,8 @@
     .navbar .container-fluid {
         flex-wrap: nowrap;
         /**justify-content: center;*/
-        justify-content: space-evenly;
+        /**justify-content: space-evenly;*/
+        justify-content: flex-end;
         align-items:baseline;
     }
 
@@ -202,7 +207,7 @@
     }
     
     .navbar-collapse {
-    flex-basis: 0;
+    flex-basis: 100%;
     flex-grow: 0; 
 }
 
@@ -212,5 +217,18 @@
 
     .container-fluid #wrap {
         flex-wrap: nowrap;
+    }
+
+    button.navbar-toggler.not-collapsed {
+    /**margin-left: 170px;*/
+    }
+
+    .navbar-collapse.collapse.show {
+    /**margin-left: 20px;*/
+}
+
+    .navbar-expand-xl {
+    /*flex-flow: row wrap;*/
+    /*justify-content: flex-start;*/
     }
 </style>
