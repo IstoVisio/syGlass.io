@@ -50,7 +50,8 @@ function handleFormSubmit(event) {
         xhr.onreadystatechange = function () {
             console.log(xhr.status, xhr.statusText)
             console.log(xhr.responseText); 
-            document.getElementById('gform').style.display = 'none';
+            //document.getElementById('gform').style.display = 'none';
+            document.getElementById('gform').reset();
             document.getElementById('thankyou_message').style.display = 'block';
             document.getElementById('email-invalid').style.display = 'none'; 
             return;
