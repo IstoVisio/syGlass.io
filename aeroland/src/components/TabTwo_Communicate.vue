@@ -21,7 +21,7 @@
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fas fa-globe"></i>
                                 <h5>Meet With Others Online</h5>
-                                <p>Dive deep into your data with others in MultiView, our online collaboration system.</p>
+                                <p>Dive deep into your data with others in Multiplayer, our online collaboration system.</p>
                             </div>
                     </slick>
                 </div>
