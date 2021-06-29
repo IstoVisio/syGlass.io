@@ -93,17 +93,6 @@
                 behavior: 'smooth'
                 });
             },
-
-
-            homeInactive(){
-                document.getElementById("b").id = "bootstrap-overrides";
-                  /** 
-                if (this.getAttribute('href') != '#home') {
-                    homeInactive();
-                } else {
-                    this.getAttribute('href').id="bootstrap-overrides";
-                }*/
-            },
             // sticky menu script
             handleScroll() {
                 if (this.lastPosition < window.scrollY && this.limitPosition < window.scrollY) {
@@ -133,40 +122,28 @@
         },
         destroyed() {
             window.removeEventListener("scroll", this.handleScroll);
-        }, navBar(){
-            if(document.getElementsByClassName('not-collapsed')){
-                document.getElementByClassName('container-fluid').id = "wrap";
-            } else {
-                document.getElementByClassName('container-fluid').id="no-wrap";
-            }
         }
     }
 </script>
 
 
 <style scoped>
-    #bootstrap-overrides a.router-link-exact-active {
-        color: white;
-    }
-
     .navbar .container {
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items:baseline;
-
     }
-
+    /*
     .navbar .container-fluid {
         flex-wrap: nowrap;
-        /**justify-content: center;*/
-        /**justify-content: space-evenly;*/
         justify-content: flex-end;
         align-items:baseline;
-    }
+    }*/
 
+    /*
     .header-area.is-sticky .main-menu li .nav-link {
     padding: 30px 10px;
-}
+}*/
 
     .list-group-item {
     position: relative;
@@ -206,11 +183,12 @@
     background-color: black;
     }
     
-    .navbar-collapse {
+   /* .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 0; 
-}
+    }*/
 
+/*
     .container-fluid #no-wrap {
         flex-wrap: nowrap;
     }
@@ -218,17 +196,5 @@
     .container-fluid #wrap {
         flex-wrap: nowrap;
     }
-
-    button.navbar-toggler.not-collapsed {
-    /**margin-left: 170px;*/
-    }
-
-    .navbar-collapse.collapse.show {
-    /**margin-left: 20px;*/
-}
-
-    .navbar-expand-xl {
-    /*flex-flow: row wrap;*/
-    /*justify-content: flex-start;*/
-    }
+*/
 </style>

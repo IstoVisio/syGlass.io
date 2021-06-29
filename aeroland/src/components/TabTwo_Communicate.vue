@@ -29,13 +29,13 @@
                     <slick class="slick2"
                         :options="slickOptions2">
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/syglass/downsize/compressed/narration.png" alt="product-details" />
+                                <img class="img-fluid border" src="../assets/img/syglass/multiplayer/Presentations-avatar-pic1.jpg" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
                                 <img class="img-fluid" src="../assets/img/syglass/downsize/compressed/datazoo.jpg" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/syglass/downsize/compressed/multiview.png" alt="product-details" />
+                                <img class="img-fluid border" src="../assets/img/syglass/multiplayer/MultiPlayer-avatar-pic2.jpg" alt="product-details" />
                             </div>
                     </slick>
                 </div>
@@ -70,3 +70,12 @@ import Slick from 'vue-slick';
         }
     };
 </script>
+
+<style scoped>
+
+    .border {
+        border-color: white;
+        border-width: 20px;
+    }
+
+</style>

@@ -8,14 +8,16 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-2 order-lg-1">
                                 <div class="cta-image__content">
-                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Free download of syGlass View</h4>
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Download the Free 3D Viewer</h4>
                                     <div class="cta-image__text text-white mb-20 wow move-up">
 syGlass View is the free version of syGlass that is redefining the communication of scientific data.
 
 
 Explore image volumes provided by scientists and educators around the world in virtual reality.
                                     </div>
-                                    <a href="https://syglassview.s3.us-east-2.amazonaws.com/syGlassViewInstaller_v1_1_0.exe">
+                                    <!--<a href="https://syglassview.s3.us-east-2.amazonaws.com/syGlassViewInstaller_v1_1_0.exe">-->
+                                    
+                                    <a href="https://store.steampowered.com/app/1560420/syGlass_View/" target="_blank">
                                     <button class="btn btn--green wow move-up">
                                         <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass View
                                     </button>

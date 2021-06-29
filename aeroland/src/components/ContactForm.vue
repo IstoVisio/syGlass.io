@@ -5,7 +5,7 @@
         <div class="col-lg-7 order-2 order-lg-1">
           <div class="section-title text-left section-space--mb_60">
             <h2 class="font-weight--bold mb-15 wow move-up">
-              Contact Us For a Full License
+              Contact Us for a License
             </h2>
             <span class="section-text_left wow move-up"
               >Or let us know how we can help.</span

@@ -9,6 +9,9 @@
         @media #{$xlmax-device,$desktop-device}{
             height: 500px;
         }
+        @media#{$desktop-device}{
+            height: 600px;
+        }
         @media #{$tablet-device, $large-mobile}{
             flex-direction: column;
             justify-content: center;

@@ -17,8 +17,9 @@
                             <li>
                                 <a href="tel:(+1)3046773045" class="hover-style-link">(+1) 304 677 3045</a>
                             </li>
+                            
                             <li>
-                                <a href="www.syglass.io" target="_blank" class="hover-style-link hover-style-link--green">www.syglass.io</a>
+                                <a href="#" @click="scrollToTop()" class="hover-style-link hover-style-link--green">www.syglass.io</a>
                             </li>
                         </ul>
                     </div>
@@ -44,7 +45,7 @@
                 window.scroll({
                 top: 0,
                 left: 0,
-                behavior: 'smooth'
+                behavior: 'smooth',
                 });
             }
 

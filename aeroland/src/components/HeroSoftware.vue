@@ -22,7 +22,7 @@
                         <div class="hero-item" >
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Grab and explore your data in 3D</h2>
-                                <h6 class="hero-content-subtitle">Quicker results and fewer errors</h6>
+                                <h6 class="hero-content-subtitle">Faster analysis and better accuracy</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
@@ -36,7 +36,7 @@
                     <div class="swiper-slide" >
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Handle massive datasets without crashing</h2>
+                                <h2 class="h1 hero-content-title">Handle massive datasets seamlessly</h2>
                                 <h6 class="hero-content-subtitle">From megabytes to tens of terabytes</h6>
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass

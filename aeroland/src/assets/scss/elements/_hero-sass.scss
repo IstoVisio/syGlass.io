@@ -11,8 +11,8 @@
         @media #{$large-mobile}{
             height: 900px;
         }
-        @media #{$extra-small-mobile}{
-            height: 700px;
+        @media #{$extra-small-mobile, $small-mobile}{
+            height: 600px;
         }
     }
     &-thumb {

@@ -25,11 +25,13 @@
         padding-top: 120px;
 
         @media #{$tablet-device}{
-            padding-top: 80px;
+            /*padding-top: 80px*/
+            padding-top: 119px;
         }
 
         @media #{$large-mobile}{
-            padding-top: 60px;
+            /*padding-top: 60px;*/
+            padding-top: 96;
         }
     }
 
@@ -175,18 +177,24 @@
             padding-top: 60px;
             padding-bottom: 60px;
         }
+
     }
 
     &--pt_60{
         padding-top: 60px;
 
         @media #{$tablet-device}{
+            /*padding-top: 60px;*/
+            padding-top: 107px;
+        }
+        @media #{$desktop-device}{
             padding-top: 60px;
         }
 
         @media #{$large-mobile}{
             padding-top: 60px;
         }
+        
     }
     &--pb_60{
         padding-bottom: 60px;
