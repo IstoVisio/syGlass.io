@@ -1,3 +1,4 @@
+<!-- Not in Use -->
 <template>
     <b-navbar type="light" toggleable="xl" fixed="top" class="header-area" :class="{'is-sticky': scrolled}">
         <div class="container-fluid container-fluid--cp-150 position-relative">
@@ -68,7 +69,7 @@
                         </b-nav-item>
                     </b-nav-item-dropdown >
                     <b-nav-item-dropdown text="BLOGS">
-                        <b-dropdown-item to="/blog-list-large-image" target="_blank">Blog List Large Image</b-dropdown-item>
+                        <b-dropdown-item to="/-list-large-image" target="_blank">Blog List Large Image</b-dropdown-item>
                         <b-dropdown-item to="/blog-details" target="_blank">Blog Details</b-dropdown-item>
                     </b-nav-item-dropdown>
                 </b-navbar-nav>

@@ -96,6 +96,29 @@
             }			
         }
     }
+    
+    &-testimonial {
+        width: 490px;
+        padding-left: 330px;
+        padding-right: 200px;
+		padding-top: 20px;
+        box-sizing: content-box;
+        // responsive
+        @media #{$xlmax-device,$desktop-device}{
+            width: 650px;
+            padding-left: 180px;
+        }
+        @media #{$tablet-device, $large-mobile}{
+            width: 470px;
+            text-align: center;
+            padding-left: 0;
+            margin: 100px auto 0;
+        }
+        @media #{$small-mobile}{
+            width: 100%;
+            margin: 100px auto 0;
+        }
+    }
 }
 
 #header-content {

@@ -108,7 +108,6 @@
 
 
 <script>
-    import form from '../assets/js/form.js';
     export default {
     name: 'form',
     }       

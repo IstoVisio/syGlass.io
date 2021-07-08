@@ -21,6 +21,7 @@
                                                 </div>
                                         </div>
                                     </div>
+                                    <!--
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
                                             <div class="testimonial-slider__text">"Thank you again for showing me around in syGlass, the VR experience really elevates the data to a new dimension."</div>
@@ -33,7 +34,8 @@
 
                                                 </div>
                                         </div>
-                                    </div>
+                                    </div>-->
+                                    <!--
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
                                             <div class="testimonial-slider__text">"We can make the scan as large as a house, I can actually walk around inside the body of the cat and make microscopic measurements to examine in minute detail."</div>
@@ -46,7 +48,7 @@
 
                                                 </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
                                             <div class="testimonial-slider__text">“Tracking the position of hundreds of cells per 3D+time series, from months of imaging, has been reduced from 1 week to 6 hours in syGlass.”</div>

@@ -7,7 +7,7 @@
                         <div class="col-md-6 col-8">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="../assets/img/logo/logo-dark.png" class="img-fluid" alt="site logo">
+                                    <img src="" class="img-fluid" alt="site logo">
                                 </a>
                             </div>
                         </div>
