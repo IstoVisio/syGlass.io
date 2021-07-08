@@ -1,3 +1,4 @@
+<!-- Not in Use-->
 <template>
     <div class="app-landing-brand-logo-area section-space--ptb_30 drak-area theme_bg-2" id="partner">
         <div class="container">
@@ -13,32 +14,32 @@
                     <div class="row brand-logo-wrapper">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-01.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-02.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-03.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-04.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-05.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6 brand-logo wow move-up">
                             <div class="app-landing-brand-logo__image">
-                                <a href="#"><img src="../assets/img/brand/aeroland-app-landing-client-logo-06.png" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="" class="img-fluid" alt=""></a>
                             </div>
                         </div>
                     </div>

@@ -47,75 +47,15 @@
                     </ul>
             </b-col>
         
+        </div>                
         </div>
-
-<!--
-<div class="row">
-
-    <div class="col-lg-4 d-none d-lg-block">
-                    <slick class="slick1 tab-slider-nav"
-                        :options="slickOptions">
-                            <div class="tab-slider-nav--list wow move-up">
-                                <div class="image text-center">
-                                    <img class="img-fluid" src="../assets/img/Workstation3.png">
-                                </div>
-                               <!--<h5>PC Recommendations</h5>
-                            </div>
-                            <div class="tab-slider-nav--list wow move-up">
-                                <div class="image text-center">
-                                    <img class="img-fluid" src="../assets/img/VRSystem2.png">
-                                </div>
-                                <h5>Headset Compatibilities</h5>
-                            </div>
-                    </slick>
-                </div>
-
-    <div class="col-lg-8 justify-content-center">
-                    <slick class="slick2"
-                        :options="slickOptions2">
-                            <div class="pro-large-img img-zoom wow move-up">
-                                <PCRecommendations/>
-                            </div>
-                            <div class="pro-large-img img-zoom wow move-up">
-                                <HeadsetCompatibility/>
-                            </div>
-                    </slick>
-                </div> -->
-
-                
-                </div>
-
-    <!--               
-    <div class="ht-tab-wrap">
-        <b-tabs v-model="tabIndex" class="ht-tab-menu wow move-up">
-            <b-tab title="PC Recommendations" active class="cyclebutton">
-                <PCRecommendations />  
-            </b-tab>
-            <b-tab title="Headset Compatibility" class="cyclebutton">
-                <HeadsetCompatibility /> 
-            </b-tab>
-        </b-tabs>
-        
-        <div class="container" >
-            <div class="scroll-to-me"> </div>
-        </div>
-    </div> -->
-
     </div>
 </template>
 
 <script>
-import HeadsetCompatibility from "../components/HeadsetCompatibility";
-import PCRecommendations from "../components/PCRecommendations";
-import Slick from "vue-slick";
 export default {
   name: "Recs",
   props: ["BgGradient"],
-  components: {
-    HeadsetCompatibility,
-    PCRecommendations,
-    Slick,
-  },
   data() {
     return {
       
@@ -125,10 +65,6 @@ export default {
 </script>
 
 <style scoped>
-/** .col-lg-12 {
-  padding-right: 70px;
-}*/
-
 .tab-slider-nav--list {
   margin-bottom: 5px;
 }
@@ -150,10 +86,6 @@ export default {
   padding-left: 140px;
 }
 
-/*.section-space--mb_60 {
-  margin-left: 40px;
-}*/
-
 a {
   color: #44a3f2;
 }
@@ -162,13 +94,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/** .i {
-    margin-left: 30px;
-    margin-right: 30px;
-}*/
-
 .far {
-    /*color: #44A3F2;*/
     font-weight: 300;
 }
 </style>
