@@ -1,7 +1,7 @@
 
 <template>
-    <div class="cta-image-area cta-image-bg_05">
-        <div class="container">
+    <div class="cta-image-area cta-image-bg_05 section-space--pt_120">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cta-image">

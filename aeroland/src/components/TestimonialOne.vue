@@ -17,7 +17,7 @@
                                                 
                                             </div>
                                             <div class="testimonial-slider__author">
-                                                    <h6 class="name">PhD Candidate</h6>
+                                                    <h6 class="name">PhD Candidate, <br> Jožef Stefan Institute</h6>
                                                 </div>
                                         </div>
                                     </div>
@@ -30,7 +30,7 @@
                                                 
                                             </div>
                                             <div class="testimonial-slider__author">
-                                                    <h6 class="name">Microscopy Core Manager</h6>
+                                                    <h6 class="name">Microscope Manufacturer</h6>
 
                                                 </div>
                                         </div>
@@ -44,7 +44,7 @@
                                             
                                             </div>
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Imaging Facility Co-Director</h6>
+                                                    <h6 class="name">Imaging Facility Co-Director, Swansea University</h6>
 
                                                 </div>
                                         </div>
@@ -57,18 +57,18 @@
                                                 
                                             </div>
                                             <div class="testimonial-slider__author">
-                                                    <h6 class="name">PhD Candidate</h6>
+                                                    <h6 class="name">PhD Candidate, <br>Johns Hopkins University</h6>
                                                 </div>
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide">
                                         <div class="testimonial-slider__one">
-                                            <div class="testimonial-slider__text">"..our minds literally being blown right now! It's so intuitive. You were right the videos don't do it justice... got to see it to believe it”."</div>
+                                            <div class="testimonial-slider__text">"..our minds literally being blown right now! It's so intuitive. You were right the videos don't do it justice... got to see it to believe it."</div>
                                             <div class="testimonial-slider--info">
 
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Postdoctoral Fellow</h6>
+                                                    <h6 class="name">Postdoctoral Fellow, <br> University College of London</h6>
 
                                                 </div>
                                             </div>
@@ -80,7 +80,7 @@
                                             <div class="testimonial-slider--info">
 
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Senior Researcher</h6>
+                                                    <h6 class="name">Senior Researcher, <br> Institut de la Vision</h6>
 
                                                 </div>
                                             </div>
@@ -92,7 +92,7 @@
                                             <div class="testimonial-slider--info">
 
                                                 <div class="testimonial-slider__author">
-                                                    <h6 class="name">Microscopy Core Facility Manager</h6>
+                                                    <h6 class="name">Microscopy Core Facility Manager, <br> Monash University</h6>
 
                                                 </div>
                                             </div>
