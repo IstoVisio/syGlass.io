@@ -1,6 +1,6 @@
 
 <template>
-    <div class="cta-image-area cta-image-bg_05 section-space--pt_120">
+    <div class="cta-image-area cta-image-bg_05 section-space--pt_70">
         <div class="container ">
             <div class="row">
                 <div class="col-lg-12">
@@ -26,7 +26,7 @@ Explore image volumes provided by scientists and educators around the world in v
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="cta-image_two section-space--mt_60 wow move-up">
-                                    <img src="../assets/img/syglass/downsize/compressed/occulus.png" class="img-fluid">
+                                    <img src="../assets/img/syglass/downsize/compressed/occulus2.png" class="img-fluid">
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="tabs-wrapper section-space--pt_120 section-space--pb_60" :class="BgGradient">
+    <div class="tabs-wrapper section-space--pt_120 pb-30" :class="BgGradient">
         <div class="container">
             <h2 class="section-title font-weight--light wow move-up text-center mtb-30 section-space--mtb_100">Science communication <br/>re-envisioned for the 21st century</h2>
             <br/>

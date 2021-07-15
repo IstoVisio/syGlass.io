@@ -1,5 +1,5 @@
 <template>
-<div class="tabs-wrapper startup-tab section-space--mt_60 section-space--pt_120">
+<div class="tabs-wrapper startup-tab section-space--mt_40 section-space--pt_120">
         <div class="container">
 
             <div class="row">

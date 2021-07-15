@@ -17,7 +17,7 @@
                             </li>
                             
                             <li>
-                                <a href="#" @click="scrollToTop()" class="hover-style-link hover-style-link--green">www.syglass.io</a>
+                                <a @click="scrollToTop()" class="hover-style-link hover-style-link--green">www.syglass.io</a>
                             </li>
                         </ul>
                     </div>
