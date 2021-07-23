@@ -32,7 +32,7 @@
                                 <img class="img-fluid border" src="../assets/img/syglass/multiplayer/Presentations-avatar-pic1.jpg" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
-                                <img class="img-fluid" src="../assets/img/syglass/downsize/compressed/datazoo.jpg" alt="product-details" />
+                                <img class="img-fluid border pt-1 pb-1" src="../assets/img/syglass/downsize/datazoo.png" alt="product-details" />
                             </div>
                             <div class="pro-large-img img-zoom wow move-up">
                                 <img class="img-fluid border" src="../assets/img/syglass/multiplayer/MultiPlayer-avatar-pic2.jpg" alt="product-details" />
