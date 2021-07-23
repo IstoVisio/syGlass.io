@@ -222,7 +222,7 @@
                     padding: 30px 26px;
                     // responsive
                     @media #{$laptop-device}{
-                        padding: 22px 11px;
+                        padding: 1.35rem  0.6rem;
                     }
                     @media #{$large-mobile, $small-mobile, $extra-small-mobile}{
                         padding: 10px 15px;

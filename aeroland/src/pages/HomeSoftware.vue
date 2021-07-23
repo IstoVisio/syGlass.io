@@ -107,7 +107,7 @@
     <!-- section: About -->
     <div class="feature-icon-list-area section-space--pt_120" id="about">
       <div class="container">
-        <div class="section-title-wrapper text-center">
+        <div class="section-title-wrapper section-title-wrapper p-2--sm text-sm-left text-md-center">
           <h2 class="section-title font-weight--light mb-30 wow move-up">
             Created by Scientists, for Scientists
           </h2>

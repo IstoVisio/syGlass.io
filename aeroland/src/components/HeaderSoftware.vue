@@ -133,22 +133,11 @@
         justify-content: space-between;
         align-items:baseline;
     }
-    /*
-    .navbar .container-fluid {
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items:baseline;
-    }*/
-
-    /*
-    .header-area.is-sticky .main-menu li .nav-link {
-    padding: 30px 10px;
-}*/
-
+    
     .list-group-item {
     position: relative;
     display: block;
-    padding: 10px;
+    padding: 8px;
     background-color: transparent;
     border: transparent;
     }
@@ -183,18 +172,4 @@
     background-color: black;
     }
     
-   /* .navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 0; 
-    }*/
-
-/*
-    .container-fluid #no-wrap {
-        flex-wrap: nowrap;
-    }
-
-    .container-fluid #wrap {
-        flex-wrap: nowrap;
-    }
-*/
 </style>

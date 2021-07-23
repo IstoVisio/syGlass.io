@@ -99,5 +99,6 @@
 
     .hero-content-title {
     width: auto;
+    padding-right: 10px;
 }
 </style>
