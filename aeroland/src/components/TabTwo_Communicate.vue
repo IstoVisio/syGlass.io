@@ -16,7 +16,7 @@
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fas fa-retweet"></i>
                                 <h5>Share data on the Data Zoo</h5>
-                                <p>Browse through datasets, pull down narrations, and upload your own. The Data Zoo is a central repository for volumetric data.</p>
+                                <p>Browse through datasets, pull down narrations, and upload your own. The <a href="http://datazoo.syglass.io/" target="_blank"> syGlass Data Zoo</a> is a central repository for volumetric data.</p>
                             </div>
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fas fa-globe"></i>
@@ -78,4 +78,12 @@ import Slick from 'vue-slick';
         border-width: 20px;
     }
 
+    
+a {
+  color: #44a3f2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 </style>
