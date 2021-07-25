@@ -9,9 +9,11 @@
                             <div class="hero-content">
                                 <h3 class="h1 hero-content-title">Scientific data in virtual reality </h3>
                                 <h5 class="hero-content-subtitle">The new medium of scientific discovery and communication</h5>
+                                <div class="d-none d-md-block">
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
+                                </div>
                             </div>
                             <div class="hero-thumb pr-100">
                                 <img src="../assets/img/syglass/downsize/george.png" class="img-fluid" width="100%" alt="hero thumb">
@@ -22,10 +24,12 @@
                         <div class="hero-item" >
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Grab and explore your data in 3D</h2>
-                                <h6 class="hero-content-subtitle">Faster analysis and better accuracy</h6>
+                                <h5 class="hero-content-subtitle">Faster analysis and better accuracy</h5>
+                                <div class="d-none d-md-block">
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
+                                </div>
                             </div>
                             <div class="hero-thumb pr-100">
                                     <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/JRHT00eKk_A?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=JRHT00eKk_A"/>
@@ -37,10 +41,12 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Handle massive datasets seamlessly</h2>
-                                <h6 class="hero-content-subtitle">From megabytes to tens of terabytes</h6>
+                                <h5 class="hero-content-subtitle">From megabytes to tens of terabytes</h5>
+                                <div class="d-none d-md-block">
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
+                                </div>
                             </div>
                             <div class="hero-thumb pr-100">
                                 <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/oxIcieQlguw?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=oxIcieQlguw"/>
@@ -52,10 +58,12 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">The best solution <br/> for time-lapse data </h2>
-                                <h6 class="hero-content-subtitle">Track hundreds of objects through time</h6>
+                                <h5 class="hero-content-subtitle">Track hundreds of objects through time</h5>
+                                <div class="d-none d-md-block">
                                 <router-link :to="{ hash: 'view' }" class="btn btn--green">
                                     <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get syGlass
                                 </router-link>
+                                </div>
                             </div>
                             <div class="hero-thumb pr-100">
                                 <img src="../assets/lls.gif" class="img-fluid" alt="hero thumb">
