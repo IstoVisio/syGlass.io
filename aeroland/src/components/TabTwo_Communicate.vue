@@ -1,13 +1,13 @@
 <template>
 
-    <div class="tabs-wrapper section-space--pt_120 pb-30" :class="BgGradient">
+    <div class="tabs-wrapper section-space--pt_120" :class="BgGradient">
         <div class="container">
             <h2 class="section-title font-weight--light wow move-up text-center mtb-30 section-space--mtb_100">Science communication <br/>re-envisioned for the 21st century</h2>
             <br/>
             <div class="row">
                 <div class="col-lg-4">
                     <slick class="slick1 tab-slider-nav"
-                        :options="slickOptions">
+                        :options="slickOptions" style="height:min-content !important;">
                             <div class="tab-slider-nav--list wow move-up">
                                 <i class="ht-slider-tab-icon fas fa-video"></i>
                                 <h5>Create Immersive Lectures</h5>
@@ -18,7 +18,7 @@
                                 <h5>Share data on the Data Zoo</h5>
                                 <p>Browse through datasets, pull down narrations, and upload your own. The <a href="http://datazoo.syglass.io/" target="_blank"> syGlass Data Zoo</a> is a central repository for volumetric data.</p>
                             </div>
-                            <div class="tab-slider-nav--list wow move-up">
+                            <div class="tab-slider-nav--list wow move-up" style="margin-bottom: 5px !important;">
                                 <i class="ht-slider-tab-icon fas fa-globe"></i>
                                 <h5>Meet With Others Online</h5>
                                 <p>Dive deep into your data with others in Multiplayer, our online collaboration system.</p>
