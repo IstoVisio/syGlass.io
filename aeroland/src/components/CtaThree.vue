@@ -13,7 +13,7 @@
 syGlass View is the free version of syGlass that is redefining the communication of scientific data.
 
 
-Explore image volumes provided by scientists and educators around the world in virtual reality. Learn more about syGlass at our 
+Explore image volumes provided by scientists and educators around the world in virtual reality. Learn more about syGlass View at our 
                     <a href="https://store.steampowered.com/app/1560420/syGlass_View/" target="_blank"> STEAM store. </a>
                                     </div>
                                     <!--<a href="https://syglassview.s3.us-east-2.amazonaws.com/syGlassViewInstaller_v1_1_0.exe">-->

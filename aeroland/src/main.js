@@ -6,6 +6,7 @@ import BootstrapVue from 'bootstrap-vue'
 import VueSilentbox from 'vue-silentbox'
 import {VueMasonryPlugin} from 'vue-masonry';
 import WOW from 'wow.js/dist/wow.js';
+import VueAnalytics from 'vue-analytics';
 
 Vue.use(VueMasonryPlugin)
 Vue.use(VueSilentbox)
@@ -41,6 +42,10 @@ const router = new VueRouter({
   },
 });
 
+Vue.use(VueAnalytics, {
+    id: 'UA-100426131-1',
+    router
+  });
 
 new Vue({
     render: h => h(App),
