@@ -1,3 +1,4 @@
+<!-- Not in Use-->
 <template>
     <div class="offcanvas-menu" id="offcanvas-menu">
         <div class="search-overlay__inner">

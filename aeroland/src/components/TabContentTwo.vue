@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="tab-history-image">
-                    <img src="../assets/img/syglass/downsize/compressed/analysis.png" alt="" class="img-fluid">
+                    <img src="../assets/img/syglass/counting-tool.png" alt="Quickly counting cells using 3d visualization techniques" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-5">
@@ -15,7 +15,6 @@
                         <li class="list-item">Track structures through time and space in 4D.</li>
                         <li class="list-item">See true and false positives easily with stereoscopic vision. </li>
                     </ul>
-
                 </div>
             </div>
         </div>

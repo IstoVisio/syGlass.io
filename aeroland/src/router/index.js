@@ -1,7 +1,6 @@
 
 import HomeSoftware from '../pages/HomeSoftware'
 import view from '../pages/view'
-
 import NotFound from '../pages/elements/404'
 
 export const routes = [
