@@ -95,8 +95,8 @@
             <div class="image text-center wow move-up">
               <img
                 class="img-fluid"
-                src="../assets/img/syglass/downsize/compressed/microscope.png"
-                alt="contact thumb"
+                src="../assets/img/syglass/microscope.png"
+                alt="Graphic of scientists researching with microscope"
               />
             </div>
           </div>
@@ -111,33 +111,4 @@
     export default {
     name: 'form',
     }       
-
 </script>
-
-<!--
-    <script>
-        function myFunction(x) {
-            if (document.getElementById('m_navbar').style.display == 'none') {
-                document.getElementById('m_navbar').style.display = 'table-footer-group';
-            } else {
-                document.getElementById('m_navbar').style.display = 'none';
-            }
-            x.classList.toggle("change");
-        }
-    </script>
-    <script>
-        ! function(e, a, t, n, c, g, s) {
-            e.GoogleAnalyticsObject = "ga",
-                e.ga = e.ga || function() {
-                    (e.ga.q = e.ga.q || []).push(arguments)
-                },
-                e.ga.l = 1 * new Date,
-                g = a.createElement("script"),
-                s = a.getElementsByTagName("script")[0],
-                g.async = 1,
-                g.src = "https://www.google-analytics.com/analytics.js",
-                s.parentNode.insertBefore(g, s)
-        }(window, document),
-        ga("create", "UA-100426131-1", "auto"),
-            ga("send", "pageview")
-    </script>-->

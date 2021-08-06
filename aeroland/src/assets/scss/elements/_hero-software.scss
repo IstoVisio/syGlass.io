@@ -64,6 +64,15 @@
         font-weight: 400;
         padding-top: 15px;
         padding-bottom: 55px;
+        @media #{$xlmax-device}{
+            font-size: 24px;
+        }
+        @media #{$desktop-device}{
+            font-size: 24px;
+        }
+        @media #{$extra-small-mobile}{
+            font-size: 19px;
+        }
     }
     &-thumb {
         @media #{$xlmax-device}{

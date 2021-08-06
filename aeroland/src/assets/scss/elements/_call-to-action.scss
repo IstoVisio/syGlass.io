@@ -2,7 +2,7 @@
 /*=============================================
 =            cta             =
 =============================================*/
-.cta-image-bg{
+/*.cta-image-bg{
     background: url('../img/patterns/aeroland-sass-section-download-bg.png') 55% 100% no-repeat,linear-gradient(-138deg,#5E60E7 0,#9C7AF2 50%,#5E60E7 100%);
     border-radius: 5px;
     @media #{$laptop-device, $desktop-device}{
@@ -24,24 +24,17 @@
     background-repeat: no-repeat;
     background-position: top right 200px;
 }
-
-
 .cta-image{
     &__content{
         padding-left: 70px;
-
         @media #{$large-mobile}{
             padding-left: 30px !important;
             padding-right: 30px;
         }
     }
-    &__title{
-        
-    }
     &__text{
         font-size: 18px;
     }
-
     &__media{
         margin-top: -50px;
         margin-bottom: -110px;
@@ -59,9 +52,7 @@
             padding-right: 30px;
         }
     }
-}
-
-
+}*/
 .cta-image__content {
     padding-left: 70px;
 }
@@ -80,6 +71,4 @@
         margin-bottom: 0px;
     }
 }
-
-
 /*=====  End of cta   ======*/

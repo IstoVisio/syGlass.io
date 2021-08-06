@@ -1,7 +1,4 @@
-
-
-
-.separator-list {
+/*.separator-list {
     & .list-item {
         position: relative;
         margin-bottom: 6px;
@@ -26,7 +23,7 @@
             line-height: 16px;
         }
     }
-}
+}*/
 .check-list {
     & .list-item {
         position: relative;
@@ -60,7 +57,7 @@
         }
     }
 }
-.circle-list2 {
+/*.circle-list2 {
     & .list-item {
         position: relative;
         padding-left: 14px;
@@ -119,8 +116,6 @@ ol {
         }
     }
 }
-
-
 .horizontal-list {
     & ul {
         & li {
@@ -145,8 +140,7 @@ ol {
             }
         }
     }
-}
-
+}*/
 .visualize {
     & .list-item {
         position: relative;
@@ -171,20 +165,30 @@ ol {
             line-height: 20px;
         }
     }
-    &.green-check-list {
+    &.blue-check-list {
         & .list-item {
             &::before {
                 color: #44A3F2;
-                /*
-                color: rgb(255, 255, 158);
-                color: white;*/
             }
         }
     }
 }
-
-
-
+.list-item {
+    &.vr::before{
+        content: "\f6ea";
+    }
+    &.tool::before{
+      content: "\f7d9";
+    }
+    &.data::before{
+      content: "\f080";
+    }
+    &.mission::before{
+      content: "\f0eb";
+      font-weight: 350;
+      font-size: 30px;
+    }
+}
 
 
 

@@ -32,7 +32,7 @@
         }
     }
 }
-
+/*
 .ht-btn {
     font-size: 15px;
     font-weight: 500;
@@ -123,9 +123,7 @@
         margin-left: 10px;
     }
     
-}
-
-
+}*/
 .btn {
     font-size: 15px;
     font-weight: 500;
@@ -157,7 +155,7 @@
             background: $theme-color--green;
         }
     }
-    &--black{
+    /*&--black{
         background-image: none;
         background-color: $black;
         &:hover{
@@ -184,7 +182,6 @@
             background: linear-gradient(150deg,#FF3F85 0,#FAA720 100%);
         }
     }
-
     &--link{
         color: $theme-color--default;
         &:hover{
@@ -197,10 +194,8 @@
         line-height: 48px;
         font-size: 14px;
         width: 180px;
-    }
+    }*/
 }
-
-
 .hover-style-link{
     position: relative;
 
@@ -223,7 +218,6 @@
             right: auto;
         }
     }
-
     &--green{
         color: $theme-color--green;
         &:after{
@@ -233,7 +227,7 @@
             color: $theme-color--green;
         }
     }
-
+    /*
     &--white{
         color: $white;
         &:after{
@@ -252,21 +246,15 @@
         &:hover{
             color:  #6d70a6;
         }
-    }
+    }*/
 }
-
-/* Images Button */
-.image-btn {
+/*.image-btn {
     border: 0;
     box-shadow: none;
     background: none;
     border-radius: 5px;
     overflow: hidden;
 }
-
-
-/* video play link */
-
 .video-play{
     i {
         color: $theme-color--green;
@@ -278,9 +266,6 @@
 		padding-top: 30px;
     }
 }
-
-
-/* button wrapper */
 .button-wrapper{
     & > button {
         border: none;
@@ -295,7 +280,6 @@
         }
     }
 }
-
 .single-button-group {
     & h5 {
         margin-bottom: 10px;
@@ -308,13 +292,10 @@
         margin: 10px;
     }
 }
-
 .header-config-wrapper {
     .btn {
         background-color: transparent;
         padding: 0;
     }
-}
-
-/*=====  End of Button  ======*/
+}*/
 
