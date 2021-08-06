@@ -37,7 +37,11 @@
               <p>
                 Browse through datasets, pull down narrations, and upload your
                 own. The
-                <a href="http://datazoo.syglass.io/" target="_blank" id="highlight">
+                <a
+                  href="http://datazoo.syglass.io/"
+                  target="_blank"
+                  id="highlight"
+                >
                   syGlass Data Zoo</a
                 >
                 is a central repository for volumetric data.
@@ -68,7 +72,7 @@
             <div class="pro-large-img img-zoom wow move-up">
               <img
                 class="img-fluid"
-                src="../assets/img/syglass/data-zoo.png"
+                src="../assets/img/syglass/data-zoo.jpg"
                 alt="Free online repository of large volumetric data for educational and research purposes"
               />
             </div>

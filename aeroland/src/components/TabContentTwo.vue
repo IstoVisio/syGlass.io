@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="tab-history-image">
-                    <img src="../assets/img/syglass/counting-tool.png" alt="Quickly counting cells using 3d visualization techniques" class="img-fluid">
+                    <img src="../assets/img/syglass/counting-tool.jpg" alt="Quickly counting cells using 3d visualization techniques" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-5">

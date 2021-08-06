@@ -32,7 +32,7 @@
                             </div>
                             <div class="hero-thumb pr-100">
                                     <iframe class="d-none d-md-block vid" width="100%" height="100%" src="https://www.youtube.com/embed/JRHT00eKk_A?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=JRHT00eKk_A"/>
-                                    <img class="img img-fluid" src="../assets/img/syglass/fly-microCT.png" alt="Microcomputed tomography of drosophilia fly rendered in virtual reality">
+                                    <img class="img img-fluid" src="../assets/img/syglass/fly-microCT.jpg" alt="Microcomputed tomography of drosophilia fly rendered in virtual reality">
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="hero-thumb pr-100">
                                 <iframe class="d-none d-md-block vid" width="100%" height="100%" src="https://www.youtube.com/embed/oxIcieQlguw?autoplay=1&controls=0&modestbranding&mute=1&loop=1&playlist=oxIcieQlguw"/>
-                                <img class="img img-fluid" src="../assets/img/syglass/brain.png" alt="Immersive exploration of a brain in 3D visualization software">
+                                <img class="img img-fluid" src="../assets/img/syglass/brain.jpg" alt="Immersive exploration of a brain in 3D visualization software">
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,10 @@
                                 </div>
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/syglass/image-analysis-controller.gif" class="img-fluid" alt="Image analyzing tools from vr controller">
+                                <video autoplay loop muted playsinline class="img-fluid" alt="VR controller tools for image analysis" poster="../assets/img/syglass/analysis-controller.gif">
+                                    <source src="../assets/img/syglass/analysis-controller.webm" type="video/webm">
+                                    <source src="../assets/img/syglass/analysis-controller.mp4" type="video/mp4">
+                                </video>
                             </div>
                         </div>
                     </div>

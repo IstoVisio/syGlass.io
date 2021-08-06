@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="tab-history-image">
-                    <img src="../assets/img/syglass/head-MRI-meshes.png" alt="Segmentation of skull MRI done using syGlass VR tools" class="img-fluid">
+                    <img src="../assets/img/syglass/head-MRI-meshes.jpg" alt="Segmentation of skull MRI done using syGlass VR tools" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-5">

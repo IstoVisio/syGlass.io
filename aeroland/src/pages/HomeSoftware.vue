@@ -91,7 +91,7 @@
           class="
             section-title-wrapper section-title-wrapper
             p-2--sm
-            text-sm-left text-md-center
+            text-center
           "
         >
           <h2 class="section-title font-weight--light mb-30 wow move-up">
