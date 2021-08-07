@@ -16,7 +16,7 @@
                     redefining the communication of scientific data. Explore
                     image volumes provided by scientists and educators around
                     the world in virtual reality. Learn more about syGlass View
-                    at our
+                    on the
                     <a
                       href="https://store.steampowered.com/app/1560420/syGlass_View/"
                       target="_blank"

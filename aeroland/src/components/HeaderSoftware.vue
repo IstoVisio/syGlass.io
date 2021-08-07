@@ -6,6 +6,7 @@
             <b-list-group horizontal>
             <b-list-group-item href="https://www.linkedin.com/company/istovisio" target="_blank" class="social-link item flex-fill bg-transparent"> <i class="fab fa-linkedin-in social-link-icon"></i></b-list-group-item>
             <b-list-group-item href="https://twitter.com/syGlassVR" target="_blank" class="social-link item flex-fill  bg-transparent"> <i class="fab fa-twitter social-link-icon"></i></b-list-group-item>
+            <b-list-group-item href="https://discord.gg/zYAgACwf9Y" target="_blank" class="social-link item flex-fill  bg-transparent "> <i class="fab fa-discord social-link-icon"></i></b-list-group-item>
             <b-list-group-item href="https://www.instagram.com/syglassvr/" target="_blank" class="social-link item flex-fill  bg-transparent "> <i class="fab fa-instagram social-link-icon"></i></b-list-group-item>
             </b-list-group>
             </div>
