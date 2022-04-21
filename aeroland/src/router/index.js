@@ -1,5 +1,6 @@
 
 import HomeSoftware from '../pages/HomeSoftware'
+import Education from '../pages/Education'
 import view from '../pages/view'
 
 import NotFound from '../pages/elements/404'
@@ -9,6 +10,11 @@ export const routes = [
         path:'/',
         name: 'syGlass VR',
         component: HomeSoftware
+    },
+    {
+        path:'/education/',
+        name: 'syGlass For School',
+        component: Education
     },
 	{
         path:'/new/',
