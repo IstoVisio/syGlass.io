@@ -2,7 +2,6 @@
 import HomeSoftware from '../pages/HomeSoftware'
 import Education from '../pages/Education'
 import view from '../pages/view'
-
 import NotFound from '../pages/elements/404'
 
 export const routes = [

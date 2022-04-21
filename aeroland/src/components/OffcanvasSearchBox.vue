@@ -1,3 +1,4 @@
+<!-- Not in Use-->
 <template>
     <div class="search-overlay" id="search-overlay">
         <div class="search-overlay__inner">

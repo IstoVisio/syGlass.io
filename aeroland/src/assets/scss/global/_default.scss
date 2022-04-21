@@ -23,10 +23,9 @@ body{
   color: $body-text-color;
   position: relative;
   background-color: $body-bg-color;
-
-  &.no-overflow{
+  /*&.no-overflow{
     overflow: hidden;
-  }
+  }*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,7 +93,7 @@ h5 {
 h6 {
     font-size: 18px;
 }
-
+/*
 .drak-area {
     h1,h2,h3,h4,h5,h6 {
         color: $white;
@@ -105,7 +104,7 @@ h6 {
     & .check-list .list-item {
         color: $white;
     }
-}
+}*/
 p:last-child {
     margin-bottom: 0;
 }
@@ -144,14 +143,19 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-
+#highlight{
+    color:$theme-color--default;
+    &:hover{
+        text-decoration: underline;
+    }
+}
 .font-weight--light {
     font-weight: 400;
 } 
 .font-weight--bold {
     font-weight: 500;
 }  
+/*
 .bg-gray {
     background: #F5F7FD;
 }
@@ -194,9 +198,10 @@ ul {
 }
 .text-green {
     color: $theme-color--green;
-}
+}*/
+
 /*-- Tab Content & Pane Fix --*/
-select {
+/*select {
     padding: 3px 20px;
     height: 56px;
     max-width: 100%;
@@ -214,7 +219,7 @@ select {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+}*/
 
 /*------- Default Class --------*/
 .text-black {
@@ -247,7 +252,7 @@ select {
 .border-bottom-thick {
     border-bottom: 2px solid #ededed !important;
 }
-.border-top-drak{
+/*.border-top-drak{
     border-top: 1px solid rgba(255,255,255,0.2) !important;
 }
 .border-bottom-drak{
@@ -331,16 +336,15 @@ select {
     color: $white;
     background-color: $theme-color--default;
 }
-/* .faq-banner-area {
+.faq-banner-area {
     z-index: 2;
-} */
+} 
 .saas-feature {
     z-index: 2;
-}
+}*/
 
 /* swiper default styles */
-
-.swiper-pagination{
+/*.swiper-pagination{
   position: static;
   display: block;
   line-height: 1;
@@ -474,7 +478,7 @@ select {
         background-color: #9C7AF2;
         background-image: linear-gradient(-129deg,#9C7AF2 0,#5E61E7 100%);
     }
-}
+}*/
 .swiper-container {
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -484,7 +488,7 @@ select {
         visibility: visible;
     }
 }
-
+/*
 .swiper-nav-button i {
     position: absolute;
     top: 50%;
@@ -508,11 +512,11 @@ select {
 }
 .swiper-button-next i::before {
     content: '\f105';
-}
+}*/
 .swiper-wrapper {
     transition-timing-function: linear !important;
 }
-
+/*
 .single-element-wrap {
     & ul {
         & li {
@@ -541,12 +545,12 @@ select {
             }
         }
     }
-}
+}*/
 /*===================================
     - Breadvrumb  
 =================================*/
 
-.gradient--secondary {
+/*.gradient--secondary {
     background-image: $gradient--secondary;
 }
 
@@ -597,7 +601,7 @@ select {
             color: #6D70A6;
         }
     }
-}
+}*/
 
 /* bg body color */
 .bg-body-color {
@@ -644,7 +648,7 @@ select {
 }
 
 /*---- banner sass start ----*/
-.banner-one-sass {
+/*.banner-one-sass {
     @media #{$laptop-device}{
         padding-top: 120px;
     }
@@ -656,11 +660,10 @@ select {
     }
     @media #{$large-mobile}{
         padding-bottom: 20px;
-    }
-    
-}
+    }  
+}*/
 /*---- banner sass emd ----*/
-
+/*
 .newsletter-form--one {
     ::-webkit-input-placeholder {
         color: $white;
@@ -668,7 +671,7 @@ select {
       ::-moz-placeholder {
         color: $white;
     }
-}
+}*/
 
 /*----- hero swiper slider button start -----*/
 
@@ -688,7 +691,6 @@ select {
         transition: 0.4s;
         opacity: 0;
         visibility: hidden;
-        // responsive
         @media #{$large-mobile}{
             min-width: 45px;
             min-height: 45px;

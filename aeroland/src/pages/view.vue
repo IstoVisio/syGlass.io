@@ -1,31 +1,24 @@
 <template>
-    <section class="col-1 content-1" style=background-color:#f5f5f5>
-                <br>
-                <br>
-                <div class=container style=background-color:#f5f5f5>
-                    <div class="mbr-header mbr-header--center mbr-header--std-padding" style=padding-bottom:0>
-                        <h1 class=mbr-header__text style=margin-bottom:35px;margin-top:20px>
-                            <b>INSTALLING</b>
-                            SYGLASS VIEW 
-                        </h1>
-                    </div>
+    <div class="main-container" style="padding-bottom:40px;">
+                <div class="container pt-4 text-center">
+                        <h2 style=margin-bottom:20px;margin-top:40px>
+                            INSTALLING SYGLASS VIEW 
+                        </h2>
                 </div>
-                <section class="col-1 content-1" style=background-color:#f5f5f5>
-                    <div class=container>
+                    <div class="container text-left">
                         <br>
                         <table>
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>1.) </b>
+                                        1.)
                                     </h3>
-                    
                                 </td>
                             <td>
                                 <h3 style=font-weight:400;margin-bottom:10px>
                                     A file called 
-                                    <span style="font-family:monospace;color:#333333">
-                                        <a href="https://rebrand.ly/syGlassViewInstaller_v1_0_0" download><b>syGlassViewInstaller.exe</b></a>
+                                    <span style="font-weight:500;">
+                                        <a href="https://rebrand.ly/syGlassViewInstaller_v1_0_0" id="highlight">syGlassViewInstaller.exe</a>
                                     </span>
                                     is being downloaded to your computer. Double-click this file to begin the installation. 
                                 </h3>
@@ -34,14 +27,14 @@
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>2.) </b>
+                                        2.)
                                     </h3>
                             </td>
                             <td>
                                 <h3 style=font-weight:400;margin-bottom:10px>
                                     Allow the installer to make changes to your hard drive by selecting 
-                                    <span style="color:#333333">
-                                        <b>Yes</b>
+                                    <span style="color:#44A3F2; font-weight:500;">
+                                        Yes
                                     </span>
                                     in the following dialog box. 
                             </h3>
@@ -52,7 +45,7 @@
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>3.) </b>
+                                        3.)
                                     </h3>
                             </td>
                             <td>
@@ -65,30 +58,30 @@
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>4.) </b>
+                                        4.) 
                                     </h3>
                             </td>
                             <td>
                                 <h3 style=font-weight:400;margin-bottom:10px>
                                     syGlass image volumes have the file extension 
-                                    <span style="font-family:monospace;color:#333333"><b>.syg</b></span>,
-                                    and download links to them can be found <a href="view">on this page.</a>
+                                    <span style="color:#44A3F2; font-weight:500;">.syg</span>,
+                                    and download links to them can be found <a href="view" id="highlight" style="font-weight:500;">on this page.</a>
                                     Once you've dowloaded a dataset, just double-click the file to launch it in syGlass View. 
                             </h3></td></tr>
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>5.) </b>
+                                        5.)
                                     </h3>
                             </td>
                             <td>
                                 <h3 style=font-weight:400;margin-bottom:10px>
-                                    For more information on how to explore the data once it's launched in syGlass View, check out our series of tutorials in <a href=academy>syGlass Academy.</a> Having trouble? <a href="https://www.syglass.io/#contact">Contact support</a> for help setting up syGlass View.
+                                    For more information on how to explore the data once it's launched in syGlass View, check out our series of tutorials in <a href=academy id="highlight" style="color:#44A3F2; font-weight:500;">syGlass Academy.</a> Having trouble? <a href="https://www.syglass.io/#contact" id="highlight" style="color:#44A3F2; font-weight:500;">Contact support</a> for help setting up syGlass View.
                             </h3></td></tr>
                             <tr>
                                 <td style="vertical-align:top">
                                     <h3 style=font-weight:400;margin-bottom:10px>
-                                        <b>6.) </b>
+                                        6.) 
                                     </h3>
                             </td>
                             <td>
@@ -99,10 +92,6 @@
                             </tr>
                             </table>
                     </div>
-                </section>
-    </section>
-
-    
-
+    </div>
 </template>
 

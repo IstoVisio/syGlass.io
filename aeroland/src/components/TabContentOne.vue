@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7">
                 <div class="tab-history-image">
-                    <img src="../assets/img/syglass/downsize/skullMesh.png" alt="" class="img-fluid">
+                    <img src="../assets/img/syglass/head-MRI-meshes.jpg" alt="Segmentation of skull MRI done using syGlass VR tools" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-5">
@@ -16,7 +16,6 @@
                         <li class="list-item">Supplemental Slides from Powerpoint </li>
                         <li class="list-item">3D Scatterplots from CSV files </li>
                     </ul>
-
                 </div>
             </div>
         </div>

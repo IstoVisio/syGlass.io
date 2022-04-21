@@ -46,7 +46,6 @@
                 behavior: 'smooth',
                 });
             }
-
         }
     }
     
