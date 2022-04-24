@@ -13,11 +13,11 @@
                             </div>
                             <div class="col-lg-6 order-2 order-lg-2">
                                 <div class="cta-image__content">
-                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Helping districts develop novel coursework in health sciences, life sciences, with real-world applications</h4>
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Begin with a full curriculum in high school neuroscience using real 3D data </h4>
                                     <div class="cta-image__text text-white mb-20 wow move-up">
-
+									
                                     </div>
-                                    The medium of the future.
+                                    Teachers gain professional development skills and the ability to develop their own content in this new medium 
                                 </div>
                             </div>
                             

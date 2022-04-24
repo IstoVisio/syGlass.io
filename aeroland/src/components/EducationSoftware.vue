@@ -8,8 +8,8 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h3 class="h1 hero-content-title">Bridge the gap between science and education </h3>
-                                <h5 class="hero-content-subtitle">Explore real datasets right in the classroom through the power of virtual reality</h5>
-
+                                <h5 class="hero-content-subtitle">Explore real scientific data in the classroom through the power of virtual reality</h5>
+								
                             </div>
                             <div class="hero-thumb pr-100">
                                 <img src="../assets/img/educationFront.png" class="img-fluid" width="100%" alt="hero thumb">
