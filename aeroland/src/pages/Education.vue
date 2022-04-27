@@ -31,10 +31,10 @@
     <ResearchPartnership id="view" />
 
 	<!-- section: NovelCourseWork -->
-    <NovelCourseWork id="view" />
+    <NovelCourseWork id="education" />
 	
 	<!-- section: Focus -->
-    <Focus id="view" />
+    <Focus id="focus" />
 	
 	
 	<!-- section: Communicate -->
@@ -49,7 +49,7 @@
     </div>
 	<div class="feature-icon-list-area section-space--pt_120">
 	<!-- section: Contact -->
-    <EduContactForm />
+    <EduContactForm id="contact"/>
 	</div>
 
     <!-- section: Footer -->
