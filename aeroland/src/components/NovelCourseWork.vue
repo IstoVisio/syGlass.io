@@ -8,16 +8,20 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 order-2 order-lg-1">
                                 <div class="cta-image_two wow move-up">
-                                    <img src="../assets/img/fishcells.png" class="img-fluid">
+                                    <img src="../assets/img/student.jpg" class="img-fluid">
                                 </div>
                             </div>
                             <div class="col-lg-6 order-2 order-lg-2">
                                 <div class="cta-image__content">
-                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Begin with a full curriculum in high school neuroscience using real 3D data </h4>
-                                    <div class="cta-image__text text-white mb-20 wow move-up">
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Begin with a full curriculum in high school neuroscience using real 3D data. 
+									</h4>
 									
-                                    </div>
-                                    Teachers gain professional development skills and the ability to develop their own content in this new medium 
+									
+                                    <h4 class="cta-image__title text-white mb-20 wow move-up">Teachers gain job embedded professional learning skills and the ability to develop their own content in this new medium.
+									</h4>
+									
+                                    
+                                    
                                 </div>
                             </div>
                             

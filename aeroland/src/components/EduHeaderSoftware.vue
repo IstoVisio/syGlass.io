@@ -18,9 +18,9 @@
             <div class = "container">
             <b-collapse id="nav-collapse" is-nav >
                 <b-navbar-nav class="main-menu default-nav d-flex justify-content-center" type="dark" style="font-size: 20px;">
-                    <b-nav-item to= "/" tag="li" href="#home" class="scroll" id="b"><span>HOME</span></b-nav-item>
-                    <b-nav-item href="#research" class="scroll"><span>Research Partnerships</span></b-nav-item>
-                    <b-nav-item href="#education" class="scroll" ><span>Education Partnerships</span></b-nav-item>
+                    <b-nav-item to= "/education/" tag="li" href="#eduhome" class="scroll" id="b"><span>HOME</span></b-nav-item>
+                    <b-nav-item href="#citizenScience" class="scroll"><span>Citizen Science</span></b-nav-item>
+                    <b-nav-item href="#education" class="scroll" ><span>Curriculum </span></b-nav-item>
 					
                     <b-nav-item href="#about" class="scroll"><span>ABOUT</span></b-nav-item>
                     <b-nav-item href="#contact" class="scroll"><span>CONTACT</span></b-nav-item>

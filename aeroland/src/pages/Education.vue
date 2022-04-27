@@ -4,7 +4,7 @@
     <!-- section: Navbar -->
     <EduHeaderSoftware />
 
-    <div id="home" />
+    <div id="eduhome" />
 
     <!-- section: Home -->
     <EducationSoftware />
@@ -18,7 +18,7 @@
         startup-tab
         section-space--mt_60 section-space--ptb_120
       "
-      id="analyze"
+      id="citizenScience"
     >
       <div class="container">
         <div class="row">
