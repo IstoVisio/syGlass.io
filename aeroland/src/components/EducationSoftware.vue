@@ -12,7 +12,7 @@
 								
                             </div>
                             <div class="hero-thumb pr-100">
-                                <img src="../assets/img/educationFront.png" class="img-fluid" width="100%" alt="hero thumb">
+                                <img src="../assets/img/educationFront.png" class="img-fluid" width="100%" alt="hero thumb" style="padding-bottom:40px">
                             </div>
                         </div>
                     </div>
