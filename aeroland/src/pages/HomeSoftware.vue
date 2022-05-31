@@ -1,6 +1,7 @@
 <template>
   <div class="main-container">
     <router-view></router-view>
+
     <HeaderSoftware />
     <div id="home" />
     <HeroSoftware />

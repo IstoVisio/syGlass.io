@@ -1,5 +1,10 @@
 <template>
     <div class="hero-software hero-swiper-btn section-space--pt_60" id="home">
+		<div class="banner">
+			<a href="/education" target="_blank" class="bg-transparent" style="width:100%; "> 
+				<h4 style="background-color:#44A3F2; text-align: center; padding-top: 5px; padding-bottom:5px; !important font-style:normal;">Explore our new educational offering!</h4>
+			</a>
+		</div>
         <div class="container_f1">
             <div class="swiper-wrapper">
                 <swiper :options="swiperOption">

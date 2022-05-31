@@ -130,6 +130,20 @@
     }
 }
 
+.banner {
+
+
+	@media only screen and (max-width: 600px) {
+        width: 100%;
+        margin-top: 40px;
+    }
+	
+	@media only screen and (min-width: 600px) {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
 #header-content {
     position: absolute;
     bottom: 0;
