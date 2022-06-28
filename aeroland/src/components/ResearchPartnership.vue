@@ -16,7 +16,7 @@
                             </div>
                             <div class="col-lg-6 order-1 order-lg-2">
                                 <div class="cta-image_two wow move-up" style="padding-bottom:40px">
-                                    <img src="../assets/img/citscience.jpg" class="img-fluid">
+                                    <img src="../assets/img/studentInVR.jpg" class="img-fluid">
                                 </div>
                             </div>
                         </div>
