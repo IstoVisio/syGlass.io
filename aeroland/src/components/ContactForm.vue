@@ -4,12 +4,13 @@
       <div class="row">
         <div class="col-lg-7 order-2 order-lg-1">
           <div class="section-title text-left section-space--mb_60">
-            <h2 class="font-weight--bold mb-15 wow move-up">
+            <h2 class="font-weight--bold mb-15 wow move-up form_header">
               Contact Us for a License
             </h2>
-            <span class="section-text_left wow move-up"
+            <span class="section-text_left wow move-up form_subheader"
               >Or let us know how we can help.</span
             >
+            
           </div>
           <div class="contact-from-wrapper wow move-up">
             <div data-form-alert="true"></div>
@@ -19,6 +20,9 @@
               method="post"
               name="gform"
             >
+            <h2 class="font-weight--bold mb-15 wow move-up thankyou_message" style="color:#44A3F2;display:none;margin-bottom:60px">
+              Thank you for your message! We'll get back to you shortly.
+            </h2>
               <input
                 data-form-email="true"
                 type="hidden"
@@ -106,9 +110,12 @@
   </div>
 </template>
 
-
 <script>
+    import { loaded } from './../form-submission-handler.js';
     export default {
-    name: 'form',
-    }       
+      name: 'form',
+      mounted() {
+        loaded();
+      } 
+    }
 </script>
